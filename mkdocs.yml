@@ -1,0 +1,7 @@
+site_name: "Huawei Storage Documentation"
+theme:
+  name: "material"
+  #logo: 'logo.webp'
+  favicon: 'Huawei_Standard_logo.svg'
+extra_css:
+  - 'css/custom.css'
