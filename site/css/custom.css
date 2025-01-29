@@ -1,0 +1,7 @@
+.md-header {
+    background-color: rgb(199, 0, 11);
+}
+
+.md-header__brand img {
+    max-height: 50px;
+}

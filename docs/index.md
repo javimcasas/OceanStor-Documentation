@@ -1,6 +1,6 @@
 # Home
 
-Welcome to the official Huawei Storage documentation. This guide provides detailed instructions and best practices for managing and configuring Huawei Storage solutions.
+Welcome to the Huawei Storage documentation. This guide provides detailed instructions and best practices for managing and configuring Huawei Storage solutions.
 
 ## Table of Contents
 
