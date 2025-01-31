@@ -485,6 +485,16 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#redundancy-links-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Redundancy Links Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Redundancy Links Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#requirements_1" class="md-nav__link">
     <span class="md-ellipsis">
       Requirements
@@ -492,13 +502,18 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#tasks_1" class="md-nav__link">
     <span class="md-ellipsis">
       Tasks
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1170,6 +1185,16 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#redundancy-links-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Redundancy Links Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Redundancy Links Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#requirements_1" class="md-nav__link">
     <span class="md-ellipsis">
       Requirements
@@ -1177,13 +1202,18 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#tasks_1" class="md-nav__link">
     <span class="md-ellipsis">
       Tasks
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1204,52 +1234,51 @@
 
   <h1>Remote Device Connection</h1>
 
-<h4 id="requirements">Requirements</h4>
+<h2 id="requirements"><strong>Requirements</strong></h2>
 <ul>
 <li>Connection to both cabinets</li>
 <li>IPs for logical ports</li>
 <li>Credentials for both cabinets</li>
 </ul>
-<h4 id="tasks">Tasks</h4>
+<h2 id="tasks"><strong>Tasks</strong></h2>
 <ol>
 <li>Connect to <strong>Cabinet A</strong></li>
-<li>Create a <strong>Storage Pool</strong> and a <strong>vStore</strong>: <a href="../Storage%20Cabinets%20Configuration/vStore%20Creation.html">vStore Creation</a></li>
-<li>Create a Logical Port: <a href="../Storage%20Cabinets%20Configuration/Logical%20Ports%20Creation.md.md">Logical Ports Creation</a></li>
+<li>Create a <strong>Storage Pool</strong> and a  <strong>vStore</strong> : <a href="../Storage%20Cabinets%20Configuration/vStore%20Creation.html">vStore Creation</a></li>
+<li>Create a  <strong>Logical Port</strong> : <a href="../Storage%20Cabinets%20Configuration/Logical%20Ports%20Creation.html">Logical Ports Creation</a></li>
 <li>Connect to <strong>Cabinet B</strong></li>
-<li>Create a <strong>Storage Pool</strong> and a <strong>vStore</strong>: <a href="../Storage%20Cabinets%20Configuration/vStore%20Creation.html">vStore Creation</a> → Use same names as <strong>Cabinet A</strong></li>
-<li>Create a <strong>Logical Port</strong>: <a href="../Storage%20Cabinets%20Configuration/Logical%20Ports%20Creation.md.md">Logical Ports Creation</a> → Same port types as <strong>Cabinet A</strong></li>
+<li>Create a <strong>Storage Pool</strong> and a  <strong>vStore</strong> : <a href="../Storage%20Cabinets%20Configuration/vStore%20Creation.html">vStore Creation</a> → Use the same names as <strong>Cabinet A</strong></li>
+<li>Create a  <strong>Logical Port</strong> : <a href="../Storage%20Cabinets%20Configuration/Logical%20Ports%20Creation.html">Logical Ports Creation</a> → Use the same port types as <strong>Cabinet A</strong></li>
 <li>Connect to <strong>Cabinet A</strong></li>
 <li>Enter <strong>Data Protection</strong> &gt; <strong>Remote Devices</strong></li>
-<li>Click '<strong>+</strong>' and fill out with information:<code>&lt;br&gt;</code>
-   • <strong>Link Type</strong>: Choose either IP link or FC link<code>&lt;br&gt;</code>
-   • <strong>Local Port</strong>: Select the <strong>Logical Port</strong> of the <strong>Cabinet A</strong><code>&lt;br&gt;</code>
-   • <strong>Remote IP Address</strong>: IP of the address on the <strong>Logical Port</strong> of <strong>Cabinet B</strong><code>&lt;br&gt;</code>
-   • <strong>Remote Device Administrator</strong>: <strong>Admin</strong> user of <strong>Cabinet B</strong><code>&lt;br&gt;</code>
-   • <strong>Password</strong>: <strong>Admin</strong> password of <strong>Cabinet B</strong><code>&lt;br&gt;</code></li>
-<li>Press '<strong>Connect</strong>' to connect the devices
-    <img alt="RemoteDevice001" src="../Images/RemoteDevice001.png" /><code>&lt;br&gt;</code>
-    <code>&lt;br&gt;</code></li>
-<li>Select the <strong>links</strong> and click '<strong>OK</strong>' to link the devices
-    <img alt="RemoteDevice002" src="../Images/RemoteDevice002.png" /><code>&lt;br&gt;</code>
-    <code>&lt;br&gt;</code></li>
+<li>
+<p>Click ' <strong>+</strong> ' and fill out with information:</p>
+</li>
+<li>
+<p><strong>Link Type</strong> : Choose either IP link or FC link</p>
+</li>
+<li><strong>Local Port</strong> : Select the <strong>Logical Port</strong> of <strong>Cabinet A</strong></li>
+<li><strong>Remote IP Address</strong> : IP of the address on the <strong>Logical Port</strong> of <strong>Cabinet B</strong></li>
+<li><strong>Remote Device Administrator</strong> : <strong>Admin</strong> user of <strong>Cabinet B</strong></li>
+<li><strong>Password</strong> : <strong>Admin</strong> password of <strong>Cabinet B</strong></li>
+<li>Press ' <strong>Connect</strong> ' to connect the devices
+    <img alt="RemoteDevice001" src="../Images/RemoteDevice001.png" /></li>
+<li>Select the <strong>links</strong> and click ' <strong>OK</strong> ' to link the devices
+    <img alt="RemoteDevice002" src="../Images/RemoteDevice002.png" /></li>
 </ol>
 <hr />
-<h4 id="requirements_1">Requirements</h4>
+<h2 id="redundancy-links-setup"><strong>Redundancy Links Setup</strong></h2>
+<h3 id="requirements_1"><strong>Requirements</strong></h3>
 <ul>
 <li>Remote Device added between <strong>Cabinet A</strong> &amp; <strong>Cabinet B</strong></li>
 </ul>
-<h4 id="tasks_1">Tasks</h4>
+<h3 id="tasks_1"><strong>Tasks</strong></h3>
 <ol>
 <li>Connect to <strong>Cabinet A</strong></li>
 <li>Enter <strong>Data Protection</strong> &gt; <strong>Remote Devices</strong>
-   <img alt="RedundancyLinks001" src="../Images/RedundancyLinks001.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click on the <strong>Remote Device</strong> &gt; '<strong>Operation</strong>' &gt; '<strong>Add Link</strong>'
-   <img alt="RedundancyLinks002" src="../Images/RedundancyLinks002.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Select other connected ports to establish new <strong>Links</strong> and click '<strong>OK</strong>'
-   <img alt="RedundancyLinks003" src="../Images/RedundancyLinks003.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
+   <img alt="RedundancyLinks001" src="../Images/RedundancyLinks001.png" /></li>
+<li>Click on the <strong>Remote Device</strong> &gt; ' <strong>Operation</strong> ' &gt; ' <strong>Add Link</strong> '
+   <img alt="RedundancyLinks002" src="../Images/RedundancyLinks002.png" /></li>
+<li>Select other connected ports to establish new <strong>Links</strong> and click ' <strong>OK</strong> '</li>
 </ol>
 
 

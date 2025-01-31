@@ -1192,33 +1192,34 @@
 <li>Quorum Servers updated (see: <a href="../QuorumServerUpdate.md">Quorum Server Update</a>)</li>
 </ul>
 <h3 id="best-practices">Best Practices</h3>
-<p>When updating <strong>HyperMetro Storage Devices</strong> in production, we must be careful and only update <strong>one</strong> of the Storage Devices. After ensuring that the service is working correctly, it's needed to wait for at least <strong>1 day</strong> until starting the upgrade process for the other Storage Device.</p>
+<p>When updating <strong>HyperMetro Storage Devices</strong> in production, we must be careful and only update <strong>one</strong> of the Storage Devices.
+After ensuring that the service is working correctly, it's needed to wait for at least <strong>1 day</strong> until starting the upgrade process for the other Storage Device.</p>
 <p>We need to make sure that the cabinet we are updating is not the main in the HyperMetro.</p>
 <h3 id="tasks">Tasks</h3>
 <ol>
-<li>Enter <strong>Data Protection</strong> &gt; <strong>Configuration</strong> &gt; <strong>HyperMetro Domain</strong>
-   <img alt="HyperMetroUpgrade001" src="../Images/HyperMetroUpgrade001.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click the <strong>File System HyperMetro Domain</strong> to obtain information
-   <img alt="HyperMetroUpgrade002" src="../Images/HyperMetroUpgrade002.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>If the <strong>Arbitration Role</strong> is <strong>Preferred</strong>, you can switchover through '<strong>Operation</strong>' &gt; '<strong>Preferred Site Switchover</strong>'. If it is <strong>Non Preferred</strong>, there is no need to do anything.
-   <img alt="HyperMetroUpgrade003" src="../Images/HyperMetroUpgrade003.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Enter <strong>Data Protection</strong> &gt; <strong>Protection Entities</strong> &gt; <strong>LUNs</strong>
-   <img alt="HyperMetroUpgrade004" src="../Images/HyperMetroUpgrade004.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click '<strong>HyperMetro Pairs</strong>'
-   <img alt="HyperMetroUpgrade005" src="../Images/HyperMetroUpgrade005.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Select all the HyperMetro Pairs whose <strong>Local Resource Role</strong> Column is '<strong>Preferred</strong>'
-   <img alt="HyperMetroUpgrade006" src="../Images/HyperMetroUpgrade006.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click Preferred <strong>Site Switchover Button</strong> and '<strong>OK</strong>' on the next window
-   <img alt="HyperMetroUpgrade007" src="../Images/HyperMetroUpgrade007.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>The cabinet is now ready to be upgraded. See <a href="../UpdateMachineSoftware.md">Update Machine&#39;s Software</a> for more information on this process.</li>
+<li>Enter <strong>Data Protection</strong> &gt; <strong>Configuration</strong> &gt; <strong>HyperMetro Domain</strong></li>
 </ol>
+<p><img alt="HyperMetroUpgrade001" src="../Images/HyperMetroUpgrade001.png" /></p>
+<p>&nbsp;
+2. Click the <strong>File System HyperMetro Domain</strong> to obtain information</p>
+<p><img alt="HyperMetroUpgrade002" src="../Images/HyperMetroUpgrade002.png" /></p>
+<p>&nbsp;
+3. If the <strong>Arbitration Role</strong> is <strong>Preferred</strong>, you can switchover through '<strong>Operation</strong>' &gt; '<strong>Preferred Site Switchover</strong>'.If it is <strong>Non Preferred</strong>, there is no need to do anything.</p>
+<p><img alt="HyperMetroUpgrade003" src="../Images/HyperMetroUpgrade003.png" /></p>
+<p>&nbsp;
+4. Enter <strong>Data Protection</strong> &gt; <strong>Protection Entities</strong> &gt; <strong>LUNs</strong></p>
+<p><img alt="HyperMetroUpgrade004" src="../Images/HyperMetroUpgrade004.png" /></p>
+<p>&nbsp;
+5. Click '<strong>HyperMetro Pairs</strong>'</p>
+<p><img alt="HyperMetroUpgrade005" src="../Images/HyperMetroUpgrade005.png" /></p>
+<p>&nbsp;
+6. Select all the HyperMetro Pairs whose <strong>Local Resource Role</strong> Column is '<strong>Preferred</strong>'</p>
+<p><img alt="HyperMetroUpgrade006" src="../Images/HyperMetroUpgrade006.png" /></p>
+<p>&nbsp;
+7. Click Preferred <strong>Site Switchover Button</strong> and '<strong>OK</strong>' on the next window</p>
+<p><img alt="HyperMetroUpgrade007" src="../Images/HyperMetroUpgrade007.png" /></p>
+<p>&nbsp;
+8. The cabinet is now ready to be upgraded. See <a href="../UpdateMachineSoftware.md">Update Machine&#39;s Software</a> for more information on this process.</p>
 
 
 

@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#requirements" class="md-skip">
+        <a href="#requisitos" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -425,27 +425,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+      Requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
+  <a href="#mejores-practicas" class="md-nav__link">
     <span class="md-ellipsis">
-      Best Practices
+      Mejores Prácticas
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tasks" class="md-nav__link">
+  <a href="#tareas" class="md-nav__link">
     <span class="md-ellipsis">
-      Tasks
+      Tareas
     </span>
   </a>
   
@@ -1143,27 +1143,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+      Requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
+  <a href="#mejores-practicas" class="md-nav__link">
     <span class="md-ellipsis">
-      Best Practices
+      Mejores Prácticas
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tasks" class="md-nav__link">
+  <a href="#tareas" class="md-nav__link">
     <span class="md-ellipsis">
-      Tasks
+      Tareas
     </span>
   </a>
   
@@ -1186,39 +1186,40 @@
 
   <h1>HyperMetro Devices Upgrade</h1>
 
-<h3 id="requirements">Requirements</h3>
+<h3 id="requisitos">Requisitos</h3>
 <ul>
-<li>Software downloaded for the Storage Devices</li>
-<li>Quorum Servers updated (see: <a href="../QuorumServerUpdate.md">Quorum Server Update</a>)</li>
+<li>Software descargado para los Dispositivos de Almacenamiento</li>
+<li>Servidores de Quorum actualizados (ver: <a href="../QuorumServerUpdate.md">Actualización del Servidor Quorum</a>)</li>
 </ul>
-<h3 id="best-practices">Best Practices</h3>
-<p>When updating <strong>HyperMetro Storage Devices</strong> in production, we must be careful and only update <strong>one</strong> of the Storage Devices. After ensuring that the service is working correctly, it's needed to wait for at least <strong>1 day</strong> until starting the upgrade process for the other Storage Device.</p>
-<p>We need to make sure that the cabinet we are updating is not the main in the HyperMetro.</p>
-<h3 id="tasks">Tasks</h3>
+<h3 id="mejores-practicas">Mejores Prácticas</h3>
+<p>Al actualizar <strong>Dispositivos de Almacenamiento HyperMetro</strong> en producción, debemos ser cuidadosos y actualizar solo <strong>uno</strong> de los Dispositivos de Almacenamiento.
+Después de asegurarnos de que el servicio funciona correctamente, es necesario esperar al menos <strong>1 día</strong> antes de comenzar el proceso de actualización del otro Dispositivo de Almacenamiento.</p>
+<p>Debemos asegurarnos de que el gabinete que estamos actualizando no sea el principal en el HyperMetro.</p>
+<h3 id="tareas">Tareas</h3>
 <ol>
-<li>Enter <strong>Data Protection</strong> &gt; <strong>Configuration</strong> &gt; <strong>HyperMetro Domain</strong>
-   <img alt="HyperMetroUpgrade001" src="../../Images/HyperMetroUpgrade001.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click the <strong>File System HyperMetro Domain</strong> to obtain information
-   <img alt="HyperMetroUpgrade002" src="../../Images/HyperMetroUpgrade002.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>If the <strong>Arbitration Role</strong> is <strong>Preferred</strong>, you can switchover through '<strong>Operation</strong>' &gt; '<strong>Preferred Site Switchover</strong>'. If it is <strong>Non Preferred</strong>, there is no need to do anything.
-   <img alt="HyperMetroUpgrade003" src="../../Images/HyperMetroUpgrade003.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Enter <strong>Data Protection</strong> &gt; <strong>Protection Entities</strong> &gt; <strong>LUNs</strong>
-   <img alt="HyperMetroUpgrade004" src="../../Images/HyperMetroUpgrade004.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click '<strong>HyperMetro Pairs</strong>'
-   <img alt="HyperMetroUpgrade005" src="../../Images/HyperMetroUpgrade005.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Select all the HyperMetro Pairs whose <strong>Local Resource Role</strong> Column is '<strong>Preferred</strong>'
-   <img alt="HyperMetroUpgrade006" src="../../Images/HyperMetroUpgrade006.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click Preferred <strong>Site Switchover Button</strong> and '<strong>OK</strong>' on the next window
-   <img alt="HyperMetroUpgrade007" src="../../Images/HyperMetroUpgrade007.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>The cabinet is now ready to be upgraded. See <a href="../UpdateMachineSoftware.md">Update Machine&#39;s Software</a> for more information on this process.</li>
+<li>Ingresar a <strong>Protección de Datos</strong> &gt; <strong>Configuración</strong> &gt; <strong>Dominio HyperMetro</strong></li>
 </ol>
+<p><img alt="HyperMetroUpgrade001" src="../../Images/HyperMetroUpgrade001.png" /></p>
+<p>&nbsp;
+2. Hacer clic en el <strong>Dominio HyperMetro del Sistema de Archivos</strong> para obtener información</p>
+<p><img alt="HyperMetroUpgrade002" src="../../Images/HyperMetroUpgrade002.png" /></p>
+<p>&nbsp;
+3. Si el <strong>Rol de Arbitraje</strong> es <strong>Preferido</strong>, puedes hacer el cambio a través de '<strong>Operación</strong>' &gt; '<strong>Cambio de Sitio Preferido</strong>'.Si es <strong>No Preferido</strong>, no es necesario hacer nada.</p>
+<p><img alt="HyperMetroUpgrade003" src="../../Images/HyperMetroUpgrade003.png" /></p>
+<p>&nbsp;
+4. Ingresar a <strong>Protección de Datos</strong> &gt; <strong>Entidades de Protección</strong> &gt; <strong>LUNs</strong></p>
+<p><img alt="HyperMetroUpgrade004" src="../../Images/HyperMetroUpgrade004.png" /></p>
+<p>&nbsp;
+5. Hacer clic en '<strong>Pares HyperMetro</strong>'</p>
+<p><img alt="HyperMetroUpgrade005" src="../../Images/HyperMetroUpgrade005.png" /></p>
+<p>&nbsp;
+6. Seleccionar todos los Pares HyperMetro cuya columna <strong>Rol de Recurso Local</strong> sea '<strong>Preferido</strong>'</p>
+<p><img alt="HyperMetroUpgrade006" src="../../Images/HyperMetroUpgrade006.png" /></p>
+<p>&nbsp;
+7. Hacer clic en el <strong>Botón de Cambio de Sitio Preferido</strong> y en '<strong>OK</strong>' en la siguiente ventana</p>
+<p><img alt="HyperMetroUpgrade007" src="../../Images/HyperMetroUpgrade007.png" /></p>
+<p>&nbsp;
+8. El gabinete ya está listo para ser actualizado. Consulta <a href="../UpdateMachineSoftware.md">Actualización del Software de la Máquina</a> para más información sobre este proceso.</p>
 
 
 
