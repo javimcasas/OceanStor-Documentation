@@ -1,4 +1,3 @@
-
 ### **Requirements**
 
 - Connection to the client machine(s) (IP addresses and ports of the Controller(s))
@@ -10,18 +9,16 @@
 
 1. Click on '**Devices**'
 
-   ![HealthCheck001](../../Images/HealthCheck001.png){ width=80% display=block margin-left=auto margin-right=auto }
+   ![HealthCheck001](../../Images/HealthCheck001.png)
 2. Click 'Add' and fill the details for the Machine(s)
 
-   ![HealthCheck002](../../Images/HealthCheck002.png){ width=80% display=block margin-left=auto margin-right=auto }
-
----
+   ![HealthCheck002](../../Images/HealthCheck002.png)  
 
 #### Inspection
 
 1. Go to: **Routine Maintenance** → **More** → **Inspection**
 
-   ![HealthCheck003](../../Images/HealthCheck003.png){ width=80% display=block margin-left=auto margin-right=auto }
+   ![HealthCheck003](../../Images/HealthCheck003.png)  
 2. Click '**Inspection**' to enter the **Inspection Wizard**
 3. Click '**Next**' → Select all of the added devices
 4. Click '**Next**' → Leave as default all checklists
@@ -33,15 +30,14 @@
 
 1. Go to: **Troubleshooting** → **Storage Information Collection**
 
-   ![HealthCheck005](../../Images/HealthCheck005.png){ width=80% display=block margin-left=auto margin-right=auto }
+   ![HealthCheck005](../../Images/HealthCheck005.png)
 2. Click **Information Collection**
 3. Modify on all devices: **Operation** → **Setting** → **Basic Settings** → '**All Logs**'
 
-   ![HealthCheck006](../../Images/HealthCheck006.png){ width=80% display=block margin-left=auto margin-right=auto }
+   ![HealthCheck006](../../Images/HealthCheck006.png)  
 4. Select all the devices → Click '**Collect Information**'
 
-   ![HealthCheck007](../../Images/HealthCheck007.png){ width=80% display=block margin-left=auto margin-right=auto }
-5. Wait for the process to finish
+   ![HealthCheck007](../../Images/HealthCheck007.png)  
 
 ---
 
@@ -49,9 +45,9 @@
 
 1. Go to: **Troubleshooting** → **Historical Performance Monitoring**
 
-   ![HealthCheck008](../../Images/HealthCheck008.png){ width=80% display=block margin-left=auto margin-right=auto }
+   ![HealthCheck008](../../Images/HealthCheck008.png)  
 2. Click 'Device Selection'
 3. Modify on all devices for '**7z Compression**'
 
-   ![HealthCheck009](../../Images/HealthCheck009.png){ width=80% display=block margin-left=auto margin-right=auto }
+   ![HealthCheck009](../../Images/HealthCheck009.png)  
 4. Click '**OK**' → '**Historical Performance**'

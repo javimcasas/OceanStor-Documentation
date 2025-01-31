@@ -1,47 +1,45 @@
-#### Requirements
 
-- Connection to both cabinets
-- IPs for logical ports
-- Credentials for both cabinets
+## **Requisitos**
 
-#### Tasks
+* Conexión a ambos gabinetes
+* IPs para los puertos lógicos
+* Credenciales para ambos gabinetes
 
-1. Connect to **Cabinet A**
-2. Create a **Storage Pool** and a **vStore**: [vStore Creation](../Storage%20Cabinets%20Configuration/vStore%20Creation.md)
-3. Create a Logical Port: [Logical Ports Creation](../Storage%20Cabinets%20Configuration/Logical%20Ports%20Creation.md.md)
-4. Connect to **Cabinet B**
-5. Create a **Storage Pool** and a **vStore**: [vStore Creation](../Storage%20Cabinets%20Configuration/vStore%20Creation.md) → Use same names as **Cabinet A**
-6. Create a **Logical Port**: [Logical Ports Creation](../Storage%20Cabinets%20Configuration/Logical%20Ports%20Creation.md.md) → Same port types as **Cabinet A**
-7. Connect to **Cabinet A**
-8. Enter **Data Protection** > **Remote Devices**
-9. Click '**+**' and fill out with information:`<br>`
-   • **Link Type**: Choose either IP link or FC link`<br>`
-   • **Local Port**: Select the **Logical Port** of the **Cabinet A**`<br>`
-   • **Remote IP Address**: IP of the address on the **Logical Port** of **Cabinet B**`<br>`
-   • **Remote Device Administrator**: **Admin** user of **Cabinet B**`<br>`
-   • **Password**: **Admin** password of **Cabinet B**`<br>`
-10. Press '**Connect**' to connect the devices
-    ![RemoteDevice001](../../Images/RemoteDevice001.png)`<br>`
-    `<br>`
-11. Select the **links** and click '**OK**' to link the devices
-    ![RemoteDevice002](../../Images/RemoteDevice002.png)`<br>`
-    `<br>`
+## **Tareas**
+
+1. Conéctate al **Gabinete A**
+2. Crea un **Storage Pool** y un  **vStore** : [Creación de vStore](../Storage%20Cabinets%20Configuration/vStore%20Creation.md)
+3. Crea un  **Puerto Lógico** : [Creación de Puertos Lógicos](../Storage%20Cabinets%20Configuration/Logical%20Ports%20Creation.md)
+4. Conéctate al **Gabinete B**
+5. Crea un **Storage Pool** y un  **vStore** : [Creación de vStore](../Storage%20Cabinets%20Configuration/vStore%20Creation.md) → Usa los mismos nombres que en el **Gabinete A**
+6. Crea un  **Puerto Lógico** : [Creación de Puertos Lógicos](../Storage%20Cabinets%20Configuration/Logical%20Ports%20Creation.md) → Usa los mismos tipos de puertos que en el **Gabinete A**
+7. Conéctate al **Gabinete A**
+8. Entra en **Protección de Datos** > **Dispositivos Remotos**
+9. Haz clic en ' **+** ' y completa la información:
+
+   * **Tipo de Enlace** : Escoge entre enlace IP o enlace FC
+   * **Puerto Local** : Selecciona el **Puerto Lógico** del **Gabinete A**
+   * **Dirección IP Remota** : IP del **Puerto Lógico** del **Gabinete B**
+   * **Administrador del Dispositivo Remoto** : Usuario **Admin** del **Gabinete B**
+   * **Contraseña** : Contraseña de **Admin** del **Gabinete B**
+10. Pulsa ' **Conectar** ' para conectar los dispositivos
+    ![RemoteDevice001](../../Images/RemoteDevice001.png)
+11. Selecciona los **enlaces** y haz clic en ' **OK** ' para vincular los dispositivos
+    ![RemoteDevice002](../../Images/RemoteDevice002.png)
 
 ---
 
-#### Requirements
+## **Configuración de Enlaces de Redundancia**
 
-- Remote Device added between **Cabinet A** & **Cabinet B**
+### **Requisitos**
 
-#### Tasks
+* Dispositivo remoto agregado entre **Gabinete A** y **Gabinete B**
 
-1. Connect to **Cabinet A**
-2. Enter **Data Protection** > **Remote Devices**
-   ![RedundancyLinks001](../../Images/RedundancyLinks001.png)`<br>`
-   `<br>`
-3. Click on the **Remote Device** > '**Operation**' > '**Add Link**'
-   ![RedundancyLinks002](../../Images/RedundancyLinks002.png)`<br>`
-   `<br>`
-4. Select other connected ports to establish new **Links** and click '**OK**'
-   ![RedundancyLinks003](../../Images/RedundancyLinks003.png)`<br>`
-   `<br>`
+### **Tareas**
+
+1. Conéctate al **Gabinete A**
+2. Entra en **Protección de Datos** > **Dispositivos Remotos**
+   ![RedundancyLinks001](../../Images/RedundancyLinks001.png)
+3. Haz clic en el **Dispositivo Remoto** > ' **Operación** ' > ' **Agregar Enlace** '
+   ![RedundancyLinks002](../../Images/RedundancyLinks002.png)
+4. Selecciona otros puertos conectados para establecer nuevos **Enlaces** y haz clic en ' **OK** '

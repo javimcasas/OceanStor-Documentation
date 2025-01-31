@@ -1,47 +1,59 @@
-### Requirements
 
-- Files generated from Health Check:`<br>`
-  • Inspection Files`<br>`
-  • Storage Information Collection Files`<br>`
-  • Historical Performance Monitoring Files`<br>`
+### Requisitos
 
-### Tasks
+- Archivos generados a partir de la Verificación de Salud:
+  • Archivos de Inspección
+  • Archivos de Recopilación de Información de Almacenamiento
+  • Archivos de Monitoreo de Rendimiento Histórico
 
-#### Inspection Files Uploading
+### Tareas
 
-1. Enter: [https://support-eu.eservice.huawei.com/](https://support-eu.eservice.huawei.com/)
-2. Click '**Troubleshooting**' → '**More**'
-   ![FileUploading001](../../Images/FileUploading001.png)`<br>`
-   `<br>`
-3. Click '**Health Evaluation**'
-   ![FileUploading002](../../Images/FileUploading002.png)`<br>`
-   `<br>`
-4. Click '**New Task**'
-   ![FileUploading003](../../Images/FileUploading003.png)`<br>`
-   `<br>`
-5. Fill out the information:`<br>`
-   • **Task Name**: Descriptive name for the Task`<br>`
-   • **Customer BG Type**: Type of customer (Carrier / Enterprise)`<br>`
-   • **Site Name**: Select customer name`<br>`
-   • **Region**: Select the region (normally European Region)`<br>`
-   • **Office**: Select the office (normally Spain Rep Office)`<br>`
-6. Click '**Import**' and add the **Inspection File** generated
-7. Click '**OK**' to finish the process
+#### Carga de Archivos de Inspección
+
+1. Ingresar a: [https://support-eu.eservice.huawei.com/](https://support-eu.eservice.huawei.com/)
+2. Hacer clic en '**Solución de Problemas**' → '**Más**'
+
+   ![FileUploading001](../../Images/FileUploading001.png)
+
+   &nbsp;
+3. Hacer clic en '**Evaluación de Salud**'
+
+   ![FileUploading002](../../Images/FileUploading002.png)
+
+   &nbsp;
+4. Hacer clic en '**Nueva Tarea**'
+
+   ![FileUploading003](../../Images/FileUploading003.png)
+
+   &nbsp;
+5. Completar la información:• **Nombre de la Tarea**: Nombre descriptivo de la tarea• **Tipo de Cliente BG**: Tipo de cliente (Carrier / Enterprise)• **Nombre del Sitio**: Seleccionar el nombre del cliente• **Región**: Seleccionar la región (normalmente Región Europea)• **Oficina**: Seleccionar la oficina (normalmente Oficina Representativa de España)
+
+   &nbsp;
+6. Hacer clic en '**Importar**' y agregar el **Archivo de Inspección** generado
+7. Hacer clic en '**OK**' para finalizar el proceso
+
+   &nbsp;
 
 ---
 
-#### Historical Performance Monitoring Files Uploading
+#### Carga de Archivos de Monitoreo de Rendimiento Histórico
 
-1. Enter: [https://support-eu.eservice.huawei.com/](https://support-eu.eservice.huawei.com/)
-2. Click '**Troubleshooting**' → '**More**'
-   ![FileUploading001](../../Images/FileUploading001.png)`<br>`
-   `<br>`
-3. Click '**Performance Analysis**'
-   ![FileUploading004](../../Images/FileUploading004.png)`<br>`
-   `<br>`
-4. Click '**Centralized Storage**'
-5. Click '**Upload Performance Data Package**'
-6. Upload Historical Performance Monitoring generated files
-   ![FileUploading005](../../Images/FileUploading005.png)`<br>`
-   `<br>`
-7. Click '**Upload**' to finish the process
+1. Ingresar a: [https://support-eu.eservice.huawei.com/](https://support-eu.eservice.huawei.com/)
+2. Hacer clic en '**Solución de Problemas**' → '**Más**'
+
+   ![FileUploading001](../../Images/FileUploading001.png)
+
+   &nbsp;
+3. Hacer clic en '**Análisis de Rendimiento**'
+
+   ![FileUploading004](../../Images/FileUploading004.png)
+
+   &nbsp;
+4. Hacer clic en '**Almacenamiento Centralizado**'
+5. Hacer clic en '**Cargar Paquete de Datos de Rendimiento**'
+6. Subir los archivos generados del Monitoreo de Rendimiento Histórico
+
+   ![FileUploading005](../../Images/FileUploading005.png)
+
+   &nbsp;
+7. Hacer clic en '**Cargar**' para finalizar el proceso

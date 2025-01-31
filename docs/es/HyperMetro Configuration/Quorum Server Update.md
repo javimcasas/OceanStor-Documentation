@@ -1,72 +1,126 @@
-### **Software Download**
 
-#### Requirements
+### **Descarga del Software**
 
-- Model of the Storage Arrays (e.g. OceanStor Dorado)
-- Software version of the Storage Arrays on HyperMetro
-- Operating System of the Quorum Server
+#### Requisitos
 
-#### Tasks
+- Modelo de los Arrays de Almacenamiento (por ejemplo, OceanStor Dorado)
+- Versión del software de los Arrays de Almacenamiento en HyperMetro
+- Sistema Operativo del Servidor Quorum
 
-1. Enter: [https://support.huawei.com/](https://support.huawei.com/)
-2. Search the **Model** of the required Storage Solution
-   ![QuorumUpdate001](../../Images/QuorumUpdate001.png)`<br>`
-   `<br>`
-3. Click **Software Download**
-   ![QuorumUpdate002](../../Images/QuorumUpdate002.png)`<br>`
-   `<br>`
-4. Select the **Main** version the Storage Cabinets are on
-   ![QuorumUpdate003](../../Images/QuorumUpdate003.png)`<br>`
-   `<br>`
-5. Download the Quorum Server Software, depending on its Operating System
+#### Tareas
 
-   - Linux: .zip
-   - RedHat: .rpm
-     ![QuorumUpdate004](../../Images/QuorumUpdate004.png)`<br>`
-     `<br>`
+1. Ingresar a: [https://support.huawei.com/](https://support.huawei.com/)
+2. Buscar el **Modelo** de la solución de almacenamiento requerida
+
+   ![QuorumUpdate001](../../Images/QuorumUpdate001.png)
+
+   &nbsp;
+3. Hacer clic en **Descarga de Software**
+
+   ![QuorumUpdate002](../../Images/QuorumUpdate002.png)
+
+   &nbsp;
+4. Seleccionar la versión **Principal** en la que están los Gabinetes de Almacenamiento
+
+   ![QuorumUpdate003](../../Images/QuorumUpdate003.png)
+
+   &nbsp;
+5. Descargar el Software del Servidor Quorum, según su Sistema Operativo
+
+   - **Linux**: .zip
+   - **RedHat**: .rpm
+
+   ![QuorumUpdate004](../../Images/QuorumUpdate004.png)
+
+   &nbsp;
 
 ---
 
-### **Quorum Server Update**
+### **Actualización del Servidor Quorum**
 
-#### Requirements
+#### Requisitos
 
-- Software downloaded for the Quorum Server (see previous point)
-- Connection to the Quorum Server
+- Software descargado para el Servidor Quorum (ver punto anterior)
+- Conexión al Servidor Quorum
 
-#### Tasks
+#### Tareas
 
-1. Connect to the **Quorum Server CLI**`<br>`
-   • **User:** quorumAdmin`<br>`
-   • **Pass:** Huawei@SYS3
-2. Upload the **Software** downloaded on the previous point to the **Quorum Server**
-3. Check whether the system is in **bash** or **dash**:`<br>`
-   `bash ls -l /bin/sh`
-4. In case the result is bash, continue. In case it's dash, enter this command and select NO:`<br>`
-   `sudo dpkg-reconfigure dash`
-5. Enter the 'package' directory inside the Upgrade File:`<br>`
-   `cd package`
-6. Start the upgrade for the Quorum Server:`<br>`
-   `sudo sh ./quorum_server.sh -upgrade<br>`
-   ![QuorumUpdate005](../../Images/QuorumUpdate005.png)`<br>`
-   `<br>`
-7. Enter the Quorum Server:`<br>`
-   `sudo qsadmin<br>`
-   ![QuorumUpdate006](../../Images/QuorumUpdate006.png)`<br>`
-   `<br>`
-8. Display the Cipher Configuration:`<br>`
-   `show cipher_info<br>`
-   ![QuorumUpdate007](../../Images/QuorumUpdate007.png)`<br>`
-   `<br>`
-9. Display information about the Quorum Server and the version to verify the update:`<br>`
-   `show server_info<br>`
-   ![QuorumUpdate008](../../Images/QuorumUpdate008.png)`<br>`
-   `<br>`
-10. Display the IPs connected to Quorum Server to verify the connections:`<br>`
-    `show server_ip<br>`
-    ![QuorumUpdate009](../../Images/QuorumUpdate009.png)`<br>`
-    `<br>`
+1. Conectar al **CLI del Servidor Quorum**
 
-#### References
+   - **Usuario:** quorumAdmin
+   - **Contraseña:** Huawei@SYS3
 
-- [Quorum Server Documentation](https://support.huawei.com/enterprise/en/doc/EDOC1100112636/b2a6b05f/installing-quorum-server-software)
+   &nbsp;
+2. Subir el **Software** descargado en el punto anterior al **Servidor Quorum**
+
+   &nbsp;
+3. Verificar si el sistema está en **bash** o **dash**:
+
+   ```bash
+   ls -l /bin/sh
+   ```
+
+   &nbsp;
+4. Si el resultado es **bash**, continuar. Si es **dash**, ejecutar este comando y seleccionar **NO**:
+
+   ```bash
+   sudo dpkg-reconfigure dash
+   ```
+
+   &nbsp;
+5. Ingresar al directorio 'package' dentro del archivo de actualización:
+
+   ```bash
+   cd package
+   ```
+
+   &nbsp;
+6. Iniciar la actualización del Servidor Quorum:
+
+   ```bash
+   sudo sh ./quorum_server.sh -upgrade
+   ```
+
+   ![QuorumUpdate005](../../Images/QuorumUpdate005.png)
+
+   &nbsp;
+7. Ingresar al Servidor Quorum:
+
+   ```bash
+   sudo qsadmin
+   ```
+
+   ![QuorumUpdate006](../../Images/QuorumUpdate006.png)
+
+   &nbsp;
+8. Mostrar la Configuración de Cifrado:
+
+   ```bash
+   show cipher_info
+   ```
+
+   ![QuorumUpdate007](../../Images/QuorumUpdate007.png)
+
+   &nbsp;
+9. Mostrar información sobre el Servidor Quorum y la versión para verificar la actualización:
+
+   ```bash
+   show server_info
+   ```
+
+   ![QuorumUpdate008](../../Images/QuorumUpdate008.png)
+
+   &nbsp;
+10. Mostrar las IPs conectadas al Servidor Quorum para verificar las conexiones:
+
+    ```bash
+    show server_ip
+    ```
+
+    ![QuorumUpdate009](../../Images/QuorumUpdate009.png)
+
+    &nbsp;
+
+#### Referencias
+
+- [Documentación del Servidor Quorum](https://support.huawei.com/enterprise/en/doc/EDOC1100112636/b2a6b05f/installing-quorum-server-software)
