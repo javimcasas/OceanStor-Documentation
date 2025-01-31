@@ -1,4 +1,4 @@
-sites/
+site/
 generate-pdfs.sh
 pdf-regen.bat
 *.log

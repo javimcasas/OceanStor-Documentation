@@ -1,5 +1,3 @@
-### **Requirements**
-
 ### **Requisitos**
 
 - Conexión con la(s) máquina(s) cliente(s) (direcciones IP y puertos del/los Controlador(es))

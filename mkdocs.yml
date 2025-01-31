@@ -1,4 +1,6 @@
 site_name: "Huawei Storage Documentation"
+site_url: "https://javimcasas.github.io/OceanStor-Documentation/"
+use_directory_urls: false
 theme:
   name: "material"
   #custom_dir: "overrides"  # Ensure this points to the correct directory
