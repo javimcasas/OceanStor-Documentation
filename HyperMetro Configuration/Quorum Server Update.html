@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="es" class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -8,19 +8,25 @@
       
       
       
+        <link rel="canonical" href="https://javimcasas.github.io/OceanStor-Documentation/HyperMetro%20Configuration/Quorum%20Server%20Update.html">
       
       
+        <link rel="prev" href="HyperMetro%20Devices%20Upgrade.html">
       
-      <link rel="icon" href="/OceanStor-Documentation/Huawei_Standard_logo.svg">
+      
+        <link rel="next" href="Remote%20Device%20Connection.html">
+      
+      
+      <link rel="icon" href="../Huawei_Standard_logo.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
     
     
       
-        <title>Huawei Storage Documentation</title>
+        <title>Quorum Server Update - Huawei Storage Documentation</title>
       
     
     
-      <link rel="stylesheet" href="/OceanStor-Documentation/assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
       
       
 
@@ -39,9 +45,9 @@
       
     
     
-      <link rel="stylesheet" href="/OceanStor-Documentation/css/custom.css">
+      <link rel="stylesheet" href="../css/custom.css">
     
-    <script>__md_scope=new URL("/OceanStor-Documentation/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -59,6 +65,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#software-download" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -70,8 +81,8 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href="/OceanStor-Documentation/es/index.html" title="Huawei Storage Documentation" class="md-header__button md-logo" aria-label="Huawei Storage Documentation" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="Huawei Storage Documentation" class="md-header__button md-logo" aria-label="Huawei Storage Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -91,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Quorum Server Update
             
           </span>
         </div>
@@ -105,20 +116,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+    <button class="md-header__button md-icon" aria-label="Select language">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="/OceanStor-Documentation/Troubleshooting/Updating%20Error%20Ignoring.html" hreflang="en" class="md-select__link">
+            <a href="Quorum%20Server%20Update.html" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/OceanStor-Documentation/es/Troubleshooting/Updating%20Error%20Ignoring.html" hreflang="es" class="md-select__link">
+            <a href="../es/HyperMetro%20Configuration/Quorum%20Server%20Update.html" hreflang="es" class="md-select__link">
               Español
             </a>
           </li>
@@ -137,16 +148,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Buscar">
+      <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -157,7 +168,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Inicializando búsqueda
+            Initializing search
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -190,9 +201,9 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/OceanStor-Documentation/es/index.html" title="Huawei Storage Documentation" class="md-nav__button md-logo" aria-label="Huawei Storage Documentation" data-md-component="logo">
+    <a href="../index.html" title="Huawei Storage Documentation" class="md-nav__button md-logo" aria-label="Huawei Storage Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -210,11 +221,11 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/index.html" class="md-nav__link">
+      <a href="../index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Inicio
+    Home
   </span>
   
 
@@ -265,7 +276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Health%20Checks/Health%20Checks.html" class="md-nav__link">
+      <a href="../Health%20Checks/Health%20Checks.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -286,7 +297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Health%20Checks/Pre%20Upgrade%20Evaluation.html" class="md-nav__link">
+      <a href="../Health%20Checks/Pre%20Upgrade%20Evaluation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -307,7 +318,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Health%20Checks/Uploading%20Health%20Check%20Files.html" class="md-nav__link">
+      <a href="../Health%20Checks/Uploading%20Health%20Check%20Files.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -332,17 +343,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -356,7 +369,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             HyperMetro Configuration
@@ -370,7 +383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/HyperMetro%20Configuration/HyperMetro%20Devices%20Upgrade.html" class="md-nav__link">
+      <a href="HyperMetro%20Devices%20Upgrade.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -388,10 +401,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/HyperMetro%20Configuration/Quorum%20Server%20Update.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Quorum Server Update
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="Quorum%20Server%20Update.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -400,6 +431,99 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#software-download" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software Download
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software Download">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tasks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quorum-server-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quorum Server Update
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quorum Server Update">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tasks_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tasks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -412,7 +536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/HyperMetro%20Configuration/Remote%20Device%20Connection.html" class="md-nav__link">
+      <a href="Remote%20Device%20Connection.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -433,7 +557,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/HyperMetro%20Configuration/Remote%20Replication%20Creation.html" class="md-nav__link">
+      <a href="Remote%20Replication%20Creation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -496,7 +620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/LLD%20Designer/Introduction.html" class="md-nav__link">
+      <a href="../LLD%20Designer/Introduction.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -517,7 +641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/LLD%20Designer/Management%20Switching%20Networking.html" class="md-nav__link">
+      <a href="../LLD%20Designer/Management%20Switching%20Networking.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -538,7 +662,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/LLD%20Designer/Rack%20Placement%20of%20Cabinets.html" class="md-nav__link">
+      <a href="../LLD%20Designer/Rack%20Placement%20of%20Cabinets.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -559,7 +683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/LLD%20Designer/Storage%20Cabinet%20Configuration.html" class="md-nav__link">
+      <a href="../LLD%20Designer/Storage%20Cabinet%20Configuration.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -580,7 +704,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/LLD%20Designer/Switching%20%26%20Networking.html" class="md-nav__link">
+      <a href="../LLD%20Designer/Switching%20%26%20Networking.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -643,7 +767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Alarm%20Masking.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/Alarm%20Masking.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -664,7 +788,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Change%20IPs%20of%20Controllers.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/Change%20IPs%20of%20Controllers.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -685,7 +809,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/DME%20IQ%20Configuration.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/DME%20IQ%20Configuration.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -706,7 +830,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Dashboard%20Creation.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/Dashboard%20Creation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -727,7 +851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo%20Configuration.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/Device%20Manager%20Demo%20Configuration.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -748,7 +872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Disk%20Firmware%20Upgrade.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/Disk%20Firmware%20Upgrade.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -769,7 +893,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/File%20System%20Creation%20%26%20Access.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/File%20System%20Creation%20%26%20Access.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -790,7 +914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Lab%20Machines%20Testing.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/Lab%20Machines%20Testing.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -811,7 +935,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/License%20Update.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/License%20Update.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -832,7 +956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Logical%20Ports%20Creation.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/Logical%20Ports%20Creation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -853,7 +977,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Machines%20Installation.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/Machines%20Installation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -874,7 +998,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Main%20and%20Patch%20Software%20Download.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/Main%20and%20Patch%20Software%20Download.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -895,7 +1019,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Update%20Machine%27s%20Software.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/Update%20Machine%27s%20Software.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -916,7 +1040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/vStore%20Creation.html" class="md-nav__link">
+      <a href="../Storage%20Cabinets%20Configuration/vStore%20Creation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -979,7 +1103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Troubleshooting/Admin%20User%20Password%20Restoration.html" class="md-nav__link">
+      <a href="../Troubleshooting/Admin%20User%20Password%20Restoration.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1000,7 +1124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Troubleshooting/File%20System.html" class="md-nav__link">
+      <a href="../Troubleshooting/File%20System.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1021,7 +1145,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Troubleshooting/LDAP.html" class="md-nav__link">
+      <a href="../Troubleshooting/LDAP.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1042,7 +1166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/OceanStor-Documentation/es/Troubleshooting/Updating%20Error%20Ignoring.html" class="md-nav__link">
+      <a href="../Troubleshooting/Updating%20Error%20Ignoring.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1076,10 +1200,93 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#software-download" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software Download
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software Download">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tasks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quorum-server-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quorum Server Update
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quorum Server Update">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tasks_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tasks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1091,8 +1298,97 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+  <h1>Quorum Server Update</h1>
+
+<h3 id="software-download"><strong>Software Download</strong></h3>
+<h4 id="requirements">Requirements</h4>
+<ul>
+<li>Model of the Storage Arrays (e.g. OceanStor Dorado)</li>
+<li>Software version of the Storage Arrays on HyperMetro</li>
+<li>Operating System of the Quorum Server</li>
+</ul>
+<h4 id="tasks">Tasks</h4>
+<ol>
+<li>Enter: <a href="https://support.huawei.com/">https://support.huawei.com/</a></li>
+<li>Search the <strong>Model</strong> of the required Storage Solution
+   <img alt="QuorumUpdate001" src="../Images/QuorumUpdate001.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Click <strong>Software Download</strong>
+   <img alt="QuorumUpdate002" src="../Images/QuorumUpdate002.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Select the <strong>Main</strong> version the Storage Cabinets are on
+   <img alt="QuorumUpdate003" src="../Images/QuorumUpdate003.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>
+<p>Download the Quorum Server Software, depending on its Operating System</p>
+</li>
+<li>
+<p>Linux: .zip</p>
+</li>
+<li>RedHat: .rpm
+     <img alt="QuorumUpdate004" src="../Images/QuorumUpdate004.png" /><code>&lt;br&gt;</code>
+     <code>&lt;br&gt;</code></li>
+</ol>
+<hr />
+<h3 id="quorum-server-update"><strong>Quorum Server Update</strong></h3>
+<h4 id="requirements_1">Requirements</h4>
+<ul>
+<li>Software downloaded for the Quorum Server (see previous point)</li>
+<li>Connection to the Quorum Server</li>
+</ul>
+<h4 id="tasks_1">Tasks</h4>
+<ol>
+<li>Connect to the <strong>Quorum Server CLI</strong><code>&lt;br&gt;</code>
+   • <strong>User:</strong> quorumAdmin<code>&lt;br&gt;</code>
+   • <strong>Pass:</strong> Huawei@SYS3</li>
+<li>Upload the <strong>Software</strong> downloaded on the previous point to the <strong>Quorum Server</strong></li>
+<li>Check whether the system is in <strong>bash</strong> or <strong>dash</strong>:<code>&lt;br&gt;</code>
+   <code>bash ls -l /bin/sh</code></li>
+<li>In case the result is bash, continue. In case it's dash, enter this command and select NO:<code>&lt;br&gt;</code>
+   <code>sudo dpkg-reconfigure dash</code></li>
+<li>Enter the 'package' directory inside the Upgrade File:<code>&lt;br&gt;</code>
+   <code>cd package</code></li>
+<li>Start the upgrade for the Quorum Server:<code>&lt;br&gt;</code>
+   <code>sudo sh ./quorum_server.sh -upgrade&lt;br&gt;</code>
+   <img alt="QuorumUpdate005" src="../Images/QuorumUpdate005.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Enter the Quorum Server:<code>&lt;br&gt;</code>
+   <code>sudo qsadmin&lt;br&gt;</code>
+   <img alt="QuorumUpdate006" src="../Images/QuorumUpdate006.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Display the Cipher Configuration:<code>&lt;br&gt;</code>
+   <code>show cipher_info&lt;br&gt;</code>
+   <img alt="QuorumUpdate007" src="../Images/QuorumUpdate007.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Display information about the Quorum Server and the version to verify the update:<code>&lt;br&gt;</code>
+   <code>show server_info&lt;br&gt;</code>
+   <img alt="QuorumUpdate008" src="../Images/QuorumUpdate008.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Display the IPs connected to Quorum Server to verify the connections:<code>&lt;br&gt;</code>
+    <code>show server_ip&lt;br&gt;</code>
+    <img alt="QuorumUpdate009" src="../Images/QuorumUpdate009.png" /><code>&lt;br&gt;</code>
+    <code>&lt;br&gt;</code></li>
+</ol>
+<h4 id="references">References</h4>
+<ul>
+<li><a href="https://support.huawei.com/enterprise/en/doc/EDOC1100112636/b2a6b05f/installing-quorum-server-software">Quorum Server Documentation</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1126,10 +1422,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/OceanStor-Documentation/", "features": [], "search": "/OceanStor-Documentation/assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/OceanStor-Documentation/assets/javascripts/bundle.60a45f97.min.js"></script>
+      <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
       
     
   </body>
