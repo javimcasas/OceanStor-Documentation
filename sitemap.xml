@@ -141,13 +141,6 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/File%20System%20Creation%20%26%20Access.html"/>
     </url>
     <url>
-        <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Lab%20Machines%20Testing.html</loc>
-        <lastmod>2025-01-31</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Lab%20Machines%20Testing.html"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Lab%20Machines%20Testing.html"/>
-    </url>
-    <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/License%20Update.html</loc>
         <lastmod>2025-01-31</lastmod>
         <changefreq>daily</changefreq>
@@ -356,13 +349,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/File%20System%20Creation%20%26%20Access.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/File%20System%20Creation%20%26%20Access.html"/>
-    </url>
-    <url>
-        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Lab%20Machines%20Testing.html</loc>
-        <lastmod>2025-01-31</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Lab%20Machines%20Testing.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Lab%20Machines%20Testing.html"/>
     </url>
     <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/License%20Update.html</loc>
