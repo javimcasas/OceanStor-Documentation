@@ -1,0 +1,8 @@
+sites/
+generate-pdfs.sh
+pdf-regen.bat
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block header %}
+  {{ super() }}
+  <!-- Add the download button to the header -->
+  <div class="md-header__source">
+    <a href="/pdfs/{{ config.theme.language }}/{{ page.title | lower | replace(' ', '-') }}.pdf" class="md-button" download>
+      Download PDF
+    </a>
+  </div>
+{% endblock %}

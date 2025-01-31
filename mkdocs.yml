@@ -1,7 +1,25 @@
 site_name: "Huawei Storage Documentation"
 theme:
   name: "material"
+  #custom_dir: "overrides"  # Ensure this points to the correct directory
   #logo: 'logo.webp'
   favicon: 'Huawei_Standard_logo.svg'
 extra_css:
   - 'css/custom.css'
+extra:
+  post_build: |
+    mkdir -p site/pdfs
+    cp -r pdfs/* site/pdfs/
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder  # Usa carpetas por idioma
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: es
+          name: Español
+          build: true
