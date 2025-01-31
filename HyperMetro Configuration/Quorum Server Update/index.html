@@ -111,6 +111,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../es/HyperMetro%20Configuration/Quorum%20Server%20Update/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -1284,31 +1310,25 @@
 </ul>
 <h4 id="tasks">Tasks</h4>
 <ol>
-<li>
-<p>Enter: <a href="https://support.huawei.com/">https://support.huawei.com/</a></p>
-</li>
-<li>
-<p>Search the <strong>Model</strong> of the required Storage Solution
-   <img alt="QuorumUpdate001" src="../../Images/QuorumUpdate001.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>Click <strong>Software Download</strong>
-   <img alt="QuorumUpdate002" src="../../Images/QuorumUpdate002.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>Select the <strong>Main</strong> version the Storage Cabinets are on
-   <img alt="QuorumUpdate003" src="../../Images/QuorumUpdate003.png" /><br>
-   <br></p>
-</li>
+<li>Enter: <a href="https://support.huawei.com/">https://support.huawei.com/</a></li>
+<li>Search the <strong>Model</strong> of the required Storage Solution
+   <img alt="QuorumUpdate001" src="../../Images/QuorumUpdate001.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Click <strong>Software Download</strong>
+   <img alt="QuorumUpdate002" src="../../Images/QuorumUpdate002.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Select the <strong>Main</strong> version the Storage Cabinets are on
+   <img alt="QuorumUpdate003" src="../../Images/QuorumUpdate003.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
 <li>
 <p>Download the Quorum Server Software, depending on its Operating System</p>
 </li>
-<li>Linux: .zip</li>
+<li>
+<p>Linux: .zip</p>
+</li>
 <li>RedHat: .rpm
-   <img alt="QuorumUpdate004" src="../../Images/QuorumUpdate004.png" /><br>
-   <br></li>
+     <img alt="QuorumUpdate004" src="../../Images/QuorumUpdate004.png" /><code>&lt;br&gt;</code>
+     <code>&lt;br&gt;</code></li>
 </ol>
 <hr />
 <h3 id="quorum-server-update"><strong>Quorum Server Update</strong></h3>
@@ -1319,56 +1339,36 @@
 </ul>
 <h4 id="tasks_1">Tasks</h4>
 <ol>
-<li>
-<p>Connect to the <strong>Quorum Server CLI</strong><br>
-   • <strong>User:</strong> quorumAdmin<br>
-   • <strong>Pass:</strong> Huawei@SYS3</p>
-</li>
-<li>
-<p>Upload the <strong>Software</strong> downloaded on the previous point to the <strong>Quorum Server</strong></p>
-</li>
-<li>
-<p>Check whether the system is in <strong>bash</strong> or <strong>dash</strong>:<br>
-   <code>bash ls -l /bin/sh</code></p>
-</li>
-<li>
-<p>In case the result is bash, continue. In case it's dash, enter this command and select NO:<br>
-    <code>sudo dpkg-reconfigure dash</code></p>
-</li>
-<li>
-<p>Enter the 'package' directory inside the Upgrade File:<br>
-    <code>cd package</code></p>
-</li>
-<li>
-<p>Start the upgrade for the Quorum Server:<br>
-    <code>sudo sh ./quorum_server.sh -upgrade</code><br>
-   <img alt="QuorumUpdate005" src="../../Images/QuorumUpdate005.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>Enter the Quorum Server:<br>
-    <code>sudo qsadmin</code><br>
-   <img alt="QuorumUpdate006" src="../../Images/QuorumUpdate006.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>Display the Cipher Configuration:<br>
-    <code>show cipher_info</code><br>
-   <img alt="QuorumUpdate007" src="../../Images/QuorumUpdate007.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>Display information about the Quorum Server and the version to verify the update:<br>
-    <code>show server_info</code><br>
-   <img alt="QuorumUpdate008" src="../../Images/QuorumUpdate008.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>Display the IPs connected to Quorum Server to verify the connections:<br>
-    <code>show server_ip</code><br>
-   <img alt="QuorumUpdate009" src="../../Images/QuorumUpdate009.png" /><br>
-   <br></p>
-</li>
+<li>Connect to the <strong>Quorum Server CLI</strong><code>&lt;br&gt;</code>
+   • <strong>User:</strong> quorumAdmin<code>&lt;br&gt;</code>
+   • <strong>Pass:</strong> Huawei@SYS3</li>
+<li>Upload the <strong>Software</strong> downloaded on the previous point to the <strong>Quorum Server</strong></li>
+<li>Check whether the system is in <strong>bash</strong> or <strong>dash</strong>:<code>&lt;br&gt;</code>
+   <code>bash ls -l /bin/sh</code></li>
+<li>In case the result is bash, continue. In case it's dash, enter this command and select NO:<code>&lt;br&gt;</code>
+   <code>sudo dpkg-reconfigure dash</code></li>
+<li>Enter the 'package' directory inside the Upgrade File:<code>&lt;br&gt;</code>
+   <code>cd package</code></li>
+<li>Start the upgrade for the Quorum Server:<code>&lt;br&gt;</code>
+   <code>sudo sh ./quorum_server.sh -upgrade&lt;br&gt;</code>
+   <img alt="QuorumUpdate005" src="../../Images/QuorumUpdate005.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Enter the Quorum Server:<code>&lt;br&gt;</code>
+   <code>sudo qsadmin&lt;br&gt;</code>
+   <img alt="QuorumUpdate006" src="../../Images/QuorumUpdate006.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Display the Cipher Configuration:<code>&lt;br&gt;</code>
+   <code>show cipher_info&lt;br&gt;</code>
+   <img alt="QuorumUpdate007" src="../../Images/QuorumUpdate007.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Display information about the Quorum Server and the version to verify the update:<code>&lt;br&gt;</code>
+   <code>show server_info&lt;br&gt;</code>
+   <img alt="QuorumUpdate008" src="../../Images/QuorumUpdate008.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Display the IPs connected to Quorum Server to verify the connections:<code>&lt;br&gt;</code>
+    <code>show server_ip&lt;br&gt;</code>
+    <img alt="QuorumUpdate009" src="../../Images/QuorumUpdate009.png" /><code>&lt;br&gt;</code>
+    <code>&lt;br&gt;</code></li>
 </ol>
 <h4 id="references">References</h4>
 <ul>

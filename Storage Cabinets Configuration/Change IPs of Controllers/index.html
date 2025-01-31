@@ -111,6 +111,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../es/Storage%20Cabinets%20Configuration/Change%20IPs%20of%20Controllers/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -1206,32 +1232,38 @@
 <hr />
 <h4 id="data">Data</h4>
 <ul>
-<li>Default IPs of Management Ports of the Controller: <ul>
-<li>Port A: 192.168.128.101</li>
+<li>
+<p>Default IPs of Management Ports of the Controller:</p>
+</li>
+<li>
+<p>Port A: 192.168.128.101</p>
+</li>
 <li>Port B: 192.168.128.102</li>
-</ul>
+<li>
+<p>Default IPs of Maintenance Ports of the Controller:</p>
 </li>
-<li>Default IPs of Maintenance Ports of the Controller:<ul>
-<li>Port A: 172.31.128.101</li>
+<li>
+<p>Port A: 172.31.128.101</p>
+</li>
 <li>Port B: 172.31.128.102</li>
-</ul>
-</li>
 <li>
 <p>Default IPs of Network Ports of the Controller:</p>
-<ul>
-<li>Port A: 127.127.127.10</li>
-<li>Port B: 127.127.127.11</li>
-</ul>
 </li>
 <li>
-<p>Default passwords: Huawei12#$ / Admin@storage / admin@Storage / Admin@Storage</p>
+<p>Port A: 127.127.127.10</p>
 </li>
+<li>Port B: 127.127.127.11</li>
+<li>Default passwords: Huawei12#$ / Admin@storage / admin@Storage / Admin@Storage</li>
 </ul>
 <hr />
 <h4 id="tasks">Tasks</h4>
 <ol>
-<li>Change network adapter IP of the laptop<ol>
-<li>Go to <strong>Network Settings</strong> &gt; <strong>Advanced Network Settings</strong> &gt; <strong>Network Connections</strong></li>
+<li>
+<p>Change network adapter IP of the laptop</p>
+</li>
+<li>
+<p>Go to <strong>Network Settings</strong> &gt; <strong>Advanced Network Settings</strong> &gt; <strong>Network Connections</strong></p>
+</li>
 <li>Locate <strong>Ethernet Adapter</strong> &gt; <strong>Properties</strong></li>
 <li>Select <strong>Internet Protocol Version 4</strong> (TCP/IPv4) &gt; <strong>Properties</strong>:<ul>
 <li>IP: Different from the default ones of the controller</li>
@@ -1239,33 +1271,25 @@
 </ul>
 </li>
 <li>Click '<strong>OK</strong>' to apply the changes and close the windows</li>
-</ol>
-</li>
 <li>Connect the RJ45 cable to the <strong>Management Port</strong> of the <strong>Controller A</strong> to the laptop</li>
-<li>
-<p>Open <strong>Device Manager</strong> (https://192.168.128.101:8088 or the port IP) &gt; <strong>System</strong> &gt; <strong>Hardware</strong>
-   <img alt="ChangeIPs001" src="../../Images/ChangeIPs001.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>Select the controller enclosure &gt; Move to the back &gt; Select the management port of the <strong>Controller B</strong>
-   <img alt="ChangeIPs002" src="../../Images/ChangeIPs002.png" /><br>
-   <br></p>
-</li>
+<li>Open <strong>Device Manager</strong> (https://192.168.128.101:8088 or the port IP) &gt; <strong>System</strong> &gt; <strong>Hardware</strong>
+   <img alt="ChangeIPs001" src="../../Images/ChangeIPs001.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Select the controller enclosure &gt; Move to the back &gt; Select the management port of the <strong>Controller B</strong>
+   <img alt="ChangeIPs002" src="../../Images/ChangeIPs002.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
 <li>
 <p>Click <strong>Operation</strong> &gt; <strong>Modify</strong> to change the IP of the controller:</p>
-<ul>
-<li>IP: Set the management IP</li>
-<li>Leave the rest as is</li>
-</ul>
-<p><img alt="ChangeIPs003" src="../../Images/ChangeIPs003.png" /><br>
-<br></p>
 </li>
 <li>
-<p>Do the same for the <strong>Controller A</strong></p>
+<p>IP: Set the management IP</p>
 </li>
-<li>Disconnect from the machine and ask the client to test the connection to the changed management IP</li>
+<li>Leave the rest as is</li>
 </ol>
+<p><img alt="ChangeIPs003" src="../../Images/ChangeIPs003.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code>
+6. Do the same for the <strong>Controller A</strong>
+7. Disconnect from the machine and ask the client to test the connection to the changed management IP</p>
 <hr />
 <h4 id="extra-information">Extra Information</h4>
 <ul>

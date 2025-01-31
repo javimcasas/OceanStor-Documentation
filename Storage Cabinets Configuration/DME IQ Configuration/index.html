@@ -111,6 +111,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../es/Storage%20Cabinets%20Configuration/DME%20IQ%20Configuration/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -1189,65 +1215,53 @@
 <ul>
 <li>User Guide: [[DME IQ Client 23.0.x User Guide.pdf]]</li>
 <li>Network Information on DME IQ:
-   <img alt="DMEIQInfo001" src="../../Images/DMEIQInfo001.png" /><br>
-   <br></li>
+  <img alt="DMEIQInfo001" src="../../Images/DMEIQInfo001.png" /><code>&lt;br&gt;</code>
+  <code>&lt;br&gt;</code></li>
 </ul>
 <h4 id="tasks">Tasks</h4>
 <ol>
 <li>Enter the Device Manager (https://192.168.128.101 or the IP of the port)</li>
-<li>
-<p>Go to <strong>Settings</strong> &gt; <strong>DME IQ Settings</strong>
-   <img alt="DMEIQConfig001" src="../../Images/DMEIQConfig001.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>Toggle '<strong>Connect to DME IQ and support OTA upgrades</strong>'
-   <img alt="DMEIQConfig002" src="../../Images/DMEIQConfig002.png" /><br>
-   <br></p>
-</li>
+<li>Go to <strong>Settings</strong> &gt; <strong>DME IQ Settings</strong>
+   <img alt="DMEIQConfig001" src="../../Images/DMEIQConfig001.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Toggle '<strong>Connect to DME IQ and support OTA upgrades</strong>'
+   <img alt="DMEIQConfig002" src="../../Images/DMEIQConfig002.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
 <li>
 <p>Fill out the information:</p>
-<ul>
-<li><strong>DME IQ Site</strong>: Customer's business type</li>
+</li>
+<li>
+<p><strong>DME IQ Site</strong>: Customer's business type</p>
+</li>
 <li><strong>Customer Site Name</strong>: Descriptive name for the customer's site</li>
 <li><strong>Transport Protocol</strong>: HTTPS for Internet / SMTP for Email</li>
 <li><strong>Uniportal Account</strong>: Customer's uniportal account</li>
 <li><strong>Contact</strong>: Add Huawei's employee contact information</li>
-</ul>
-</li>
-<li>
-<p>Click '<strong>Save and Authenticate</strong>'
-   <img alt="DMEIQConfig003" src="../../Images/DMEIQConfig003.png" /><br>
-   <br></p>
-</li>
+<li>Click '<strong>Save and Authenticate</strong>'
+   <img alt="DMEIQConfig003" src="../../Images/DMEIQConfig003.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
 <li>
 <p>Fill out the information:</p>
-<ul>
-<li><strong>Uniportal Account</strong>: Customer's uniportal Account, can be found here: 
-    https://e.huawei.com/en/myspace/accountinformation</li>
+</li>
+<li>
+<p><strong>Uniportal Account</strong>: Customer's uniportal Account, can be found here:
+     https://e.huawei.com/en/myspace/accountinformation</p>
+</li>
 <li><strong>Password</strong>: Uniportal account password</li>
 <li><strong>Authorization Mode</strong>: Online authorization</li>
 <li><strong>Customer Company Name</strong>: Name for the customer's company</li>
 <li><strong>Customer's Email</strong>: Uniportal Email</li>
-</ul>
-<p><img alt="DMEIQConfig004" src="../../Images/DMEIQConfig004.png" /><br>
-<br></p>
-</li>
-<li>
-<p>Click '<strong>OK</strong>' to try the authentication
-   <img alt="DMEIQConfig005" src="../../Images/DMEIQConfig005.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>If all worked correctly, it should appear Authenticated:
-   <img alt="DMEIQConfig006" src="../../Images/DMEIQConfig006.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>Login to your DME IQ account and wait for the Storage Cabinets to appear</p>
-</li>
-<li>Open a TAC ticket to validate the Cabinets for the customer: <a href="mailto:Eusupport@huawei.com">Eusupport@huawei.com</a></li>
 </ol>
+<p><img alt="DMEIQConfig004" src="../../Images/DMEIQConfig004.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code>
+7. Click '<strong>OK</strong>' to try the authentication
+   <img alt="DMEIQConfig005" src="../../Images/DMEIQConfig005.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code>
+8. If all worked correctly, it should appear Authenticated:
+   <img alt="DMEIQConfig006" src="../../Images/DMEIQConfig006.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code>
+9. Login to your DME IQ account and wait for the Storage Cabinets to appear
+10. Open a TAC ticket to validate the Cabinets for the customer: <a href="mailto:Eusupport@huawei.com">Eusupport@huawei.com</a></p>
 
 
 

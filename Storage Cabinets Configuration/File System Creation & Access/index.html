@@ -111,6 +111,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../es/Storage%20Cabinets%20Configuration/File%20System%20Creation%20%26%20Access/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -1284,15 +1310,15 @@
 <h4 id="tasks">Tasks</h4>
 <ol>
 <li>Enter the Device Manager (https://192.168.128.101 or the IP of the port)</li>
-<li>
-<p>Enter <strong>Services</strong> &gt; <strong>File Service</strong> &gt; <strong>File Systems</strong>
-    <img alt="FileSystemCreation001" src="../../Images/FileSystemCreation001.png" /><br>
-    <br></p>
-</li>
+<li>Enter <strong>Services</strong> &gt; <strong>File Service</strong> &gt; <strong>File Systems</strong>
+   <img alt="FileSystemCreation001" src="../../Images/FileSystemCreation001.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
 <li>
 <p>Click "<strong>Create</strong>" and fill the data:</p>
-<ul>
-<li><strong>Name</strong>: Descriptive name for the file system (e.g. FS_NFS_001)</li>
+</li>
+<li>
+<p><strong>Name</strong>: Descriptive name for the file system (e.g. FS_NFS_001)</p>
+</li>
 <li><strong>Owning vStore</strong>: Select the vStore decided by the client</li>
 <li><strong>Owning Storage Pool</strong>: Select the Storage Pool decided by the client</li>
 <li><strong>Security Style</strong>: Select <strong>UNIX</strong> if the <strong>OS</strong> is <strong>Linux</strong> or select <strong>NTFS</strong> if the <strong>OS</strong> is <strong>Windows</strong></li>
@@ -1301,11 +1327,9 @@
 <li><strong>Application Type</strong>: Select normally <strong>Reduction_Prioritized_Mode</strong></li>
 <li><strong>Shares</strong>: Select the <strong>protocol(s)</strong> for the File System</li>
 <li><strong>Protection</strong>: Select HyperCDP schedule if client wants data protection</li>
-</ul>
-</li>
 <li>Click "<strong>OK</strong>" to create the <strong>File System</strong>
-    <img alt="FileSystemCreation002" src="../../Images/FileSystemCreation002.png" /><br>
-    <br></li>
+   <img alt="FileSystemCreation002" src="../../Images/FileSystemCreation002.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
 </ol>
 <hr />
 <h3 id="file-system-access"><strong>File System Access</strong></h3>
@@ -1316,29 +1340,20 @@
 </ul>
 <h4 id="unix-file-system">UNIX File System</h4>
 <ol>
-<li>
-<p>Install ntfs-3g (Ubuntu):<br>
-    <code>sudo apt update</code><br>
-    <code>sudo apt install cifs-utils</code><br></p>
-</li>
-<li>
-<p>Create the directory to mount the NTFS:<br>
-    <code>sudo mkdir -p /mnt/huawei_share</code></p>
-</li>
-<li>
-<p>Mount the NTFS:<br>
-    <code>sudo mount -t cifs //192.168.1.100/ShareTest /mnt/huawei_share -o username=UserName,password=PassWord</code></p>
-</li>
-<li>
-<p>Verify access to the File System:<br>
-    <code>ls /mnt/huawei_share</code></p>
-</li>
+<li>Install ntfs-3g (Ubuntu):<code>&lt;br&gt;</code>
+   <code>sudo apt update```&lt;br&gt;`</code>sudo apt install cifs-utils<code>``&lt;br&gt;</code></li>
+<li>Create the directory to mount the NTFS:<code>&lt;br&gt;</code>
+   <code>sudo mkdir -p /mnt/huawei_share</code></li>
+<li>Mount the NTFS:<code>&lt;br&gt;</code>
+   <code>sudo mount -t cifs //192.168.1.100/ShareTest /mnt/huawei_share -o username=UserName,password=PassWord</code></li>
+<li>Verify access to the File System:<code>&lt;br&gt;</code>
+   <code>ls /mnt/huawei_share</code></li>
 </ol>
 <h4 id="windows-file-system">Windows File System</h4>
 <ol>
 <li>Open <strong>Command Execution</strong> (Win + R)</li>
-<li>Input: <code>\LogicalPortIP\ShareName</code></li>
-<li>Use <code>.\CreatedUser</code> and password to access with the <strong>local user</strong></li>
+<li>Input: <code>&lt;code&gt;</code>\LogicalPortIP\ShareName<code>&lt;/code&gt;</code></li>
+<li>Use <code>&lt;code&gt;</code>.\CreatedUser<code>&lt;/code&gt;</code> and password to access with the <strong>local user</strong></li>
 <li>Verify correct access to the File System</li>
 </ol>
 

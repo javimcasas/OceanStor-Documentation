@@ -111,6 +111,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../es/Storage%20Cabinets%20Configuration/Update%20Machine%27s%20Software/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -1271,25 +1297,19 @@
 <li>Open the <strong>SmartKit</strong> Software</li>
 <li>
 <p>Add the device if it's not there already in <strong>Devices</strong> &gt; <strong>Add</strong>:</p>
-<ul>
-<li><strong>IP</strong>: Use the management IP of the controller</li>
+</li>
+<li>
+<p><strong>IP</strong>: Use the management IP of the controller</p>
+</li>
 <li><strong>User</strong>: admin</li>
 <li><strong>Pass</strong>: Admin Password (given by customer)
-<img alt="SoftwareUpdate001" src="../../Images/SoftwareUpdate001.png" /><br>
-<br></li>
-</ul>
-</li>
-<li>
-<p>Go to <strong>Upgrade/Patch Installation</strong> &gt; <strong>Device Upgrade</strong> &gt; <strong>Upgrade Policy Setting</strong></p>
-</li>
-<li>
-<p>Select the <strong>Device</strong> to update
-    <img alt="SoftwareUpdate002" src="../../Images/SoftwareUpdate002.png" /><br>
-    <br></p>
-</li>
-<li>
-<p>Select <strong>Upgrade Storage Device</strong></p>
-</li>
+     <img alt="SoftwareUpdate001" src="../../Images/SoftwareUpdate001.png" /><code>&lt;br&gt;</code>
+     <code>&lt;br&gt;</code></li>
+<li>Go to <strong>Upgrade/Patch Installation</strong> &gt; <strong>Device Upgrade</strong> &gt; <strong>Upgrade Policy Setting</strong></li>
+<li>Select the <strong>Device</strong> to update
+   <img alt="SoftwareUpdate002" src="../../Images/SoftwareUpdate002.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Select <strong>Upgrade Storage Device</strong></li>
 <li>Browse for the <strong>Main Update</strong> file and press <strong>Finish</strong></li>
 <li>Click <strong>Modify</strong> to select the <strong>Patch Update</strong> after the <strong>Main Update</strong> finishes</li>
 <li>Click <strong>OK</strong> to start the <strong>Device Upgrade</strong></li>
@@ -1308,21 +1328,17 @@
 <li>Connect to the <strong>Controller</strong> through the RJ45 cable</li>
 <li>Open <strong>Device Manager</strong> (https://192.168.128.101 or the IP of the port) &gt; <strong>Settings</strong> &gt; <strong>Basic Information</strong> &gt; <strong>Upgrade</strong></li>
 <li>Click on <strong>Manual Upgrade</strong> button to start the process</li>
-<li>For <strong>Patch Update</strong>:<ol>
+<li>For <strong>Patch Update</strong>:</li>
 <li>Click <strong>Hot Patch</strong></li>
 <li>Check that <strong>Current Version</strong> is correct</li>
 <li>Unmark <strong>Update Check Item Component Package</strong></li>
 <li>Patch Package: Browse for the <strong>Update File</strong> and click <strong>Upload</strong></li>
 <li>Click <strong>Upgrade</strong></li>
-</ol>
-</li>
-<li>For <strong>Main Update</strong>:<ol>
+<li>For <strong>Main Update</strong>:</li>
 <li>Click <strong>System Upgrade</strong></li>
 <li>Check that <strong>Current Version</strong> is different from the one to update</li>
 <li>Unmark <strong>Update Check Item Component Package</strong> and click <strong>Evaluate</strong></li>
 <li>After the process is done, upload the <strong>License File</strong> and click <strong>Next</strong></li>
-</ol>
-</li>
 </ol>
 
 

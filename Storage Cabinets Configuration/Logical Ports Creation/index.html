@@ -111,6 +111,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../es/Storage%20Cabinets%20Configuration/Logical%20Ports%20Creation/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -1225,15 +1251,15 @@
 <h4 id="tasks">Tasks</h4>
 <ol>
 <li>Enter the Device Manager (https://192.168.128.101 or the IP of the port)</li>
-<li>
-<p>Go to <strong>Services</strong> &gt; <strong>Network</strong> &gt; <strong>Logical Ports</strong>
-    <img alt="LogicalPortsCreation001" src="../../Images/LogicalPortsCreation001.png" /><br>
-    <br></p>
-</li>
+<li>Go to <strong>Services</strong> &gt; <strong>Network</strong> &gt; <strong>Logical Ports</strong>
+   <img alt="LogicalPortsCreation001" src="../../Images/LogicalPortsCreation001.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
 <li>
 <p>Click <strong>Create</strong> and fill the data:</p>
-<ul>
-<li><strong>Name</strong>: Descriptive name for the port (e.g. LP_DEV001)</li>
+</li>
+<li>
+<p><strong>Name</strong>: Descriptive name for the port (e.g. LP_DEV001)</p>
+</li>
 <li><strong>Role</strong>: Given by the client (commonly <strong>Service</strong>)</li>
 <li><strong>Data Protocol</strong>: Given by the client (commonly <strong>NFS</strong>)</li>
 <li><strong>Owning vStore</strong>: Select the <strong>vStore</strong> created previously for the client</li>
@@ -1244,11 +1270,9 @@
 <li><strong>Port Type</strong>: Given by the client: <strong>Ethernet port</strong></li>
 <li><strong>Home Port</strong>: <strong>Interface Module</strong> Port given by client</li>
 <li><strong>Activation Status</strong>: Commonly left as <strong>Activated</strong></li>
-</ul>
-</li>
 <li>Click <strong>OK</strong> to create the <strong>Logical Port</strong>
-    <img alt="LogicalPortsCreation002" src="../../Images/LogicalPortsCreation002.png" /><br>
-    <br></li>
+   <img alt="LogicalPortsCreation002" src="../../Images/LogicalPortsCreation002.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
 </ol>
 <hr />
 <h3 id="switch-access-through-vlan"><strong>Switch Access Through VLAN</strong></h3>
@@ -1258,34 +1282,28 @@
 <li>Make sure that the ports you want to use show as "<strong>Link up</strong>"</li>
 <li>
 <p>Click "<strong>Bond Ports</strong>" and "<strong>Create</strong>" to fill the information:</p>
-<ul>
-<li><strong>Name</strong>: Descriptive name for the Bond Port</li>
+</li>
+<li>
+<p><strong>Name</strong>: Descriptive name for the Bond Port</p>
+</li>
 <li><strong>Controller</strong>: Select the Controller that has the physical ports</li>
 <li><strong>Netspace</strong>: Leave as is</li>
 <li><strong>Available Ports</strong>: Select the Physical Ports that will form the bond port</li>
-</ul>
-<p><img alt="LogicalPortsCreation003" src="../../Images/LogicalPortsCreation003.png" /><br>
-<br></p>
-</li>
-<li>
-<p>Click "<strong>OK</strong>" to create the <strong>Bond Port</strong></p>
-</li>
-<li>
-<p>Click "<strong>VLANs</strong>" and "<strong>Create</strong>" to fill the information:</p>
+</ol>
+<p><img alt="LogicalPortsCreation003" src="../../Images/LogicalPortsCreation003.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code>
+5. Click "<strong>OK</strong>" to create the <strong>Bond Port</strong>
+6. Click "<strong>VLANs</strong>" and "<strong>Create</strong>" to fill the information:</p>
 <ul>
 <li><strong>Port Type</strong>: Select <strong>Bond port</strong></li>
 <li><strong>Home Port</strong>: Select the bond port created previously</li>
 <li><strong>ID</strong>: Write ID of the VLAN and press "<strong>Add</strong>"</li>
 </ul>
-<p><img alt="LogicalPortsCreation004" src="../../Images/LogicalPortsCreation004.png" /><br>
-<br></p>
-</li>
-<li>
-<p>Click "<strong>OK</strong>" to create the <strong>VLAN</strong> with the <strong>Bond Port</strong></p>
-</li>
-<li>Go to <strong>Network</strong> &gt; <strong>Logical Ports</strong></li>
-<li>
-<p>Click "<strong>Create</strong>" and fill out the information:</p>
+<p><img alt="LogicalPortsCreation004" src="../../Images/LogicalPortsCreation004.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code>
+7. Click "<strong>OK</strong>" to create the <strong>VLAN</strong> with the <strong>Bond Port</strong>
+8. Go to <strong>Network</strong> &gt; <strong>Logical Ports</strong>
+9. Click "<strong>Create</strong>" and fill out the information:</p>
 <ul>
 <li><strong>Name</strong>: Descriptive name for the port (e.g. LP_DEV001)</li>
 <li><strong>Role</strong>: Given by the client (commonly <strong>Service</strong>)</li>
@@ -1298,16 +1316,12 @@
 <li><strong>Port Type</strong>: <strong>VLAN</strong></li>
 <li><strong>Home Port</strong>: Select the Home Port created previously</li>
 <li><strong>Activation Status</strong>: Commonly left as <strong>Activated</strong>
-<img alt="LogicalPortsCreation005" src="../../Images/LogicalPortsCreation005.png" /><br>
-<br></li>
-</ul>
-</li>
-<li>
-<p>Click "<strong>OK</strong>" to create the Logical Port</p>
-</li>
-<li>Test the connection to the Logical Port through:<br>
+     <img alt="LogicalPortsCreation005" src="../../Images/LogicalPortsCreation005.png" /><code>&lt;br&gt;</code>
+     <code>&lt;br&gt;</code></li>
+<li>Click "<strong>OK</strong>" to create the Logical Port</li>
+<li>Test the connection to the Logical Port through:<code>&lt;br&gt;</code>
     <code>ping LogicalPort_IP</code></li>
-</ol>
+</ul>
 
 
 

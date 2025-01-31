@@ -111,6 +111,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../es/LLD%20Designer/Storage%20Cabinet%20Configuration/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -1212,70 +1238,58 @@
 <h3 id="selecting-cabinet-model">Selecting Cabinet Model</h3>
 <ol>
 <li>Select the cabinet to represent on the design (given from client)</li>
-<li>
-<p>Drag &amp; drop the cabinet onto the canvas
-   <img alt="CabinetSelecting001" src="../../Images/CabinetSelecting001.png" /><br>
-   <br></p>
-</li>
+<li>Drag &amp; drop the cabinet onto the canvas
+   <img alt="CabinetSelecting001" src="../../Images/CabinetSelecting001.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
 <li>
 <p>Fill out the information:</p>
-<ul>
-<li><strong>Name</strong>: Descriptive name for the cabinet</li>
+</li>
+<li>
+<p><strong>Name</strong>: Descriptive name for the cabinet</p>
+</li>
 <li><strong>Device Model</strong>: Select the Model (given by client)</li>
 <li><strong>Controller Enclosure</strong>: Normally leave as it is</li>
 <li><strong>SN</strong>: Input (if known) the ESN of the cabinet</li>
-</ul>
-</li>
 <li>Click '<strong>OK</strong>' to create the <strong>Storage Device</strong>
-   <img alt="CabinetSelecting002" src="../../Images/CabinetSelecting002.png" /><br>
-   <br></li>
+   <img alt="CabinetSelecting002" src="../../Images/CabinetSelecting002.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
 </ol>
 <hr />
 <h3 id="io-interface-modules-configuration">IO Interface Modules Configuration</h3>
 <ol>
 <li>Click the <strong>Storage Device</strong> that needs configuration</li>
-<li>
-<p>Right click on any <strong>slot</strong> to add an <strong>Interface Module</strong>, see <strong>Best Practices</strong> below 
-   <img alt="InterfaceConfiguration001" src="../../Images/InterfaceConfiguration001.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>Following the document from presale, fill out the ports decided by the client</p>
-</li>
+<li>Right click on any <strong>slot</strong> to add an <strong>Interface Module</strong>, see <strong>Best Practices</strong> below
+   <img alt="InterfaceConfiguration001" src="../../Images/InterfaceConfiguration001.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>Following the document from presale, fill out the ports decided by the client</li>
 <li>When all ports are assigned, click '<strong>OK</strong>' to finish the process</li>
 </ol>
 <h4 id="best-practices">Best Practices</h4>
 <ul>
-<li>
-<p>SAS Module normally goes right next to the SAS ports of the cabin (for DAE expansion)
-   <img alt="InterfaceConfiguration002" src="../../Images/InterfaceConfiguration002.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>Following the priority of the ports, the right-most slots are normally left empty for scale-out
-   <img alt="InterfaceConfiguration003" src="../../Images/InterfaceConfiguration003.png" /><br></p>
-</li>
+<li>SAS Module normally goes right next to the SAS ports of the cabin (for DAE expansion)
+  <img alt="InterfaceConfiguration002" src="../../Images/InterfaceConfiguration002.png" /><code>&lt;br&gt;</code>
+  <code>&lt;br&gt;</code></li>
+<li>Following the priority of the ports, the right-most slots are normally left empty for scale-out
+  <img alt="InterfaceConfiguration003" src="../../Images/InterfaceConfiguration003.png" /><code>&lt;br&gt;</code></li>
 </ul>
 <hr />
 <h3 id="adding-daes-disk-array-enclosures">Adding DAEs (Disk Array Enclosures)</h3>
 <ol>
 <li>Click the <strong>Storage Device</strong> that has DAE(s)</li>
 <li>If the SAS ports available on the controller are not enough for the number of DAEs, a SAS interface module must be added into the controller</li>
-<li>Move to <strong>Point 3</strong> and select the information:<ul>
-<li><strong>Disk Enclosure</strong>: Select the <strong>Disk Enclosure type</strong> (given by client) and the number of them</li>
+<li>
+<p>Move to <strong>Point 3</strong> and select the information:</p>
+</li>
+<li>
+<p><strong>Disk Enclosure</strong>: Select the <strong>Disk Enclosure type</strong> (given by client) and the number of them</p>
+</li>
 <li><strong>SSD / SAS</strong>: Add the <strong>Disks</strong> that will be included in the DAE</li>
-</ul>
-</li>
-<li>
-<p>Click '<strong>Configuration</strong>' to add the <strong>DAE(s)</strong> automatically to the Storage Device
-   <img alt="DAEAdding001" src="../../Images/DAEAdding001.png" /><br>
-   <br></p>
-</li>
-<li>
-<p>For checking the connections, click '<strong>Rear View of Storage Device</strong>'
-   <img alt="DAEAdding002" src="../../Images/DAEAdding002.png" /><br>
-   <img alt="DAEAdding003" src="../../Images/DAEAdding003.png" /><br></p>
-</li>
+<li>Click '<strong>Configuration</strong>' to add the <strong>DAE(s)</strong> automatically to the Storage Device
+   <img alt="DAEAdding001" src="../../Images/DAEAdding001.png" /><code>&lt;br&gt;</code>
+   <code>&lt;br&gt;</code></li>
+<li>For checking the connections, click '<strong>Rear View of Storage Device</strong>'
+   <img alt="DAEAdding002" src="../../Images/DAEAdding002.png" /><code>&lt;br&gt;</code>
+   <img alt="DAEAdding003" src="../../Images/DAEAdding003.png" /><code>&lt;br&gt;</code></li>
 </ol>
 
 
