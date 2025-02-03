@@ -1,8 +1,7 @@
-
 ### Requisitos
 
 - Software descargado para los Dispositivos de Almacenamiento
-- Servidores de Quorum actualizados (ver: [Actualización del Servidor Quorum](../QuorumServerUpdate.md))
+- Servidores de Quorum actualizados (ver: [Actualización del Servidor Quorum](Quorum Server Update.md))
 
 ### Mejores Prácticas
 
@@ -48,4 +47,4 @@ Debemos asegurarnos de que el gabinete que estamos actualizando no sea el princi
    ![HyperMetroUpgrade007](../../Images/HyperMetroUpgrade007.png)
 
    &nbsp;
-8. El gabinete ya está listo para ser actualizado. Consulta [Actualización del Software de la Máquina](../UpdateMachineSoftware.md) para más información sobre este proceso.
+8. El gabinete ya está listo para ser actualizado. Consulta [Actualización del Software de la Máquina](../Storage Cabinets Configuration/Update Machine's Software.md) para más información sobre este proceso.

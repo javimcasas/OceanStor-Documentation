@@ -1,8 +1,7 @@
-
 ### Requirements
 
 - Software downloaded for the Storage Devices
-- Quorum Servers updated (see: [Quorum Server Update](../QuorumServerUpdate.md))
+- Quorum Servers updated (see: [Quorum Server Update](Quorum Server Update.md))
 
 ### Best Practices
 
@@ -48,4 +47,4 @@ We need to make sure that the cabinet we are updating is not the main in the Hyp
    ![HyperMetroUpgrade007](../../Images/HyperMetroUpgrade007.png)
 
    &nbsp;
-8. The cabinet is now ready to be upgraded. See [Update Machine&#39;s Software](../UpdateMachineSoftware.md) for more information on this process.
+8. The cabinet is now ready to be upgraded. See [Update Machine&#39;s Software](../Storage Cabinets Configuration/Update Machine's Software.md) for more information on this process.
