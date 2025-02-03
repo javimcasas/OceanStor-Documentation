@@ -1,58 +1,53 @@
-#### Requirements:
 
-- **Default IPs** of the Controllers Management Ports (check **data** section)
-- **Management IPs** designed for the machines (given from client)
-- **Ethernet** (RJ45) Cable for connection
+#### **Requisitos:**
 
----
-
-#### Data
-
-- Default IPs of Management Ports of the Controller:
-
-  - Port A: 192.168.128.101
-  - Port B: 192.168.128.102
-- Default IPs of Maintenance Ports of the Controller:
-
-  - Port A: 172.31.128.101
-  - Port B: 172.31.128.102
-- Default IPs of Network Ports of the Controller:
-
-  - Port A: 127.127.127.10
-  - Port B: 127.127.127.11
-- Default passwords: Huawei12#$ / Admin@storage / admin@Storage / Admin@Storage
+* **IPs predeterminadas** de los puertos de gestión de los controladores (consultar sección de  **datos** )
+* **IPs de gestión** diseñadas para las máquinas (proporcionadas por el cliente)
+* Cable **Ethernet** (RJ45) para la conexión
 
 ---
 
-#### Tasks
+#### **Datos**
 
-1. Change network adapter IP of the laptop
-
-   1. Go to **Network Settings** > **Advanced Network Settings** > **Network Connections**
-   2. Locate **Ethernet Adapter** > **Properties**
-   3. Select **Internet Protocol Version 4** (TCP/IPv4) > **Properties**:
-      - IP: Different from the default ones of the controller
-      - Subnet: 255.255.255.0
-   4. Click '**OK**' to apply the changes and close the windows
-2. Connect the RJ45 cable to the **Management Port** of the **Controller A** to the laptop
-3. Open **Device Manager** (https://192.168.128.101:8088 or the port IP) > **System** > **Hardware**
-   ![ChangeIPs001](../../Images/ChangeIPs001.png)`<br>`
-   `<br>`
-4. Select the controller enclosure > Move to the back > Select the management port of the **Controller B**
-   ![ChangeIPs002](../../Images/ChangeIPs002.png)`<br>`
-   `<br>`
-5. Click **Operation** > **Modify** to change the IP of the controller:
-
-   - IP: Set the management IP
-   - Leave the rest as is
-
-   ![ChangeIPs003](../../Images/ChangeIPs003.png)`<br>`
-   `<br>`
-6. Do the same for the **Controller A**
-7. Disconnect from the machine and ask the client to test the connection to the changed management IP
+* IPs predeterminadas de los puertos de gestión de los controladores:
+  * Puerto A: 192.168.128.101
+  * Puerto B: 192.168.128.102
+* IPs predeterminadas de los puertos de mantenimiento de los controladores:
+  * Puerto A: 172.31.128.101
+  * Puerto B: 172.31.128.102
+* IPs predeterminadas de los puertos de red de los controladores:
+  * Puerto A: 127.127.127.10
+  * Puerto B: 127.127.127.11
+* Contraseñas predeterminadas: Huawei12#$ / Admin@storage / admin@Storage / Admin@Storage
 
 ---
 
-#### Extra Information
+#### **Tareas**
 
-- To **reconnect** to the Machine after changing the **Management Port IPs**, you should also change your **PC Ethernet Port** to match the changed IPs
+1. Cambiar la IP del adaptador de red del portátil
+
+   1. Ir a **Configuración de Red** > **Configuración avanzada de red** > **Conexiones de red**
+   2. Localizar **Adaptador Ethernet** > **Propiedades**
+   3. Seleccionar **Protocolo de Internet Versión 4** (TCP/IPv4) >  **Propiedades** :
+      * IP: Diferente de las predeterminadas del controlador
+      * Subnet: 255.255.255.0
+   4. Hacer clic en ' **OK** ' para aplicar los cambios y cerrar las ventanas
+2. Conectar el cable RJ45 al **Puerto de Gestión** del **Controlador A** al portátil
+3. Abrir **Administrador de dispositivos** ([https://192.168.128.101:8088](https://192.168.128.101:8088) o la IP del puerto) > **Sistema** > **Hardware**
+   ![ChangeIPs001](../../Images/ChangeIPs001.png)
+4. Seleccionar el chasis del controlador > Moverse hacia la parte trasera > Seleccionar el puerto de gestión del **Controlador B**
+   ![ChangeIPs002](../../Images/ChangeIPs002.png)
+5. Hacer clic en **Operación** > **Modificar** para cambiar la IP del controlador:
+
+   * IP: Establecer la IP de gestión
+   * Dejar el resto como está
+
+   ![ChangeIPs003](../../Images/ChangeIPs003.png)
+6. Realizar lo mismo para el **Controlador A**
+7. Desconectar de la máquina y pedir al cliente que pruebe la conexión a la IP de gestión cambiada
+
+---
+
+#### **Información Extra**
+
+* Para **reconectar** a la máquina después de cambiar las  **IPs de los puertos de gestión** , también deberá cambiarse el **puerto Ethernet del PC** para que coincida con las IPs cambiadas

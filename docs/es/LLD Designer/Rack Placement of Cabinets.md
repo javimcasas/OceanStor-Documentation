@@ -1,19 +1,21 @@
-### Requirements
 
-- LLD Architecture (topology) completed
+## **Requisitos**
 
-### Cabinet Placement on Rack
+* Arquitectura LLD (topología) completada
 
-1. After all the cabinets are added, go to **Cabinet Planning**
-   ![CabinetPlacement001](../../Images/CabinetPlacement001.png)`<br>`
-   `<br>`
-2. Make sure that all cabinets follow the correct order, from top to bottom:
+---
 
-   1. **Switches** (IP & Management)
-   2. **Hosts** (if any)
-   3. **Storage Cabinets** (OceanStor / OceanProtect)
-   4. **Disk Array Enclosures** (DAEs)`<br>`
+### **Colocación del Gabinete en el Rack**
 
-   ![CabinetPlacement002](../../Images/CabinetPlacement001.png)`<br>`
+1. Después de agregar todos los gabinetes, ve a **Planificación del Gabinete**
+   ![CabinetPlacement001](../../Images/CabinetPlacement001.png)
+2. Asegúrate de que todos los gabinetes sigan el orden correcto, de arriba hacia abajo:
 
-This disposition ensures that heavy machines don't end up in the upper part of the rack, causing weight unbalance. Also, following this structure helps with the identification and homogeneous cabling for every rack.
+   1. **Switches** (IP y Gestión)
+   2. **Hosts** (si los hay)
+   3. **Gabinetes de Almacenamiento** (OceanStor / OceanProtect)
+   4. **Cajas de Discos** (DAEs)
+
+   ![CabinetPlacement002](../../Images/CabinetPlacement001.png)
+
+   Esta disposición asegura que las máquinas pesadas no terminen en la parte superior del rack, lo que causaría un desequilibrio de peso. Además, seguir esta estructura ayuda con la identificación y el cableado homogéneo para cada rack.

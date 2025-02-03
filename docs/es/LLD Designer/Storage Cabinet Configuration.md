@@ -1,51 +1,48 @@
-### Selecting Cabinet Model
 
-1. Select the cabinet to represent on the design (given from client)
-2. Drag & drop the cabinet onto the canvas
-   ![CabinetSelecting001](../../Images/CabinetSelecting001.png)`<br>`
-   `<br>`
-3. Fill out the information:
+### **Selección del Modelo de Gabinete**
 
-   - **Name**: Descriptive name for the cabinet
-   - **Device Model**: Select the Model (given by client)
-   - **Controller Enclosure**: Normally leave as it is
-   - **SN**: Input (if known) the ESN of the cabinet
-4. Click '**OK**' to create the **Storage Device**
-   ![CabinetSelecting002](../../Images/CabinetSelecting002.png)`<br>`
-   `<br>`
+1. Selecciona el gabinete que se representará en el diseño (dado por el cliente)
+2. Arrastra y coloca el gabinete sobre el lienzo
+   ![CabinetSelecting001](../../Images/CabinetSelecting001.png)
+3. Completa la información:
 
----
-
-### IO Interface Modules Configuration
-
-1. Click the **Storage Device** that needs configuration
-2. Right click on any **slot** to add an **Interface Module**, see **Best Practices** below
-   ![InterfaceConfiguration001](../../Images/InterfaceConfiguration001.png)`<br>`
-   `<br>`
-3. Following the document from presale, fill out the ports decided by the client
-4. When all ports are assigned, click '**OK**' to finish the process
-
-#### Best Practices
-
-- SAS Module normally goes right next to the SAS ports of the cabin (for DAE expansion)
-  ![InterfaceConfiguration002](../../Images/InterfaceConfiguration002.png)`<br>`
-  `<br>`
-- Following the priority of the ports, the right-most slots are normally left empty for scale-out
-  ![InterfaceConfiguration003](../../Images/InterfaceConfiguration003.png)`<br>`
+   * **Nombre** : Nombre descriptivo del gabinete
+   * **Modelo del Dispositivo** : Selecciona el Modelo (dado por el cliente)
+   * **Estante del Controlador** : Normalmente dejarlo como está
+   * **SN** : Ingresa (si se conoce) el ESN del gabinete
+4. Haz clic en ' **OK** ' para crear el **Dispositivo de Almacenamiento**
+   ![CabinetSelecting002](../../Images/CabinetSelecting002.png)
 
 ---
 
-### Adding DAEs (Disk Array Enclosures)
+### **Configuración de los Módulos de Interfaz IO**
 
-1. Click the **Storage Device** that has DAE(s)
-2. If the SAS ports available on the controller are not enough for the number of DAEs, a SAS interface module must be added into the controller
-3. Move to **Point 3** and select the information:
+1. Haz clic en el **Dispositivo de Almacenamiento** que necesita configuración
+2. Haz clic derecho en cualquier **ranura** para agregar un  **Módulo de Interfaz** , consulta las **Mejores Prácticas** a continuación
+   ![InterfaceConfiguration001](../../Images/InterfaceConfiguration001.png)
+3. Siguiendo el documento de preventa, completa los puertos decididos por el cliente
+4. Cuando todos los puertos estén asignados, haz clic en ' **OK** ' para finalizar el proceso
 
-   - **Disk Enclosure**: Select the **Disk Enclosure type** (given by client) and the number of them
-   - **SSD / SAS**: Add the **Disks** that will be included in the DAE
-4. Click '**Configuration**' to add the **DAE(s)** automatically to the Storage Device
-   ![DAEAdding001](../../Images/DAEAdding001.png)`<br>`
-   `<br>`
-5. For checking the connections, click '**Rear View of Storage Device**'
-   ![DAEAdding002](../../Images/DAEAdding002.png)`<br>`
-   ![DAEAdding003](../../Images/DAEAdding003.png)`<br>`
+---
+
+#### **Mejores Prácticas**
+
+* El Módulo SAS normalmente se coloca justo al lado de los puertos SAS del gabinete (para expansión DAE)
+  ![InterfaceConfiguration002](../../Images/InterfaceConfiguration002.png)
+* Siguiendo la prioridad de los puertos, las ranuras más a la derecha generalmente se dejan vacías para futuras expansiones
+  ![InterfaceConfiguration003](../../Images/InterfaceConfiguration003.png)
+
+---
+
+### **Agregar DAEs (Unidades de Almacenamiento de Discos)**
+
+1. Haz clic en el **Dispositivo de Almacenamiento** que tiene DAE(s)
+2. Si los puertos SAS disponibles en el controlador no son suficientes para el número de DAEs, debe agregarse un módulo de interfaz SAS en el controlador
+3. Dirígete al **Punto 3** y selecciona la información:
+
+   * **Caja de Discos** : Selecciona el **tipo de Caja de Discos** (dado por el cliente) y el número de ellas
+   * **SSD / SAS** : Agrega los **Discos** que se incluirán en el DAE
+4. Haz clic en ' **Configuración** ' para agregar automáticamente el/los **DAE(s)** al Dispositivo de Almacenamiento
+   ![DAEAdding001](../../Images/DAEAdding001.png)
+5. Para revisar las conexiones, haz clic en ' **Vista trasera del Dispositivo de Almacenamiento** '
+   ![DAEAdding002](../../Images/DAEAdding002.png)

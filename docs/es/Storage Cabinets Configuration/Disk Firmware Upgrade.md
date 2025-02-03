@@ -1,28 +1,25 @@
-#### Requirements
 
-- **Smart Kit** with all functions installed
-- **Disk Firmware** downloaded
+### **Requisitos**
+
+* **Smart Kit** con todas las funciones instaladas
+* **Firmware de disco** descargado
 
 ---
 
-#### Tasks
+### **Tareas**
 
-1. Open the **SmartKit** Software
-2. Add the device if it's not there already in **Devices** > **Add**:
+1. Abra el software **SmartKit**
+2. Agregue el dispositivo si aún no está allí en **Dispositivos** >  **Agregar** :
 
-   - **IP**: Use the management IP of the controller
-   - **User**: admin
-   - **Pass**: Admin Password (given by customer)
+   * **IP** : Use la IP de gestión del controlador
+   * **Usuario** : admin
+   * **Contraseña** : Contraseña de administrador (proporcionada por el cliente)
 
-   ![SoftwareUpdate001](../../Images/SoftwareUpdate001.png)`<br>`
-   `<br>`
-3. Go to **Upgrade/Patch Installation** > **More** > **Disk Firmware Upgrade**
-   ![DiskUpgrade001](../../Images/DiskUpgrade001.png)`<br>`
-   `<br>`
-4. Click '**Disk Firmware Upgrade**'`<br>`
-   ![DiskUpgrade002](../../Images/DiskUpgrade002.png)`<br>`
-   `<br>`
-5. Click '**Add Device**' and select the required Storage devices
-   ![DiskUpgrade003](../../Images/DiskUpgrade003.png)`<br>`
-   `<br>`
-6. Follow the upgrade process
+   ![SoftwareUpdate001](../../Images/SoftwareUpdate001.png)
+3. Vaya a **Instalación de actualización/parche** > **Más** > **Actualización de firmware de disco**
+   ![DiskUpgrade001](../../Images/DiskUpgrade001.png)
+4. Haga clic en ' **Actualización de firmware de disco** '
+   ![DiskUpgrade002](../../Images/DiskUpgrade002.png)
+5. Haga clic en ' **Agregar dispositivo** ' y seleccione los dispositivos de almacenamiento necesarios
+   ![DiskUpgrade003](../../Images/DiskUpgrade003.png)
+6. Siga el proceso de actualización

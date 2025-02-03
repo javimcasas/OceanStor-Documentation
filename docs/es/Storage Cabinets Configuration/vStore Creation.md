@@ -1,39 +1,39 @@
-#### Use
 
-vStores along with Logical Ports are used to isolate networks. This can be used to dedicate a network to a specific environment (development, preproduction, ...) or to divide departments inside a company.
+#### Uso
 
-#### Requirements
+Los vStores junto con los Puertos Lógicos se utilizan para aislar redes. Esto se puede usar para dedicar una red a un entorno específico (desarrollo, preproducción, ...) o para dividir departamentos dentro de una empresa.
 
-- Connection to the **Controller** through the Management Port (RJ45 cable)
-- **Virtual Storage** requirements (GB / TB)
-- **Logical Ports** to use from client
+#### Requisitos
+
+* Conexión al **Controlador** a través del Puerto de Gestión (cable RJ45)
+* Requisitos de **Almacenamiento Virtual** (GB / TB)
+* **Puertos Lógicos** a utilizar del cliente
 
 ---
 
-#### Tasks
+#### Tareas
 
-1. Enter the Device Manager (https://192.168.128.101 or the IP of the port)
-2. Go to **Services** > **vStore Service** > **vStores**
-   ![vStoreCreation001](../../Images/vStoreCreation001.png)`<br>`
-   `<br>`
-3. Click **Create** and fill the data:
+1. Ingrese al Administrador de Dispositivos ([https://192.168.128.101](https://192.168.128.101) o la IP del puerto)
+2. Vaya a **Servicios** > **Servicio vStore** > **vStores**
+   ![vStoreCreation001](../../Images/vStoreCreation001.png)
+3. Haga clic en **Crear** y complete los datos:
 
-   1. **Name**: Descriptive name for the **vStore** (e.g. VS_DEV)
-   2. **NAS Capacity Quota**: Storage that will be **Virtualized**
-   3. **SAN Capacity Quota**: Storage that will be **Virtualized**
-   4. **Description**: Useful description for the **vStore** utility
-   5. **Associate with Storage Pool**:
-      1. Select **Custom**
-      2. Click **Selected: 0**
-      3. Select the previously created **Storage Pool**
-      4. Click **OK** to finish **Storage Poo**l association
-   6. **Associate with FC Port (Fibre Channel)**:
-      1. Select **Custom**
-      2. Click **Selected: 0**
-      3. Select the desired **FC Ports** (**Interface Module**)
-      4. Click **OK** to finish **FC Ports** association
-   7. **Logical Ports Selection**:
-      - If you have already created the **Logical Ports**, select them from the menu
-      - If not, click **Add** and create them through this menu, then select them
-4. Click OK to create the **vStore**
-   ![vStoreCreation002](../../Images/vStoreCreation002.png)`<br>`
+   1. **Nombre** : Nombre descriptivo para el **vStore** (por ejemplo, VS_DEV)
+   2. **Cupo de capacidad NAS** : Almacenamiento que será **virtualizado**
+   3. **Cupo de capacidad SAN** : Almacenamiento que será **virtualizado**
+   4. **Descripción** : Descripción útil para la utilidad del **vStore**
+   5. **Asociar con el Pool de Almacenamiento** :
+   6. Seleccione **Personalizado**
+   7. Haga clic en **Seleccionado: 0**
+   8. Seleccione el **Storage Pool** creado previamente
+   9. Haga clic en **OK** para finalizar la asociación del **Storage Pool**
+   10. **Asociar con Puerto FC (Fibre Channel)** :
+   11. Seleccione **Personalizado**
+   12. Haga clic en **Seleccionado: 0**
+   13. Seleccione los **FC Ports** deseados ( **Módulo de Interfaz** )
+   14. Haga clic en **OK** para finalizar la asociación de **FC Ports**
+   15. **Selección de Puertos Lógicos** :
+
+   * Si ya ha creado los  **Puertos Lógicos** , selecciónelos del menú
+   * Si no, haga clic en **Agregar** y créelos a través de este menú, luego selecciónelos
+4. Haga clic en OK para crear el **vStore**

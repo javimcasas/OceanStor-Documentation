@@ -1,12 +1,21 @@
-### Authorization Fail on DeviceManager
-#### Definition
-After inputting LDAP data on the DeviceManager configuration (see XFILE) and clicking on '**Test**', the user receives an error message.
-#### Solution
-1. Check if the Firewall is okey and that LDAP ports are opened:
-	- Access through SSH to the storage array
-	- Change to developer mode: ``change user_mode current_mode user_mode=developer``
-	- Try pinging external IPs: ``ping --vrf vrf-srv -I CabinIP TargetIP``
-	- If ping is not reaching, try changing the Firewall Configuration until it's correct
-2. Make sure that LDAP configuration is correctly specified:
-	- Enter LDAP server and check the properties of the user
-	- Make sure that all paths and references are exactly as described in the server (LDAP is case sensitive)
+
+### Fallo de Autorización en DeviceManager
+
+#### Definición
+
+Después de ingresar los datos LDAP en la configuración de DeviceManager (ver XFILE) y hacer clic en ' **Test** ', el usuario recibe un mensaje de error.
+
+---
+
+#### Solución
+
+1. Verifique si el Firewall está correctamente configurado y si los puertos LDAP están abiertos:
+
+   * Acceda a través de SSH al arreglo de almacenamiento
+   * Cambie al modo de desarrollador: `change user_mode current_mode user_mode=developer`
+   * Intente hacer ping a las IPs externas: `ping --vrf vrf-srv -I CabinIP TargetIP`
+   * Si el ping no llega, intente cambiar la configuración del Firewall hasta que sea correcta
+2. Asegúrese de que la configuración LDAP esté especificada correctamente:
+
+   * Ingrese al servidor LDAP y revise las propiedades del usuario
+   * Asegúrese de que todas las rutas y referencias sean exactamente como se describen en el servidor (LDAP es sensible a mayúsculas y minúsculas)

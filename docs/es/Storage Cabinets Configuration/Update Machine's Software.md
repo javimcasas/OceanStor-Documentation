@@ -1,56 +1,62 @@
+
 ### **Smart Kit**
 
-#### Requirements
+#### Requisitos
 
-- **Smart Kit** with all functions installed: [SmartKit Download](https://support.huawei.com/enterprise/en/distributed-storage/smartkit-pid-8576706/software/261548176?idAbsPath=fixnode01%7C7919749%7C251366268%7C250389224%7C251366263%7C8576706)
-- **Main Software** and **Patch** downloaded: [Main and Patch Software Download](../Storage%20Cabinets%20Configuration/Main%20and%20Patch%20Software%20Download.md)
-- **Management IPs** of the **Controllers** (given from client)
-- **Ethernet** (RJ45) Cable for connection
-
-#### Tasks
-
-1. Connect to the **Controller** through the RJ45 cable
-2. Open the **SmartKit** Software
-3. Add the device if it's not there already in **Devices** > **Add**:
-
-   - **IP**: Use the management IP of the controller
-   - **User**: admin
-   - **Pass**: Admin Password (given by customer)
-     ![SoftwareUpdate001](../../Images/SoftwareUpdate001.png)`<br>`
-     `<br>`
-4. Go to **Upgrade/Patch Installation** > **Device Upgrade** > **Upgrade Policy Setting**
-5. Select the **Device** to update
-   ![SoftwareUpdate002](../../Images/SoftwareUpdate002.png)`<br>`
-   `<br>`
-6. Select **Upgrade Storage Device**
-7. Browse for the **Main Update** file and press **Finish**
-8. Click **Modify** to select the **Patch Update** after the **Main Update** finishes
-9. Click **OK** to start the **Device Upgrade**
+* **Smart Kit** con todas las funciones instaladas: [Descargar SmartKit](https://support.huawei.com/enterprise/en/distributed-storage/smartkit-pid-8576706/software/261548176?idAbsPath=fixnode01%7C7919749%7C251366268%7C250389224%7C251366263%7C8576706)
+* **Software Principal** y **Parche** descargados: [Descargar Software Principal y Parche](../Storage%20Cabinets%20Configuration/Main%20and%20Patch%20Software%20Download.md)
+* **IPs de gestión** de los **Controladores** (proporcionados por el cliente)
+* Cable **Ethernet** (RJ45) para la conexión
 
 ---
 
-### **Device Manager**
+#### Tareas
 
-#### Requirements
+1. Conecte al **Controlador** a través del cable RJ45
+2. Abra el software **SmartKit**
+3. Agregue el dispositivo si aún no está allí en **Dispositivos** >  **Agregar** :
 
-- **Main Software** and **Patch** downloaded of required Storage Solution
-- **Management IPs** of the **Controllers** (given from client)
-- **License File** for the required **Storage Solution**
-- **Ethernet** (RJ45) Cable for connection
+   * **IP** : Use la IP de gestión del controlador
+   * **Usuario** : admin
+   * **Contraseña** : Contraseña de administrador (proporcionada por el cliente)
 
-#### Tasks
+   ![SoftwareUpdate001](../../Images/SoftwareUpdate001.png)
+4. Vaya a **Instalación de actualización/parche** > **Actualización de dispositivo** > **Configuración de política de actualización**
+5. Seleccione el **Dispositivo** a actualizar
+   ![SoftwareUpdate002](../../Images/SoftwareUpdate002.png)
+6. Seleccione **Actualizar dispositivo de almacenamiento**
+7. Navegue para encontrar el archivo de **Actualización principal** y presione **Finalizar**
+8. Haga clic en **Modificar** para seleccionar el **Parche** después de que termine la **Actualización principal**
+9. Haga clic en **OK** para iniciar la **Actualización del dispositivo**
 
-1. Connect to the **Controller** through the RJ45 cable
-2. Open **Device Manager** (https://192.168.128.101 or the IP of the port) > **Settings** > **Basic Information** > **Upgrade**
-3. Click on **Manual Upgrade** button to start the process
-4. For **Patch Update**:
-   1. Click **Hot Patch**
-   2. Check that **Current Version** is correct
-   3. Unmark **Update Check Item Component Package**
-   4. Patch Package: Browse for the **Update File** and click **Upload**
-   5. Click **Upgrade**
-5. For **Main Update**:
-   1. Click **System Upgrade**
-   2. Check that **Current Version** is different from the one to update
-   3. Unmark **Update Check Item Component Package** and click **Evaluate**
-   4. After the process is done, upload the **License File** and click **Next**
+---
+
+### **Administrador de dispositivos**
+
+#### Requisitos
+
+* **Software Principal** y **Parche** descargados de la solución de almacenamiento requerida
+* **IPs de gestión** de los **Controladores** (proporcionados por el cliente)
+* **Archivo de licencia** para la **Solución de Almacenamiento** requerida
+* Cable **Ethernet** (RJ45) para la conexión
+
+---
+
+#### Tareas
+
+1. Conecte al **Controlador** a través del cable RJ45
+2. Abra **Administrador de dispositivos** ([https://192.168.128.101](https://192.168.128.101) o la IP del puerto) > **Configuración** > **Información básica** > **Actualización**
+3. Haga clic en el botón de **Actualización manual** para iniciar el proceso
+4. Para  **Actualización de parche** :
+
+   1. Haga clic en **Parche rápido**
+   2. Verifique que la **Versión actual** sea correcta
+   3. Desmarque **Actualizar componente de paquete de verificación**
+   4. Paquete de parche: Busque el **Archivo de actualización** y haga clic en **Subir**
+   5. Haga clic en **Actualizar**
+5. Para  **Actualización principal** :
+
+   1. Haga clic en **Actualización del sistema**
+   2. Verifique que la **Versión actual** sea diferente de la que se actualizará
+   3. Desmarque **Actualizar componente de paquete de verificación** y haga clic en **Evaluar**
+   4. Después de que termine el proceso, cargue el **Archivo de licencia** y haga clic en **Siguiente**

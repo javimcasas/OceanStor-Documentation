@@ -1,51 +1,49 @@
-#### Requirements
 
-- Customer has uniportal account
-- Storage Cabinets are registered on customer's account
-- Customer's Business type (Enterprise / Carrier)
+### **Requisitos**
 
-#### Data
+* El cliente tiene cuenta en Uniportal
+* Los gabinetes de almacenamiento están registrados en la cuenta del cliente
+* Tipo de negocio del cliente (Empresa / Carrier)
 
-- User Guide: [[DME IQ Client 23.0.x User Guide.pdf]]
-- Network Information on DME IQ:
-  ![DMEIQInfo001](../../Images/DMEIQInfo001.png)`<br>`
-  `<br>`
+---
 
-#### Tasks
+### **Datos**
 
-1. Enter the Device Manager (https://192.168.128.101 or the IP of the port)
-2. Go to **Settings** > **DME IQ Settings**
-   ![DMEIQConfig001](../../Images/DMEIQConfig001.png)`<br>`
-   `<br>`
-3. Toggle '**Connect to DME IQ and support OTA upgrades**'
-   ![DMEIQConfig002](../../Images/DMEIQConfig002.png)`<br>`
-   `<br>`
-4. Fill out the information:
+* Guía de usuario: [[Guía de usuario del cliente DME IQ 23.0.x.pdf]]
+* Información de la red en DME IQ:
+  ![DMEIQInfo001](../../Images/DMEIQInfo001.png)
 
-   - **DME IQ Site**: Customer's business type
-   - **Customer Site Name**: Descriptive name for the customer's site
-   - **Transport Protocol**: HTTPS for Internet / SMTP for Email
-   - **Uniportal Account**: Customer's uniportal account
-   - **Contact**: Add Huawei's employee contact information
-5. Click '**Save and Authenticate**'
-   ![DMEIQConfig003](../../Images/DMEIQConfig003.png)`<br>`
-   `<br>`
-6. Fill out the information:
+---
 
-   - **Uniportal Account**: Customer's uniportal Account, can be found here:
-     https://e.huawei.com/en/myspace/accountinformation
-   - **Password**: Uniportal account password
-   - **Authorization Mode**: Online authorization
-   - **Customer Company Name**: Name for the customer's company
-   - **Customer's Email**: Uniportal Email
+### **Tareas**
 
-   ![DMEIQConfig004](../../Images/DMEIQConfig004.png)`<br>`
-   `<br>`
-7. Click '**OK**' to try the authentication
-   ![DMEIQConfig005](../../Images/DMEIQConfig005.png)`<br>`
-   `<br>`
-8. If all worked correctly, it should appear Authenticated:
-   ![DMEIQConfig006](../../Images/DMEIQConfig006.png)`<br>`
-   `<br>`
-9. Login to your DME IQ account and wait for the Storage Cabinets to appear
-10. Open a TAC ticket to validate the Cabinets for the customer: [Eusupport@huawei.com](mailto:Eusupport@huawei.com)
+1. Ingrese al Administrador de dispositivos ([https://192.168.128.101](https://192.168.128.101) o la IP del puerto)
+2. Vaya a **Configuración** > **Configuración de DME IQ**
+   ![DMEIQConfig001](../../Images/DMEIQConfig001.png)
+3. Active ' **Conectar a DME IQ y soportar actualizaciones OTA** '
+   ![DMEIQConfig002](../../Images/DMEIQConfig002.png)
+4. Complete la información:
+
+   * **Sitio DME IQ** : Tipo de negocio del cliente
+   * **Nombre del sitio del cliente** : Nombre descriptivo para el sitio del cliente
+   * **Protocolo de transporte** : HTTPS para Internet / SMTP para correo electrónico
+   * **Cuenta Uniportal** : Cuenta uniportal del cliente
+   * **Contacto** : Agregue la información de contacto del empleado de Huawei
+5. Haga clic en ' **Guardar y autenticar** '
+   ![DMEIQConfig003](../../Images/DMEIQConfig003.png)
+6. Complete la información:
+
+   * **Cuenta Uniportal** : Cuenta Uniportal del cliente, se puede encontrar aquí:
+     [https://e.huawei.com/en/myspace/accountinformation](https://e.huawei.com/en/myspace/accountinformation)
+   * **Contraseña** : Contraseña de la cuenta Uniportal
+   * **Modo de autorización** : Autorización en línea
+   * **Nombre de la empresa del cliente** : Nombre de la empresa del cliente
+   * **Correo electrónico del cliente** : Correo electrónico de Uniportal
+
+   ![DMEIQConfig004](../../Images/DMEIQConfig004.png)
+7. Haga clic en ' **OK** ' para intentar la autenticación
+   ![DMEIQConfig005](../../Images/DMEIQConfig005.png)
+8. Si todo funcionó correctamente, debería aparecer Autenticado:
+   ![DMEIQConfig006](../../Images/DMEIQConfig006.png)
+9. Inicie sesión en su cuenta DME IQ y espere a que los gabinetes de almacenamiento aparezcan
+10. Abra un ticket TAC para validar los gabinetes para el cliente: [Eusupport@huawei.com](mailto:Eusupport@huawei.com)

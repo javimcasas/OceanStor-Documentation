@@ -1,4 +1,3 @@
-
 ### Requirements
 
 - Files generated from Health Check:
@@ -26,7 +25,13 @@
    ![FileUploading003](../../Images/FileUploading003.png)
 
    &nbsp;
-5. Fill out the information:• **Task Name**: Descriptive name for the Task• **Customer BG Type**: Type of customer (Carrier / Enterprise)• **Site Name**: Select customer name• **Region**: Select the region (normally European Region)• **Office**: Select the office (normally Spain Rep Office)
+5. Fill out the information:
+
+   - **Task Name**: Descriptive name for the Task
+   - **Customer BG Type**: Type of customer (Carrier / Enterprise)
+   - **Site Name**: Select customer name
+   - **Region**: Select the region (normally European Region)
+   - **Office**: Select the office (normally Spain Rep Office)
 
    &nbsp;
 6. Click '**Import**' and add the **Inspection File** generated
@@ -50,7 +55,7 @@
 
    &nbsp;
 4. Click '**Centralized Storage**'
-5. Click '**Upload Performance Data Package**'
+5. Click '**Upload Performance Data Package'**
 6. Upload Historical Performance Monitoring generated files
 
    ![FileUploading005](../../Images/FileUploading005.png)

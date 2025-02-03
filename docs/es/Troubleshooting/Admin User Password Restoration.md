@@ -1,17 +1,23 @@
-### Definition
-When customer forgets their admin user password or we configure it incorrectly, we can change the password of the user to a new one.
-### Solution
-1. Connect through the Serial port of the storage cabinet (with serial cable)
-2. Open **PuTTY** software
-3. Select **Serial** connection mode
-4. Input Speed of **115200**
-5. Press '**Open**' to connect to the cabinet
-6. Log in with the following credentials:
-	- User: _super_admin
-	- Pass: Admin@revive
-7. Input **initpasswd**
-8. Enter the following data:
-	- **User**: admin
-	- **Password**: NewPasswordForCabinet
-	- **ConfirmPassword**: NewPasswordForCabinet
-9. Try connecting again to the cabinet with the admin user
+
+### Definición
+
+Cuando el cliente olvida la contraseña de su usuario administrador o la configuramos incorrectamente, podemos cambiar la contraseña del usuario a una nueva.
+
+### Solución
+
+1. Conéctese a través del puerto serial del gabinete de almacenamiento (con cable serial)
+2. Abra el software **PuTTY**
+3. Seleccione el modo de conexión **Serial**
+4. Ingrese la velocidad de **115200**
+5. Presione ' **Abrir** ' para conectarse al gabinete
+6. Inicie sesión con las siguientes credenciales:
+
+   * Usuario: _super_admin
+   * Contraseña: Admin@revive
+7. Ingrese **initpasswd**
+8. Ingrese los siguientes datos:
+
+   * **Usuario** : admin
+   * **Contraseña** : NewPasswordForCabinet
+   * **ConfirmarContraseña** : NewPasswordForCabinet
+9. Intente conectarse nuevamente al gabinete con el usuario administrador

@@ -1,21 +1,22 @@
-#### Requirements
 
-- **Storage Solution** that the client needs
-- Software version required
+### **Descarga de Software**
+
+#### Requisitos
+
+* **Solución de almacenamiento** que el cliente necesita
+* Versión de software requerida
 
 ---
 
-#### Tasks
+#### Tareas
 
-1. Enter https://support.huawei.com/enterprise/en/index.html
-2. Search the **Model** of the required Storage Solution
-   ![DMDemo001](../../Images/DMDemo001.png)`<br>`
-   `<br>`
-3. Go to **Software Download** and find the software:
+1. Ingrese a [https://support.huawei.com/enterprise/en/index.html](https://support.huawei.com/enterprise/en/index.html)
+2. Busque el **Modelo** de la solución de almacenamiento requerida
+   ![DMDemo001](../../Images/DMDemo001.png)
+3. Vaya a **Descarga de Software** y encuentre el software:
 
-   - Main: Doesn't have the .SPHXX extension
-   - Patch: Highest number on SPHXX for the required main patch
-4. Press on **Download** and fill out the required details (if needed)
-   ![SoftwareDownload001](../../Images/SoftwareDownload001.png)`<br>`
-   `<br>`
-5. Wait for the approval (if locked) and download the software
+   * Principal: No tiene la extensión .SPHXX
+   * Parche: El número más alto en SPHXX para el parche principal requerido
+4. Haga clic en **Descargar** y complete los detalles requeridos (si es necesario)
+   ![SoftwareDownload001](../../Images/SoftwareDownload001.png)
+5. Espere la aprobación (si está bloqueado) y descargue el software

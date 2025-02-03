@@ -1,38 +1,32 @@
-### Requirements
 
-- Storage Cabinet created on the canvas
+## **Requisitos**
 
----
-
-### Selecting Management Switch Model
-
-1. Select the **IP Switch** type to represent in design
-2. Drag & drop the Switch onto the canvas
-   ![SwitchSelection001](../../Images/SwitchSelection001.png)`<br>`
-   `<br>`
-3. Fill out the information:
-
-   - **Name**: Descriptive name for the Switch
-   - **Device Model**: Given by the client
-   - **SN**: Optionally include ESN of the Switch
-4. Click '**OK**' to create the Switch
-   ![ManagementSelection001](../../Images/ManagementSelection001.png)`<br>`
-   `<br>`
+* Gabinete de almacenamiento creado en el lienzo
 
 ---
 
-### Management Connection to Storage Cabinet
+### **Selección del Modelo de Switch de Gestión**
 
-1. Click on the **Dot** above the Switch and drag the connection to the Dot over the Cabinet
-   ![ManagementConnection001](../../Images/ManagementConnection001.png)`<br>`
-   `<br>`
-2. Click on the desired Port on the Switch and drag the connection to the Management Port
-   ![ManagementConnection002](../../Images/ManagementConnection002.png)`<br>`
-   `<br>`
-3. Make sure to create a **redundant** link with the Interface Modules for best practice
-   ![ManagementConnection003](../../Images/ManagementConnection003.png)`<br>`
-   `<br>`
-4. Click '**OK**' to finish the Cable Connection
-5. Finished result should look like this
-   ![ManagementConnection004](../../Images/ManagementConnection004.png)`<br>`
-   `<br>`
+1. Selecciona el tipo de **Switch IP** que se va a representar en el diseño
+2. Arrastra y suelta el Switch sobre el lienzo
+   ![SwitchSelection001](../../Images/SwitchSelection001.png)
+3. Completa la información:
+
+   * **Nombre** : Nombre descriptivo para el Switch
+   * **Modelo del dispositivo** : Proporcionado por el cliente
+   * **SN** : Incluir opcionalmente el ESN del Switch
+4. Haz clic en ' **OK** ' para crear el Switch
+   ![ManagementSelection001](../../Images/ManagementSelection001.png)
+
+---
+
+### **Conexión de Gestión al Gabinete de Almacenamiento**
+
+1. Haz clic en el **Punto** sobre el Switch y arrastra la conexión hacia el Punto sobre el Gabinete
+   ![ManagementConnection001](../../Images/ManagementConnection001.png)
+2. Haz clic en el Puerto deseado del Switch y arrastra la conexión al Puerto de Gestión
+   ![ManagementConnection002](../../Images/ManagementConnection002.png)
+3. Asegúrate de crear un enlace **redundante** con los Módulos de Interfaz para mejores prácticas
+   ![ManagementConnection003](../../Images/ManagementConnection003.png)
+4. Haz clic en ' **OK** ' para terminar la conexión del cable
+5. El resultado final debería verse de esta manera

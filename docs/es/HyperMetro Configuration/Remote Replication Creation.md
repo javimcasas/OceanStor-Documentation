@@ -1,46 +1,43 @@
-#### Requirements
 
-- **Remote Device** connection between **Cabinet A** and **Cabinet B**
+## **Requisitos**
 
-#### Tasks
+* Conexión de **Dispositivo Remoto** entre **Gabinete A** y **Gabinete B**
 
-1. Connect to **Cabinet A**
-2. Create a **File System**: [File System Creation &amp; Access](../Storage%20Cabinets%20Configuration/File%20System%20Creation%20&%20Access.md)
-3. Enter **Data Protection** > **File Systems**
-   ![RemoteReplication001](../../Images/RemoteReplication001.png)`<br>`
-   `<br>`
-4. Click '**Remote Replication Pairs**'
-   ![RemoteReplication002](../../Images/RemoteReplication002.png)`<br>`
-   `<br>`
-5. Click '**Create**' and select the **File System** created previously
-   ![RemoteReplication003](../../Images/RemoteReplication003.png)`<br>`
-   `<br>`
-6. Click '**Next**' and fill out the information:
+## **Tareas**
 
-   - **Synchronize Configuration**: Leave normally as **Yes**
-   - **Remote Replication vStore Pair**: Select the **common vStore** in both Cabinets
-   - **Creation Mode**: Normally **Based on file systems**
-   - **Retain Consistency Snapshot**: Enable for DR Star for NAS
-   - **Pair Creation**: Leave normally as **Automatic**
-   - **Remote Storage Pool**: Select the Storage Pool created for **Cabinet B**
-   - **Sync Type**: Normally select 'Timed wait after sync ends', but client decides
-   - **Interval**: Normally 1 minute or 30 seconds, but client decides
-   - **Copy Snapshot Retention in Secondary Resource**: As clients want, snapshot syncing
-   - **User Snapshot Sync**: As clients want, snapshot syncing with details
-7. Click '**Next**' and finish the process
+1. Conéctate al **Gabinete A**
+2. Crea un  **File System** : [Creación de File System &amp; Acceso](../Storage%20Cabinets%20Configuration/File%20System%20Creation%20&%20Access.md)
+3. Entra en **Protección de Datos** > **File Systems**
+   ![RemoteReplication001](../../Images/RemoteReplication001.png)
+4. Haz clic en ' **Remote Replication Pairs** '
+   ![RemoteReplication002](../../Images/RemoteReplication002.png)
+5. Haz clic en ' **Crear** ' y selecciona el **File System** creado previamente
+   ![RemoteReplication003](../../Images/RemoteReplication003.png)
+6. Haz clic en ' **Siguiente** ' y completa la información:
+
+   * **Configuración de sincronización** : Deja normalmente como **Sí**
+   * **Par de vStore de replicación remota** : Selecciona el **vStore común** en ambos gabinetes
+   * **Modo de Creación** : Normalmente **Basado en file systems**
+   * **Retener Snapshot de Consistencia** : Habilitar para DR Star en NAS
+   * **Creación de par** : Deja normalmente como **Automático**
+   * **Remote Storage Pool** : Selecciona el Storage Pool creado para **Gabinete B**
+   * **Tipo de sincronización** : Normalmente selecciona 'Espera sincronizada después de que termine la sincronización', pero el cliente decide
+   * **Intervalo** : Normalmente 1 minuto o 30 segundos, pero el cliente decide
+   * **Retención de Snapshot de copia en el recurso secundario** : Según lo que desee el cliente, sincronización de snapshots
+   * **Sincronización de Snapshot de Usuario** : Según lo que desee el cliente, sincronización de snapshots con detalles
+7. Haz clic en ' **Siguiente** ' y finaliza el proceso
    ![RemoteReplication004](../../Images/RemoteReplication004.png)
 
 ---
 
-#### Requirements
+## **Requisitos**
 
-- **Remote Device** connection between **Cabinet A** and **Cabinet B**
+* Conexión de **Dispositivo Remoto** entre **Gabinete A** y **Gabinete B**
 
-#### Tasks
+## **Tareas**
 
-1. Connect to **Cabinet A**
-2. Create a **File System**: [File System Creation &amp; Access](../Storage%20Cabinets%20Configuration/File%20System%20Creation%20&%20Access.md)
-3. Enter **Data Protection** > **File Systems**
-   ![RemoteReplication001](../../Images/RemoteReplication001.png)`<br>`
-   `<br>`
-4. Click '**HyperMetro Pairs**'
+1. Conéctate al **Gabinete A**
+2. Crea un  **File System** : [Creación de File System &amp; Acceso](../Storage%20Cabinets%20Configuration/File%20System%20Creation%20&%20Access.md)
+3. Entra en **Protección de Datos** > **File Systems**
+   ![RemoteReplication001](../../Images/RemoteReplication001.png)
+4. Haz clic en ' **HyperMetro Pairs** '

@@ -1,18 +1,19 @@
-#### Requirements
 
-- Connection to the machine
-- IP of the storage array
+#### Requisitos
+
+* Conexión a la máquina
+* IP del arreglo de almacenamiento
 
 ---
 
-#### Tasks
+#### Tareas
 
-1. Identify the error you want to ignore
-2. Go to: **C:\Program Files\Huawei SmartKit\tools\ArrayUpgrade**
-3. Open **ignoreitem.txt**
-4. Paste: **MachineIP_CheckMajorAlarm=yes** (Changing MachineIP for the Controller's IP)
-   ![IgnoreError001](../../Images/IgnoreError001.png)`<br>`
+1. Identifique el error que desea ignorar
+2. Vaya a: **C:\Program Files\Huawei SmartKit\tools\ArrayUpgrade**
+3. Abra **ignoreitem.txt**
+4. Pegue: **MachineIP_CheckMajorAlarm=yes** (Cambiando MachineIP por la IP del Controlador)
+   ![IgnoreError001](../../Images/IgnoreError001.png) `<br>`
    `<br>`
-5. **Save** the document and close it
-6. **Retry** the **update**
-7. When the error appears, click on it and press "**Ignore**"
+5. **Guarde** el documento y ciérrelo
+6. **Reintente** la **actualización**
+7. Cuando aparezca el error, haga clic sobre él y presione " **Ignorar** "

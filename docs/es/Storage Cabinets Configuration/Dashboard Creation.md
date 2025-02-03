@@ -1,23 +1,20 @@
-#### Tasks
 
-1. Open **Device Manager** (https://192.168.128.101:8088 or the port IP) > **Insight** > **Performance**
-   ![DashboardCreation001](../../Images/DashboardCreation001.png) `<br>`
-   `<br>`
-2. Click '**Analysis**'
-   ![DashboardCreation002](../../Images/DashboardCreation002.png) `<br>`
-   `<br>`
-3. Click '**Create Now**' and fill in the details:
+#### **Tareas**
 
-   - **Chart Name**: Descriptive name for the Dashboard
-   - **Chart Type**: Select between Performance / Capacity metrics
-   - **Period**: Select the time period for the metrics
-   - **Data Value**: Select Average / Max values for the metrics
-   - **Object Type**: Select the device to take the metrics from
-   - **Object Instance**: Select the sub-objects inside the device to take metrics from
-   - **Statistical Metric**: Select the metric to be displayed
+1. Abrir **Administrador de dispositivos** ([https://192.168.128.101:8088](https://192.168.128.101:8088) o la IP del puerto) > **Insight** > **Rendimiento**
+   ![DashboardCreation001](../../Images/DashboardCreation001.png)
+2. Hacer clic en ' **Análisis** '
+   ![DashboardCreation002](../../Images/DashboardCreation002.png)
+3. Hacer clic en ' **Crear ahora** ' y completar los detalles:
 
-   ![DashboardCreation003](../../Images/DashboardCreation001.png) `<br>`
-   `<br>`
-4. Click '**OK**' to create the metric and finish the process
-   ![DashboardCreation004](../../Images/DashboardCreation004.png) `<br>`
-   ![DashboardCreation005](../../Images/DashboardCreation005.png) `<br>`
+   * **Nombre del gráfico** : Nombre descriptivo para el Dashboard
+   * **Tipo de gráfico** : Seleccionar entre métricas de Rendimiento / Capacidad
+   * **Período** : Seleccionar el período de tiempo para las métricas
+   * **Valor de datos** : Seleccionar valores Promedio / Máximos para las métricas
+   * **Tipo de objeto** : Seleccionar el dispositivo del que tomar las métricas
+   * **Instancia de objeto** : Seleccionar los sub-objetos dentro del dispositivo de los cuales tomar las métricas
+   * **Métrica estadística** : Seleccionar la métrica que se mostrará
+
+   ![DashboardCreation003](../../Images/DashboardCreation001.png)
+4. Hacer clic en ' **OK** ' para crear la métrica y terminar el proceso
+   ![DashboardCreation004](../../Images/DashboardCreation004.png)

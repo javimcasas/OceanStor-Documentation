@@ -1,46 +1,32 @@
-### Requirements
 
-- Storage Cabinet with IO Modules for ETH / FC connections
+### **Selección del Modelo de Switch**
 
----
+1. Selecciona el tipo de Switch para representar en el diseño (FC / IP)
+2. Arrastra y coloca el Switch sobre el lienzo
+   ![SwitchSelection001](../../Images/SwitchSelection001.png)
+3. Completa la información:
 
-### Selecting Switch Model
-
-1. Select the Switch type to represent in design (FC / IP)
-2. Drag & drop the Switch onto the canvas
-   ![SwitchSelection001](../../Images/SwitchSelection001.png) `<br>`
-   `<br>`
-3. Fill out the information:
-
-   - **Name**: Descriptive name for the Switch
-   - **Device Model**: Given by the client
-   - **SN**: Optionally include ESN of the Switch
-4. Click '**OK**' to create the Switch
-   ![SwitchSelection002](../../Images/SwitchSelection002.png) `<br>`
-   `<br>`
-5. Duplicate the Switch (redundancy) by right-clicking the Switch and copy pasting in the canvas
-   ![SwitchSelection003](../../Images/SwitchSelection001.png) `<br>`
-   ![SwitchSelection004](../../Images/SwitchSelection004.png) `<br>`
-   `<br>`
-6. Rename the duplicated switch with a descriptive name (follow best practices numeration: XXXX001)
+   * **Nombre** : Nombre descriptivo para el Switch
+   * **Modelo del Dispositivo** : Dado por el cliente
+   * **SN** : Incluye opcionalmente el ESN del Switch
+4. Haz clic en ' **OK** ' para crear el Switch
+   ![SwitchSelection002](../../Images/SwitchSelection002.png)
+5. Duplica el Switch (redundancia) haciendo clic derecho sobre el Switch y copiando y pegando en el lienzo
+   ![SwitchSelection003](../../Images/SwitchSelection001.png)
+   ![SwitchSelection004](../../Images/SwitchSelection004.png)
+6. Renombra el switch duplicado con un nombre descriptivo (sigue la numeración de mejores prácticas: XXXX001)
 
 ---
 
-### Switch Connection to Storage Cabinet
+### **Conexión del Switch al Gabinete de Almacenamiento**
 
-1. Click on the **Dot** above the Switch and drag the connection to the Dot over the Cabinet
-   ![SwitchConnection001](../../Images/SwitchConnection001.png) `<br>`
-   `<br>`
-2. Click on the desired **Port** of the Switch and drag the connection to the **Interface Module Port**
-   ![SwitchConnection002](../../Images/SwitchConnection002.png) `<br>`
-   `<br>`
-3. Make sure to create a **redundant** link with the Interface Modules for best practice
-   ![SwitchConnection003](../../Images/SwitchConnection003.png) `<br>`
-   `<br>`
-4. Click '**OK**' to finish the Cable Connection
-5. Repeat the process for the second switch for redundancy
-   ![SwitchConnection004](../../Images/SwitchConnection004.png) `<br>`
-   `<br>`
-6. Finished result should look like this:
-   ![SwitchConnection005](../../Images/SwitchConnection005.png) `<br>`
-   `<br>`
+1. Haz clic en el **Punto** sobre el Switch y arrastra la conexión al Punto sobre el Gabinete
+   ![SwitchConnection001](../../Images/SwitchConnection001.png)
+2. Haz clic en el **Puerto** deseado del Switch y arrastra la conexión al **Puerto del Módulo de Interfaz**
+   ![SwitchConnection002](../../Images/SwitchConnection002.png)
+3. Asegúrate de crear un enlace **redundante** con los Módulos de Interfaz para seguir las mejores prácticas
+   ![SwitchConnection003](../../Images/SwitchConnection003.png)
+4. Haz clic en ' **OK** ' para finalizar la conexión del cable
+5. Repite el proceso para el segundo switch para redundancia
+   ![SwitchConnection004](../../Images/SwitchConnection004.png)
+6. El resultado final debe verse de esta manera:
