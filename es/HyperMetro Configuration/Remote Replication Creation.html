@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#requirements" class="md-skip">
+        <a href="#requisitos" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -488,36 +488,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+      Requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tasks" class="md-nav__link">
+  <a href="#tareas" class="md-nav__link">
     <span class="md-ellipsis">
-      Tasks
+      Tareas
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#requirements_1" class="md-nav__link">
+  <a href="#requisitos_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+      Requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tasks_1" class="md-nav__link">
+  <a href="#tareas_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Tasks
+      Tareas
     </span>
   </a>
   
@@ -1152,36 +1152,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+      Requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tasks" class="md-nav__link">
+  <a href="#tareas" class="md-nav__link">
     <span class="md-ellipsis">
-      Tasks
+      Tareas
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#requirements_1" class="md-nav__link">
+  <a href="#requisitos_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+      Requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tasks_1" class="md-nav__link">
+  <a href="#tareas_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Tasks
+      Tareas
     </span>
   </a>
   
@@ -1204,54 +1204,50 @@
 
   <h1>Remote Replication Creation</h1>
 
-<h4 id="requirements">Requirements</h4>
+<h2 id="requisitos"><strong>Requisitos</strong></h2>
 <ul>
-<li><strong>Remote Device</strong> connection between <strong>Cabinet A</strong> and <strong>Cabinet B</strong></li>
+<li>Conexión de <strong>Dispositivo Remoto</strong> entre <strong>Gabinete A</strong> y <strong>Gabinete B</strong></li>
 </ul>
-<h4 id="tasks">Tasks</h4>
+<h2 id="tareas"><strong>Tareas</strong></h2>
 <ol>
-<li>Connect to <strong>Cabinet A</strong></li>
-<li>Create a <strong>File System</strong>: <a href="../Storage%20Cabinets%20Configuration/File%20System%20Creation%20%26%20Access.html">File System Creation &amp; Access</a></li>
-<li>Enter <strong>Data Protection</strong> &gt; <strong>File Systems</strong>
-   <img alt="RemoteReplication001" src="../../Images/RemoteReplication001.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click '<strong>Remote Replication Pairs</strong>'
-   <img alt="RemoteReplication002" src="../../Images/RemoteReplication002.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click '<strong>Create</strong>' and select the <strong>File System</strong> created previously
-   <img alt="RemoteReplication003" src="../../Images/RemoteReplication003.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
+<li>Conéctate al <strong>Gabinete A</strong></li>
+<li>Crea un  <strong>File System</strong> : <a href="../Storage%20Cabinets%20Configuration/File%20System%20Creation%20%26%20Access.html">Creación de File System &amp; Acceso</a></li>
+<li>Entra en <strong>Protección de Datos</strong> &gt; <strong>File Systems</strong>
+   <img alt="RemoteReplication001" src="../../Images/RemoteReplication001.png" /></li>
+<li>Haz clic en ' <strong>Remote Replication Pairs</strong> '
+   <img alt="RemoteReplication002" src="../../Images/RemoteReplication002.png" /></li>
+<li>Haz clic en ' <strong>Crear</strong> ' y selecciona el <strong>File System</strong> creado previamente
+   <img alt="RemoteReplication003" src="../../Images/RemoteReplication003.png" /></li>
 <li>
-<p>Click '<strong>Next</strong>' and fill out the information:</p>
+<p>Haz clic en ' <strong>Siguiente</strong> ' y completa la información:</p>
 </li>
 <li>
-<p><strong>Synchronize Configuration</strong>: Leave normally as <strong>Yes</strong></p>
+<p><strong>Configuración de sincronización</strong> : Deja normalmente como <strong>Sí</strong></p>
 </li>
-<li><strong>Remote Replication vStore Pair</strong>: Select the <strong>common vStore</strong> in both Cabinets</li>
-<li><strong>Creation Mode</strong>: Normally <strong>Based on file systems</strong></li>
-<li><strong>Retain Consistency Snapshot</strong>: Enable for DR Star for NAS</li>
-<li><strong>Pair Creation</strong>: Leave normally as <strong>Automatic</strong></li>
-<li><strong>Remote Storage Pool</strong>: Select the Storage Pool created for <strong>Cabinet B</strong></li>
-<li><strong>Sync Type</strong>: Normally select 'Timed wait after sync ends', but client decides</li>
-<li><strong>Interval</strong>: Normally 1 minute or 30 seconds, but client decides</li>
-<li><strong>Copy Snapshot Retention in Secondary Resource</strong>: As clients want, snapshot syncing</li>
-<li><strong>User Snapshot Sync</strong>: As clients want, snapshot syncing with details</li>
-<li>Click '<strong>Next</strong>' and finish the process
+<li><strong>Par de vStore de replicación remota</strong> : Selecciona el <strong>vStore común</strong> en ambos gabinetes</li>
+<li><strong>Modo de Creación</strong> : Normalmente <strong>Basado en file systems</strong></li>
+<li><strong>Retener Snapshot de Consistencia</strong> : Habilitar para DR Star en NAS</li>
+<li><strong>Creación de par</strong> : Deja normalmente como <strong>Automático</strong></li>
+<li><strong>Remote Storage Pool</strong> : Selecciona el Storage Pool creado para <strong>Gabinete B</strong></li>
+<li><strong>Tipo de sincronización</strong> : Normalmente selecciona 'Espera sincronizada después de que termine la sincronización', pero el cliente decide</li>
+<li><strong>Intervalo</strong> : Normalmente 1 minuto o 30 segundos, pero el cliente decide</li>
+<li><strong>Retención de Snapshot de copia en el recurso secundario</strong> : Según lo que desee el cliente, sincronización de snapshots</li>
+<li><strong>Sincronización de Snapshot de Usuario</strong> : Según lo que desee el cliente, sincronización de snapshots con detalles</li>
+<li>Haz clic en ' <strong>Siguiente</strong> ' y finaliza el proceso
    <img alt="RemoteReplication004" src="../../Images/RemoteReplication004.png" /></li>
 </ol>
 <hr />
-<h4 id="requirements_1">Requirements</h4>
+<h2 id="requisitos_1"><strong>Requisitos</strong></h2>
 <ul>
-<li><strong>Remote Device</strong> connection between <strong>Cabinet A</strong> and <strong>Cabinet B</strong></li>
+<li>Conexión de <strong>Dispositivo Remoto</strong> entre <strong>Gabinete A</strong> y <strong>Gabinete B</strong></li>
 </ul>
-<h4 id="tasks_1">Tasks</h4>
+<h2 id="tareas_1"><strong>Tareas</strong></h2>
 <ol>
-<li>Connect to <strong>Cabinet A</strong></li>
-<li>Create a <strong>File System</strong>: <a href="../Storage%20Cabinets%20Configuration/File%20System%20Creation%20%26%20Access.html">File System Creation &amp; Access</a></li>
-<li>Enter <strong>Data Protection</strong> &gt; <strong>File Systems</strong>
-   <img alt="RemoteReplication001" src="../../Images/RemoteReplication001.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click '<strong>HyperMetro Pairs</strong>'</li>
+<li>Conéctate al <strong>Gabinete A</strong></li>
+<li>Crea un  <strong>File System</strong> : <a href="../Storage%20Cabinets%20Configuration/File%20System%20Creation%20%26%20Access.html">Creación de File System &amp; Acceso</a></li>
+<li>Entra en <strong>Protección de Datos</strong> &gt; <strong>File Systems</strong>
+   <img alt="RemoteReplication001" src="../../Images/RemoteReplication001.png" /></li>
+<li>Haz clic en ' <strong>HyperMetro Pairs</strong> '</li>
 </ol>
 
 

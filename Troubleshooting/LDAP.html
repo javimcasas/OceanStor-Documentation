@@ -1200,21 +1200,26 @@
 
 <h3 id="authorization-fail-on-devicemanager">Authorization Fail on DeviceManager</h3>
 <h4 id="definition">Definition</h4>
-<p>After inputting LDAP data on the DeviceManager configuration (see XFILE) and clicking on '<strong>Test</strong>', the user receives an error message.</p>
+<p>After inputting LDAP data on the DeviceManager configuration (see XFILE) and clicking on ' <strong>Test</strong> ', the user receives an error message.</p>
+<hr />
 <h4 id="solution">Solution</h4>
 <ol>
-<li>Check if the Firewall is okey and that LDAP ports are opened:<ul>
-<li>Access through SSH to the storage array</li>
+<li>
+<p>Check if the Firewall is okay and that LDAP ports are opened:</p>
+</li>
+<li>
+<p>Access through SSH to the storage array</p>
+</li>
 <li>Change to developer mode: <code>change user_mode current_mode user_mode=developer</code></li>
 <li>Try pinging external IPs: <code>ping --vrf vrf-srv -I CabinIP TargetIP</code></li>
 <li>If ping is not reaching, try changing the Firewall Configuration until it's correct</li>
-</ul>
+<li>
+<p>Make sure that LDAP configuration is correctly specified:</p>
 </li>
-<li>Make sure that LDAP configuration is correctly specified:<ul>
-<li>Enter LDAP server and check the properties of the user</li>
+<li>
+<p>Enter LDAP server and check the properties of the user</p>
+</li>
 <li>Make sure that all paths and references are exactly as described in the server (LDAP is case sensitive)</li>
-</ul>
-</li>
 </ol>
 
 

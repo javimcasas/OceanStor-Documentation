@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#requirements" class="md-skip">
+        <a href="#requisitos" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -572,29 +572,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+      Requisitos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requisitos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seleccion-del-modelo-de-switch-de-gestion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selección del Modelo de Switch de Gestión
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#selecting-management-switch-model" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#conexion-de-gestion-al-gabinete-de-almacenamiento" class="md-nav__link">
     <span class="md-ellipsis">
-      Selecting Management Switch Model
+      Conexión de Gestión al Gabinete de Almacenamiento
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#management-connection-to-storage-cabinet" class="md-nav__link">
-    <span class="md-ellipsis">
-      Management Connection to Storage Cabinet
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1143,29 +1149,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+      Requisitos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requisitos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seleccion-del-modelo-de-switch-de-gestion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selección del Modelo de Switch de Gestión
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#selecting-management-switch-model" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#conexion-de-gestion-al-gabinete-de-almacenamiento" class="md-nav__link">
     <span class="md-ellipsis">
-      Selecting Management Switch Model
+      Conexión de Gestión al Gabinete de Almacenamiento
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#management-connection-to-storage-cabinet" class="md-nav__link">
-    <span class="md-ellipsis">
-      Management Connection to Storage Cabinet
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1186,45 +1198,38 @@
 
   <h1>Management Switching Networking</h1>
 
-<h3 id="requirements">Requirements</h3>
+<h2 id="requisitos"><strong>Requisitos</strong></h2>
 <ul>
-<li>Storage Cabinet created on the canvas</li>
+<li>Gabinete de almacenamiento creado en el lienzo</li>
 </ul>
 <hr />
-<h3 id="selecting-management-switch-model">Selecting Management Switch Model</h3>
+<h3 id="seleccion-del-modelo-de-switch-de-gestion"><strong>Selección del Modelo de Switch de Gestión</strong></h3>
 <ol>
-<li>Select the <strong>IP Switch</strong> type to represent in design</li>
-<li>Drag &amp; drop the Switch onto the canvas
-   <img alt="SwitchSelection001" src="../../Images/SwitchSelection001.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
+<li>Selecciona el tipo de <strong>Switch IP</strong> que se va a representar en el diseño</li>
+<li>Arrastra y suelta el Switch sobre el lienzo
+   <img alt="SwitchSelection001" src="../../Images/SwitchSelection001.png" /></li>
 <li>
-<p>Fill out the information:</p>
+<p>Completa la información:</p>
 </li>
 <li>
-<p><strong>Name</strong>: Descriptive name for the Switch</p>
+<p><strong>Nombre</strong> : Nombre descriptivo para el Switch</p>
 </li>
-<li><strong>Device Model</strong>: Given by the client</li>
-<li><strong>SN</strong>: Optionally include ESN of the Switch</li>
-<li>Click '<strong>OK</strong>' to create the Switch
-   <img alt="ManagementSelection001" src="../../Images/ManagementSelection001.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
+<li><strong>Modelo del dispositivo</strong> : Proporcionado por el cliente</li>
+<li><strong>SN</strong> : Incluir opcionalmente el ESN del Switch</li>
+<li>Haz clic en ' <strong>OK</strong> ' para crear el Switch
+   <img alt="ManagementSelection001" src="../../Images/ManagementSelection001.png" /></li>
 </ol>
 <hr />
-<h3 id="management-connection-to-storage-cabinet">Management Connection to Storage Cabinet</h3>
+<h3 id="conexion-de-gestion-al-gabinete-de-almacenamiento"><strong>Conexión de Gestión al Gabinete de Almacenamiento</strong></h3>
 <ol>
-<li>Click on the <strong>Dot</strong> above the Switch and drag the connection to the Dot over the Cabinet
-   <img alt="ManagementConnection001" src="../../Images/ManagementConnection001.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click on the desired Port on the Switch and drag the connection to the Management Port
-   <img alt="ManagementConnection002" src="../../Images/ManagementConnection002.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Make sure to create a <strong>redundant</strong> link with the Interface Modules for best practice
-   <img alt="ManagementConnection003" src="../../Images/ManagementConnection003.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
-<li>Click '<strong>OK</strong>' to finish the Cable Connection</li>
-<li>Finished result should look like this
-   <img alt="ManagementConnection004" src="../../Images/ManagementConnection004.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
+<li>Haz clic en el <strong>Punto</strong> sobre el Switch y arrastra la conexión hacia el Punto sobre el Gabinete
+   <img alt="ManagementConnection001" src="../../Images/ManagementConnection001.png" /></li>
+<li>Haz clic en el Puerto deseado del Switch y arrastra la conexión al Puerto de Gestión
+   <img alt="ManagementConnection002" src="../../Images/ManagementConnection002.png" /></li>
+<li>Asegúrate de crear un enlace <strong>redundante</strong> con los Módulos de Interfaz para mejores prácticas
+   <img alt="ManagementConnection003" src="../../Images/ManagementConnection003.png" /></li>
+<li>Haz clic en ' <strong>OK</strong> ' para terminar la conexión del cable</li>
+<li>El resultado final debería verse de esta manera</li>
 </ol>
 
 

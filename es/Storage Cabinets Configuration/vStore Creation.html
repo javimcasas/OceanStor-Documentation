@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#use" class="md-skip">
+        <a href="#uso" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -950,27 +950,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#use" class="md-nav__link">
+  <a href="#uso" class="md-nav__link">
     <span class="md-ellipsis">
-      Use
+      Uso
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+      Requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tasks" class="md-nav__link">
+  <a href="#tareas" class="md-nav__link">
     <span class="md-ellipsis">
-      Tasks
+      Tareas
     </span>
   </a>
   
@@ -1143,27 +1143,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#use" class="md-nav__link">
+  <a href="#uso" class="md-nav__link">
     <span class="md-ellipsis">
-      Use
+      Uso
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#requisitos" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+      Requisitos
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#tasks" class="md-nav__link">
+  <a href="#tareas" class="md-nav__link">
     <span class="md-ellipsis">
-      Tasks
+      Tareas
     </span>
   </a>
   
@@ -1186,51 +1186,47 @@
 
   <h1>vStore Creation</h1>
 
-<h4 id="use">Use</h4>
-<p>vStores along with Logical Ports are used to isolate networks. This can be used to dedicate a network to a specific environment (development, preproduction, ...) or to divide departments inside a company.</p>
-<h4 id="requirements">Requirements</h4>
+<h4 id="uso">Uso</h4>
+<p>Los vStores junto con los Puertos Lógicos se utilizan para aislar redes. Esto se puede usar para dedicar una red a un entorno específico (desarrollo, preproducción, ...) o para dividir departamentos dentro de una empresa.</p>
+<h4 id="requisitos">Requisitos</h4>
 <ul>
-<li>Connection to the <strong>Controller</strong> through the Management Port (RJ45 cable)</li>
-<li><strong>Virtual Storage</strong> requirements (GB / TB)</li>
-<li><strong>Logical Ports</strong> to use from client</li>
+<li>Conexión al <strong>Controlador</strong> a través del Puerto de Gestión (cable RJ45)</li>
+<li>Requisitos de <strong>Almacenamiento Virtual</strong> (GB / TB)</li>
+<li><strong>Puertos Lógicos</strong> a utilizar del cliente</li>
 </ul>
 <hr />
-<h4 id="tasks">Tasks</h4>
+<h4 id="tareas">Tareas</h4>
 <ol>
-<li>Enter the Device Manager (https://192.168.128.101 or the IP of the port)</li>
-<li>Go to <strong>Services</strong> &gt; <strong>vStore Service</strong> &gt; <strong>vStores</strong>
-   <img alt="vStoreCreation001" src="../../Images/vStoreCreation001.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
+<li>Ingrese al Administrador de Dispositivos (<a href="https://192.168.128.101">https://192.168.128.101</a> o la IP del puerto)</li>
+<li>Vaya a <strong>Servicios</strong> &gt; <strong>Servicio vStore</strong> &gt; <strong>vStores</strong>
+   <img alt="vStoreCreation001" src="../../Images/vStoreCreation001.png" /></li>
 <li>
-<p>Click <strong>Create</strong> and fill the data:</p>
+<p>Haga clic en <strong>Crear</strong> y complete los datos:</p>
 </li>
 <li>
-<p><strong>Name</strong>: Descriptive name for the <strong>vStore</strong> (e.g. VS_DEV)</p>
+<p><strong>Nombre</strong> : Nombre descriptivo para el <strong>vStore</strong> (por ejemplo, VS_DEV)</p>
 </li>
-<li><strong>NAS Capacity Quota</strong>: Storage that will be <strong>Virtualized</strong></li>
-<li><strong>SAN Capacity Quota</strong>: Storage that will be <strong>Virtualized</strong></li>
-<li><strong>Description</strong>: Useful description for the <strong>vStore</strong> utility</li>
-<li><strong>Associate with Storage Pool</strong>:<ol>
-<li>Select <strong>Custom</strong></li>
-<li>Click <strong>Selected: 0</strong></li>
-<li>Select the previously created <strong>Storage Pool</strong></li>
-<li>Click <strong>OK</strong> to finish <strong>Storage Poo</strong>l association</li>
-</ol>
+<li><strong>Cupo de capacidad NAS</strong> : Almacenamiento que será <strong>virtualizado</strong></li>
+<li><strong>Cupo de capacidad SAN</strong> : Almacenamiento que será <strong>virtualizado</strong></li>
+<li><strong>Descripción</strong> : Descripción útil para la utilidad del <strong>vStore</strong></li>
+<li><strong>Asociar con el Pool de Almacenamiento</strong> :</li>
+<li>Seleccione <strong>Personalizado</strong></li>
+<li>Haga clic en <strong>Seleccionado: 0</strong></li>
+<li>Seleccione el <strong>Storage Pool</strong> creado previamente</li>
+<li>Haga clic en <strong>OK</strong> para finalizar la asociación del <strong>Storage Pool</strong></li>
+<li><strong>Asociar con Puerto FC (Fibre Channel)</strong> :</li>
+<li>Seleccione <strong>Personalizado</strong></li>
+<li>Haga clic en <strong>Seleccionado: 0</strong></li>
+<li>Seleccione los <strong>FC Ports</strong> deseados ( <strong>Módulo de Interfaz</strong> )</li>
+<li>Haga clic en <strong>OK</strong> para finalizar la asociación de <strong>FC Ports</strong></li>
+<li>
+<p><strong>Selección de Puertos Lógicos</strong> :</p>
 </li>
-<li><strong>Associate with FC Port (Fibre Channel)</strong>:<ol>
-<li>Select <strong>Custom</strong></li>
-<li>Click <strong>Selected: 0</strong></li>
-<li>Select the desired <strong>FC Ports</strong> (<strong>Interface Module</strong>)</li>
-<li>Click <strong>OK</strong> to finish <strong>FC Ports</strong> association</li>
-</ol>
+<li>
+<p>Si ya ha creado los  <strong>Puertos Lógicos</strong> , selecciónelos del menú</p>
 </li>
-<li><strong>Logical Ports Selection</strong>:<ul>
-<li>If you have already created the <strong>Logical Ports</strong>, select them from the menu</li>
-<li>If not, click <strong>Add</strong> and create them through this menu, then select them</li>
-</ul>
-</li>
-<li>Click OK to create the <strong>vStore</strong>
-   <img alt="vStoreCreation002" src="../../Images/vStoreCreation002.png" /><code>&lt;br&gt;</code></li>
+<li>Si no, haga clic en <strong>Agregar</strong> y créelos a través de este menú, luego selecciónelos</li>
+<li>Haga clic en OK para crear el <strong>vStore</strong></li>
 </ol>
 
 

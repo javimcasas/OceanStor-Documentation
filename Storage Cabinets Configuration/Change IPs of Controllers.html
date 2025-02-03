@@ -1204,40 +1204,28 @@
 
   <h1>Change IPs of Controllers</h1>
 
-<h4 id="requirements">Requirements:</h4>
+<h4 id="requirements"><strong>Requirements:</strong></h4>
 <ul>
 <li><strong>Default IPs</strong> of the Controllers Management Ports (check <strong>data</strong> section)</li>
-<li><strong>Management IPs</strong> designed for the machines (given from client)</li>
+<li><strong>Management IPs</strong> designed for the machines (given by client)</li>
 <li><strong>Ethernet</strong> (RJ45) Cable for connection</li>
 </ul>
 <hr />
-<h4 id="data">Data</h4>
+<h4 id="data"><strong>Data</strong></h4>
 <ul>
-<li>
-<p>Default IPs of Management Ports of the Controller:</p>
-</li>
-<li>
-<p>Port A: 192.168.128.101</p>
-</li>
+<li>Default IPs of Management Ports of the Controller:</li>
+<li>Port A: 192.168.128.101</li>
 <li>Port B: 192.168.128.102</li>
-<li>
-<p>Default IPs of Maintenance Ports of the Controller:</p>
-</li>
-<li>
-<p>Port A: 172.31.128.101</p>
-</li>
+<li>Default IPs of Maintenance Ports of the Controller:</li>
+<li>Port A: 172.31.128.101</li>
 <li>Port B: 172.31.128.102</li>
-<li>
-<p>Default IPs of Network Ports of the Controller:</p>
-</li>
-<li>
-<p>Port A: 127.127.127.10</p>
-</li>
+<li>Default IPs of Network Ports of the Controller:</li>
+<li>Port A: 127.127.127.10</li>
 <li>Port B: 127.127.127.11</li>
 <li>Default passwords: Huawei12#$ / Admin@storage / admin@Storage / Admin@Storage</li>
 </ul>
 <hr />
-<h4 id="tasks">Tasks</h4>
+<h4 id="tasks"><strong>Tasks</strong></h4>
 <ol>
 <li>
 <p>Change network adapter IP of the laptop</p>
@@ -1246,19 +1234,17 @@
 <p>Go to <strong>Network Settings</strong> &gt; <strong>Advanced Network Settings</strong> &gt; <strong>Network Connections</strong></p>
 </li>
 <li>Locate <strong>Ethernet Adapter</strong> &gt; <strong>Properties</strong></li>
-<li>Select <strong>Internet Protocol Version 4</strong> (TCP/IPv4) &gt; <strong>Properties</strong>:<ul>
+<li>Select <strong>Internet Protocol Version 4</strong> (TCP/IPv4) &gt;  <strong>Properties</strong> :<ul>
 <li>IP: Different from the default ones of the controller</li>
 <li>Subnet: 255.255.255.0</li>
 </ul>
 </li>
-<li>Click '<strong>OK</strong>' to apply the changes and close the windows</li>
+<li>Click ' <strong>OK</strong> ' to apply the changes and close the windows</li>
 <li>Connect the RJ45 cable to the <strong>Management Port</strong> of the <strong>Controller A</strong> to the laptop</li>
-<li>Open <strong>Device Manager</strong> (https://192.168.128.101:8088 or the port IP) &gt; <strong>System</strong> &gt; <strong>Hardware</strong>
-   <img alt="ChangeIPs001" src="../Images/ChangeIPs001.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
+<li>Open <strong>Device Manager</strong> (<a href="https://192.168.128.101:8088">https://192.168.128.101:8088</a> or the port IP) &gt; <strong>System</strong> &gt; <strong>Hardware</strong>
+   <img alt="ChangeIPs001" src="../Images/ChangeIPs001.png" /></li>
 <li>Select the controller enclosure &gt; Move to the back &gt; Select the management port of the <strong>Controller B</strong>
-   <img alt="ChangeIPs002" src="../Images/ChangeIPs002.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code></li>
+   <img alt="ChangeIPs002" src="../Images/ChangeIPs002.png" /></li>
 <li>
 <p>Click <strong>Operation</strong> &gt; <strong>Modify</strong> to change the IP of the controller:</p>
 </li>
@@ -1267,14 +1253,13 @@
 </li>
 <li>Leave the rest as is</li>
 </ol>
-<p><img alt="ChangeIPs003" src="../Images/ChangeIPs003.png" /><code>&lt;br&gt;</code>
-   <code>&lt;br&gt;</code>
+<p><img alt="ChangeIPs003" src="../Images/ChangeIPs003.png" />
 6. Do the same for the <strong>Controller A</strong>
 7. Disconnect from the machine and ask the client to test the connection to the changed management IP</p>
 <hr />
-<h4 id="extra-information">Extra Information</h4>
+<h4 id="extra-information"><strong>Extra Information</strong></h4>
 <ul>
-<li>To <strong>reconnect</strong> to the Machine after changing the <strong>Management Port IPs</strong>, you should also change your <strong>PC Ethernet Port</strong> to match the changed IPs</li>
+<li>To <strong>reconnect</strong> to the Machine after changing the  <strong>Management Port IPs</strong> , you should also change your <strong>PC Ethernet Port</strong> to match the changed IPs</li>
 </ul>
 
 
