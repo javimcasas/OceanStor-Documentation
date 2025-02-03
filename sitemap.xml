@@ -8,6 +8,13 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/index.html"/>
     </url>
     <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/General/Ticket%20Creation.html</loc>
+        <lastmod>2025-02-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/General/Ticket%20Creation.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/General/Ticket%20Creation.html"/>
+    </url>
+    <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/Health%20Checks/Health%20Checks.html</loc>
         <lastmod>2025-02-03</lastmod>
         <changefreq>daily</changefreq>
@@ -216,6 +223,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/index.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/index.html"/>
+    </url>
+    <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/General/Ticket%20Creation.html</loc>
+        <lastmod>2025-02-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/General/Ticket%20Creation.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/General/Ticket%20Creation.html"/>
     </url>
     <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Health%20Checks/Health%20Checks.html</loc>
