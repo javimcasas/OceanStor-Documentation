@@ -5,3 +5,47 @@
 .md-header__brand img {
     max-height: 50px;
 }
+
+.md-nav__item--section > .md-nav__link {
+    display: block;
+    margin: 0.5em 0;
+    padding: 0.5rem 1rem;
+    color: #e53935 !important;
+    font-weight: 600;
+    background-color: rgba(199, 0, 11, 0.1);
+    border-left: 3px solid #e53935;
+    border-radius: 4px;
+}
+
+.md-nav--lifted>.md-nav__list > .md-nav__item--active > .md-nav__link:not(.md-nav__container) {
+    border-left: None;
+    font-size: .8rem;
+    font-weight: 800;
+    color: black !important;
+}
+
+.md-nav--lifted>.md-nav__list > .md-nav__item--active > .md-nav__link:not(.md-nav__container):after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    width: 50px;
+    height: 3px;
+    background: #e53935;
+}
+
+/* Remove duplicate titles */
+.md-nav__item--section > .md-nav__list > .md-nav__item:first-child {
+    display: none;
+}
+
+/* Style for nested items */
+.md-nav__item--section .md-nav__item {
+    padding-left: 1.5rem;
+}
+
+/* Active item styling */
+.md-nav__link--active {
+    color: #e53935 !important;
+    font-weight: 600;
+}

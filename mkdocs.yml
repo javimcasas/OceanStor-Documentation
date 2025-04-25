@@ -1,22 +1,28 @@
 site_name: "Huawei Storage Documentation"
 site_url: "https://javimcasas.github.io/OceanStor-Documentation/"
 use_directory_urls: false
+
 theme:
   name: "material"
-  #custom_dir: "overrides"  # Ensure this points to the correct directory
-  #logo: 'logo.webp'
   favicon: 'Huawei_Standard_logo.svg'
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+  palette:
+    primary: 'red'
+    accent: '#595959'
+  language: en
+
 extra_css:
   - 'css/custom.css'
-extra:
-  post_build: |
-    mkdir -p site/pdfs
-    cp -r pdfs/* site/pdfs/
 
 plugins:
   - search
   - i18n:
-      docs_structure: folder  # Usa carpetas por idioma
+      docs_structure: folder
       languages:
         - locale: en
           name: English
@@ -25,3 +31,58 @@ plugins:
         - locale: es
           name: Español
           build: true
+
+nav:
+  - Home: 'index.md'
+  
+  - Getting Started:
+    - 'General/Ticket Creation.md'
+  
+  - System Design:
+    - 'LLD Designer/Introduction.md'
+    - 'LLD Designer/Storage Cabinet Configuration.md'
+    - 'LLD Designer/Rack Placement of Cabinets.md'
+    - 'LLD Designer/Switching & Networking.md'
+    - 'LLD Designer/Management Switching Networking.md'
+  
+  - Storage Configuration:
+    - Initial Setup:
+      - 'Storage Cabinets Configuration/Machines Installation.md'
+      - 'Storage Cabinets Configuration/Change IPs of Controllers.md'
+    
+    - Software Management:
+      - 'Storage Cabinets Configuration/Main and Patch Software Download.md'
+      - "Storage Cabinets Configuration/Update Machine's Software.md"
+      - 'Storage Cabinets Configuration/Disk Firmware Upgrade.md'
+    
+    - Storage Features:
+      - 'Storage Cabinets Configuration/Logical Ports Creation.md'
+      - 'Storage Cabinets Configuration/File System Creation & Access.md'
+      - 'Storage Cabinets Configuration/vStore Creation.md'
+      - 'Storage Cabinets Configuration/Dashboard Creation.md'
+    
+    - Management Tools:
+      - 'Storage Cabinets Configuration/DME IQ Configuration.md'
+      - 'Storage Cabinets Configuration/Device Manager Demo Configuration.md'
+    
+    - Maintenance:
+      - 'Storage Cabinets Configuration/License Update.md'
+      - 'Storage Cabinets Configuration/Alarm Masking.md'
+  
+  - High Availability:
+    - 'HyperMetro Configuration/Remote Device Connection.md'
+    - 'HyperMetro Configuration/Remote Replication Creation.md'
+    - 'HyperMetro Configuration/HyperMetro Devices Upgrade.md'
+    - 'HyperMetro Configuration/Quorum Server Update.md'
+  
+  - Maintenance & Monitoring:
+    - Health Checks:
+      - 'Health Checks/Health Checks.md'
+      - 'Health Checks/Pre Upgrade Evaluation.md'
+      - 'Health Checks/Uploading Health Check Files.md'
+  
+  - Troubleshooting:
+    - 'Troubleshooting/Admin User Password Restoration.md'
+    - 'Troubleshooting/File System.md'
+    - 'Troubleshooting/LDAP.md'
+    - 'Troubleshooting/Updating Error Ignoring.md'
