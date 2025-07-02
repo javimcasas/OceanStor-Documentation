@@ -33,18 +33,12 @@ plugins:
           build: true
 
 nav:
-  - Home: 'index.md'
+  - Home: 
+    - 'index.md'
   
   - Getting Started:
     - 'General/Ticket Creation.md'
-  
-  - System Design:
-    - 'LLD Designer/Introduction.md'
-    - 'LLD Designer/Storage Cabinet Configuration.md'
-    - 'LLD Designer/Rack Placement of Cabinets.md'
-    - 'LLD Designer/Switching & Networking.md'
-    - 'LLD Designer/Management Switching Networking.md'
-  
+   
   - Storage Configuration:
     - Initial Setup:
       - 'Storage Cabinets Configuration/Machines Installation.md'
@@ -74,12 +68,26 @@ nav:
     - 'HyperMetro Configuration/Remote Replication Creation.md'
     - 'HyperMetro Configuration/HyperMetro Devices Upgrade.md'
     - 'HyperMetro Configuration/Quorum Server Update.md'
+
+  - LLD Designer:
+    - 'LLD Designer/Introduction.md'
+    - 'LLD Designer/Storage Cabinet Configuration.md'
+    - 'LLD Designer/Rack Placement of Cabinets.md'
+    - 'LLD Designer/Switching & Networking.md'
+    - 'LLD Designer/Management Switching Networking.md'
   
   - Maintenance & Monitoring:
-    - Health Checks:
-      - 'Health Checks/Health Checks.md'
-      - 'Health Checks/Pre Upgrade Evaluation.md'
-      - 'Health Checks/Uploading Health Check Files.md'
+    - 'Health Checks/Health Checks.md'
+    - 'Health Checks/Pre Upgrade Evaluation.md'
+    - 'Health Checks/Uploading Health Check Files.md'
+
+  - Switches Configuration:
+    - 'Switches/Initialization.md'
+    - 'Switches/M-LAG Configuration.md'
+    - 'Switches/Management Port Configuration.md'
+    - 'Switches/SSH User.md'
+    - 'Switches/Uplink Configuration.md'
+    - 'Switches/VLAN Assignation.md'
   
   - Troubleshooting:
     - 'Troubleshooting/Admin User Password Restoration.md'
