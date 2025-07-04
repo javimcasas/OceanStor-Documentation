@@ -14,7 +14,7 @@
         <link rel="prev" href="../Health%20Checks/Uploading%20Health%20Check%20Files.html">
       
       
-        <link rel="next" href="M-LAG%20Configuration.html">
+        <link rel="next" href="SSH%20User.html">
       
       
       <link rel="icon" href="../Huawei_Standard_logo.svg">
@@ -389,9 +389,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../index.html" title="Huawei Storage Documentation" class="md-nav__button md-logo" aria-label="Huawei Storage Documentation" data-md-component="logo">
       
@@ -1757,11 +1755,11 @@
   
   
     <li class="md-nav__item">
-      <a href="M-LAG%20Configuration.html" class="md-nav__link">
+      <a href="SSH%20User.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    M LAG Configuration
+    SSH User
   </span>
   
 
@@ -1799,11 +1797,32 @@
   
   
     <li class="md-nav__item">
-      <a href="SSH%20User.html" class="md-nav__link">
+      <a href="VLAN%20Assignation.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    SSH User
+    VLAN Assignation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="M-LAG%20Configuration.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    M LAG Configuration
   </span>
   
 
@@ -1825,27 +1844,6 @@
   
   <span class="md-ellipsis">
     Uplink Configuration
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="VLAN%20Assignation.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    VLAN Assignation
   </span>
   
 
@@ -2010,6 +2008,99 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-gather-required-tools-and-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Gather Required Tools and Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-connect-to-the-switch-via-serial-console" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Connect to the Switch via Serial Console
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Connect to the Switch via Serial Console">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connect-the-serial-cable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connect the serial cable:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-the-terminal-emulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure the terminal emulator:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-the-serial-port-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure the serial port settings:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-log-in-to-the-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Log in to the Switch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-configure-basic-switch-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Configure Basic Switch Settings
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           
             <div class="md-content" data-md-component="content">
@@ -2057,29 +2148,29 @@
 <h2 id="4-configure-basic-switch-settings">4. Configure Basic Switch Settings</h2>
 <ul>
 <li>
-<p>Enter system view:
-    <code>system-view</code></p>
+<p>Enter system view:</p>
+<p><code>system-view</code></p>
 </li>
 <li>
-<p>Set the switch hostname (optional but recommended):
-    <code>sysname SWITCH_NAME</code></p>
+<p>Set the switch hostname (optional but recommended):</p>
+<p><code>sysname SWITCH_NAME</code></p>
 </li>
 <li>
 <p>Set the system time:</p>
 <ul>
 <li>
-<p>Configure the time zone:
-    <code>clock timezone TIMEZONE_NAME offset</code></p>
+<p>Configure the time zone:</p>
+<p><code>clock timezone TIMEZONE_NAME offset</code></p>
 </li>
 <li>
-<p>Synchronize time with an NTP server (optional but recommended):
-    <code>ntp-service unicast-server NTP_SERVER_IP</code></p>
+<p>Synchronize time with an NTP server (optional but recommended):</p>
+<p><code>ntp-service unicast-server NTP_SERVER_IP</code></p>
 </li>
 </ul>
 </li>
 <li>
-<p>Save the configuration:
-    <code>save</code></p>
+<p>Save the configuration:</p>
+<p><code>save</code></p>
 </li>
 </ul>
 
@@ -2134,7 +2225,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes", "navigation.sections", "navigation.top", "toc.integrate"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes", "navigation.sections", "navigation.top"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
