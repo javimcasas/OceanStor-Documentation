@@ -10,7 +10,7 @@ theme:
     - navigation.indexes
     - navigation.sections
     - navigation.top
-    - toc.integrate
+    #- toc.integrate
   palette:
     primary: 'red'
     accent: '#595959'
@@ -83,12 +83,12 @@ nav:
 
   - Switches Configuration:
     - 'Switches/Initialization.md'
-    - 'Switches/M-LAG Configuration.md'
-    - 'Switches/Management Port Configuration.md'
     - 'Switches/SSH User.md'
-    - 'Switches/Uplink Configuration.md'
+    - 'Switches/Management Port Configuration.md'
     - 'Switches/VLAN Assignation.md'
-  
+    - 'Switches/M-LAG Configuration.md'
+    - 'Switches/Uplink Configuration.md'
+    
   - Troubleshooting:
     - 'Troubleshooting/Admin User Password Restoration.md'
     - 'Troubleshooting/File System.md'

@@ -7,13 +7,23 @@
 1. Log in to **Switch A**
 
 2. Enter System Mode:
-	`system-view`
+
+	 ```system-view```
 
 3. Configure **Virtual Spanning Tree Protocol** (**V-STP**):
-	`stp mode rstp`
-	`stp v-stp enable`
-	`stp bdu-protection-protection`
-	`stp tc-protection`
+
+	 ```
+	 stp mode rstp
+	 
+	 stp v-stp enable
+	 ```
+
+	 <pre>
+	 stp mode rstp
+	 stp v-stp enable
+	 stp bdu-protection-protection
+	 stp tc-protection
+	 </pre>
 
 4. Configure a DFS group and bind the IPs of the Management network ports to the group:
 	`dfs-group 1`
