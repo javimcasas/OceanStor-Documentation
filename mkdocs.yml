@@ -39,7 +39,7 @@ nav:
   - Getting Started:
     - 'General/Ticket Creation.md'
    
-  - Storage Configuration:
+  - General Configuration:
     - Initial Setup:
       - 'Storage Cabinets Configuration/Machines Installation.md'
       - 'Storage Cabinets Configuration/Change IPs of Controllers.md'
@@ -51,9 +51,7 @@ nav:
     
     - Storage Features:
       - 'Storage Cabinets Configuration/Logical Ports Creation.md'
-      - 'Storage Cabinets Configuration/File System Creation & Access.md'
       - 'Storage Cabinets Configuration/vStore Creation.md'
-      - 'Storage Cabinets Configuration/Dashboard Creation.md'
     
     - Management Tools:
       - 'Storage Cabinets Configuration/DME IQ Configuration.md'
@@ -62,7 +60,10 @@ nav:
     - Maintenance:
       - 'Storage Cabinets Configuration/License Update.md'
       - 'Storage Cabinets Configuration/Alarm Masking.md'
-  
+
+  - NAS Configuration:
+    - 'Storage Cabinets Configuration/File System Creation & Access.md'
+
   - High Availability:
     - 'HyperMetro Configuration/Remote Device Connection.md'
     - 'HyperMetro Configuration/Remote Replication Creation.md'
@@ -80,6 +81,7 @@ nav:
     - 'Health Checks/Health Checks.md'
     - 'Health Checks/Pre Upgrade Evaluation.md'
     - 'Health Checks/Uploading Health Check Files.md'
+    - 'Storage Cabinets Configuration/Dashboard Creation.md'
 
   - Switches Configuration:
     - 'Switches/Initialization.md'
