@@ -106,13 +106,6 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Alarm%20Masking.html"/>
     </url>
     <url>
-        <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Change%20IPs%20of%20Controllers.html</loc>
-        <lastmod>2026-01-08</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Change%20IPs%20of%20Controllers.html"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Change%20IPs%20of%20Controllers.html"/>
-    </url>
-    <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/DME%20IQ%20Configuration.html</loc>
         <lastmod>2026-01-08</lastmod>
         <changefreq>daily</changefreq>
@@ -127,11 +120,11 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Dashboard%20Creation.html"/>
     </url>
     <url>
-        <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo%20Configuration.html</loc>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo.html</loc>
         <lastmod>2026-01-08</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo%20Configuration.html"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo%20Configuration.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo.html"/>
     </url>
     <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Disk%20Firmware%20Upgrade.html</loc>
@@ -169,18 +162,39 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Machines%20Installation.html"/>
     </url>
     <url>
-        <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Main%20and%20Patch%20Software%20Download.html</loc>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Main%20Version%20Upgrade.html</loc>
         <lastmod>2026-01-08</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Main%20and%20Patch%20Software%20Download.html"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Main%20and%20Patch%20Software%20Download.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Main%20Version%20Upgrade.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Main%20Version%20Upgrade.html"/>
     </url>
     <url>
-        <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Update%20Machine%27s%20Software.html</loc>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Modify%20Management%20IPs.html</loc>
         <lastmod>2026-01-08</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Update%20Machine%27s%20Software.html"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Update%20Machine%27s%20Software.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Modify%20Management%20IPs.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Modify%20Management%20IPs.html"/>
+    </url>
+    <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Patch%20Upgrade.html</loc>
+        <lastmod>2026-01-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Patch%20Upgrade.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Patch%20Upgrade.html"/>
+    </url>
+    <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Software%20Download.html</loc>
+        <lastmod>2026-01-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Software%20Download.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Software%20Download.html"/>
+    </url>
+    <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Software%20Upgrade.html</loc>
+        <lastmod>2026-01-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Software%20Upgrade.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Software%20Upgrade.html"/>
     </url>
     <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/vStore%20Creation.html</loc>
@@ -365,13 +379,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Alarm%20Masking.html"/>
     </url>
     <url>
-        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Change%20IPs%20of%20Controllers.html</loc>
-        <lastmod>2026-01-08</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Change%20IPs%20of%20Controllers.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Change%20IPs%20of%20Controllers.html"/>
-    </url>
-    <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/DME%20IQ%20Configuration.html</loc>
         <lastmod>2026-01-08</lastmod>
         <changefreq>daily</changefreq>
@@ -386,11 +393,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Dashboard%20Creation.html"/>
     </url>
     <url>
-        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo%20Configuration.html</loc>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo.html</loc>
         <lastmod>2026-01-08</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo%20Configuration.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo%20Configuration.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo.html"/>
     </url>
     <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Disk%20Firmware%20Upgrade.html</loc>
@@ -428,18 +435,39 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Machines%20Installation.html"/>
     </url>
     <url>
-        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Main%20and%20Patch%20Software%20Download.html</loc>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Main%20Version%20Upgrade.html</loc>
         <lastmod>2026-01-08</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Main%20and%20Patch%20Software%20Download.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Main%20and%20Patch%20Software%20Download.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Main%20Version%20Upgrade.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Main%20Version%20Upgrade.html"/>
     </url>
     <url>
-        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Update%20Machine%27s%20Software.html</loc>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Modify%20Management%20IPs.html</loc>
         <lastmod>2026-01-08</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Update%20Machine%27s%20Software.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Update%20Machine%27s%20Software.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Modify%20Management%20IPs.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Modify%20Management%20IPs.html"/>
+    </url>
+    <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Patch%20Upgrade.html</loc>
+        <lastmod>2026-01-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Patch%20Upgrade.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Patch%20Upgrade.html"/>
+    </url>
+    <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Software%20Download.html</loc>
+        <lastmod>2026-01-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Software%20Download.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Software%20Download.html"/>
+    </url>
+    <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Software%20Upgrade.html</loc>
+        <lastmod>2026-01-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Software%20Upgrade.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Storage%20Cabinets%20Configuration/Software%20Upgrade.html"/>
     </url>
     <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/vStore%20Creation.html</loc>
@@ -517,5 +545,11 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Troubleshooting/Updating%20Error%20Ignoring.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Troubleshooting/Updating%20Error%20Ignoring.html"/>
+    </url>
+    <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo%20Configuration.html</loc>
+        <lastmod>2026-01-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Storage%20Cabinets%20Configuration/Device%20Manager%20Demo%20Configuration.html"/>
     </url>
 </urlset>
