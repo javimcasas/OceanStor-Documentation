@@ -42,33 +42,34 @@ nav:
   - General Configuration:
     - Initial Setup:
       - 'Storage Cabinets Configuration/Machines Installation.md'
-      - 'Storage Cabinets Configuration/Change IPs of Controllers.md'
+      - 'Storage Cabinets Configuration/Modify Management IPs.md'
     
     - Software Management:
-      - 'Storage Cabinets Configuration/Main and Patch Software Download.md'
-      - "Storage Cabinets Configuration/Update Machine's Software.md"
-      - 'Storage Cabinets Configuration/Disk Firmware Upgrade.md'
+      - 'Storage Cabinets Configuration/Software Download.md'
     
     - Storage Features:
-      - 'Storage Cabinets Configuration/Logical Ports Creation.md'
       - 'Storage Cabinets Configuration/vStore Creation.md'
     
     - Management Tools:
       - 'Storage Cabinets Configuration/DME IQ Configuration.md'
-      - 'Storage Cabinets Configuration/Device Manager Demo Configuration.md'
+      - 'Storage Cabinets Configuration/Device Manager Demo.md'
     
     - Maintenance:
       - 'Storage Cabinets Configuration/License Update.md'
       - 'Storage Cabinets Configuration/Alarm Masking.md'
 
   - NAS Configuration:
+    - 'Storage Cabinets Configuration/Logical Ports Creation.md'
     - 'Storage Cabinets Configuration/File System Creation & Access.md'
 
   - High Availability:
-    - 'HyperMetro Configuration/Remote Device Connection.md'
-    - 'HyperMetro Configuration/Remote Replication Creation.md'
-    - 'HyperMetro Configuration/HyperMetro Devices Upgrade.md'
-    - 'HyperMetro Configuration/Quorum Server Update.md'
+    - General:
+      - 'HyperMetro Configuration/Remote Device Connection.md'
+    - Remote Replication:
+      - 'HyperMetro Configuration/Remote Replication Creation.md'
+    - HyperMetro:
+      - 'HyperMetro Configuration/HyperMetro Devices Upgrade.md'
+      - 'HyperMetro Configuration/Quorum Server Update.md'
 
   - LLD Designer:
     - 'LLD Designer/Introduction.md'
@@ -78,10 +79,16 @@ nav:
     - 'LLD Designer/Management Switching Networking.md'
   
   - Maintenance & Monitoring:
-    - 'Health Checks/Health Checks.md'
-    - 'Health Checks/Pre Upgrade Evaluation.md'
-    - 'Health Checks/Uploading Health Check Files.md'
-    - 'Storage Cabinets Configuration/Dashboard Creation.md'
+    - Upgrade:
+      - 'Storage Cabinets Configuration/Disk Firmware Upgrade.md'
+      - 'Storage Cabinets Configuration/Main Version Upgrade.md'
+      - 'Storage Cabinets Configuration/Patch Upgrade.md'
+
+    - Log Collection:
+      - 'Health Checks/Health Checks.md'
+      - 'Health Checks/Pre Upgrade Evaluation.md'
+      - 'Health Checks/Uploading Health Check Files.md'
+      - 'Storage Cabinets Configuration/Dashboard Creation.md'
 
   - Switches Configuration:
     - 'Switches/Initialization.md'
