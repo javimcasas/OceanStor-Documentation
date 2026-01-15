@@ -6,3 +6,6 @@ pdf-regen.bat
 *.swp
 .DS_Store
 Thumbs.db
+
+.local/
+
