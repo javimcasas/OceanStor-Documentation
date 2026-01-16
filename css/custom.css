@@ -1,10 +1,60 @@
+/* Header background */
 .md-header {
     background-color: rgb(199, 0, 11);
 }
 
+/* Wrapper to align title + selector */
+.md-header-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+/* Title must remain untouched internally */
+.md-header__title {
+    display: flex;
+    align-items: center;
+}
+
+/* Model selector */
+.model-selector {
+    display: flex;
+    align-items: center;
+}
+
+/* Selector styling – Material-like */
+.model-selector select {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    height: 28px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Hover / focus */
+.model-selector select:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.model-selector select:focus {
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.35);
+}
+
+/* Dropdown options */
+.model-selector option {
+    color: #333;
+}
+
+/* Logo size */
 .md-header__brand img {
     max-height: 50px;
 }
+
+/* ======== NAV CUSTOM (lo que ya tenías) ======== */
 
 .md-nav__item--section > .md-nav__link {
     display: block;
@@ -17,14 +67,16 @@
     border-radius: 4px;
 }
 
-.md-nav--lifted>.md-nav__list > .md-nav__item--active > .md-nav__link:not(.md-nav__container) {
-    border-left: None;
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > 
+.md-nav__link:not(.md-nav__container) {
+    border-left: none;
     font-size: .8rem;
     font-weight: 800;
     color: black !important;
 }
 
-.md-nav--lifted>.md-nav__list > .md-nav__item--active > .md-nav__link:not(.md-nav__container):after {
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > 
+.md-nav__link:not(.md-nav__container):after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -35,16 +87,17 @@
 }
 
 /* Remove duplicate titles */
-.md-nav__item--section > .md-nav__list > .md-nav__item:first-child {
+.md-nav__item--section > .md-nav__list > 
+.md-nav__item:first-child {
     display: none;
 }
 
-/* Style for nested items */
+/* Nested items */
 .md-nav__item--section .md-nav__item {
     padding-left: 1.5rem;
 }
 
-/* Active item styling */
+/* Active item */
 .md-nav__link--active {
     color: #e53935 !important;
     font-weight: 600;
