@@ -136,6 +136,10 @@ nav:
       - 'Troubleshooting/LDAP.md'
       - 'Troubleshooting/Updating Error Ignoring.md'
 
+  - Fusion Compute:
+    - 'Fusion Compute/Set Maintenance Mode on Hosts.md'
+    - 'Fusion Compute/VM Moving Between Hosts.md'
+
   - Switches:
     - 'Switches/Initialization.md'
     - 'Switches/SSH User.md'
