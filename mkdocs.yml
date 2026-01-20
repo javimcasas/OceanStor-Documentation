@@ -82,11 +82,10 @@ nav:
 
   - General Information:
     - 'General/Ticket Creation.md'
+    - 'Storage Cabinets Configuration/Software Download.md'
 
   - OceanStor Dorado:
     - General Configuration:
-      - Software Management:
-        - 'Storage Cabinets Configuration/Software Download.md'
       - Multi Tenant:
         - 'Storage Cabinets Configuration/vStore Creation.md'
       - Management Tools:
@@ -123,11 +122,11 @@ nav:
         - 'Health Checks/Uploading Health Check Files.md'
         - 'Storage Cabinets Configuration/Dashboard Creation.md'
   
-    - Troubleshooting:
-      - 'Troubleshooting/Admin User Password Restoration.md'
-      - 'Troubleshooting/File System.md'
-      - 'Troubleshooting/LDAP.md'
-      - 'Troubleshooting/Updating Error Ignoring.md'
+      - Troubleshooting:
+        - 'Troubleshooting/Admin User Password Restoration.md'
+        - 'Troubleshooting/File System.md'
+        - 'Troubleshooting/LDAP.md'
+        - 'Troubleshooting/Updating Error Ignoring.md'
 
   - Fusion Compute:
     - 'Fusion Compute/Set Maintenance Mode on Hosts.md'
