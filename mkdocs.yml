@@ -111,13 +111,6 @@ nav:
       - HyperMetro:
         - 'HyperMetro Configuration/HyperMetro Devices Upgrade.md'
         - 'HyperMetro Configuration/Quorum Server Update.md'
-
-    - LLD Designer:
-      - 'LLD Designer/Introduction.md'
-      - 'LLD Designer/Storage Cabinet Configuration.md'
-      - 'LLD Designer/Rack Placement of Cabinets.md'
-      - 'LLD Designer/Switching & Networking.md'
-      - 'LLD Designer/Management Switching Networking.md'
   
     - Maintenance & Monitoring:
       - Upgrade:
@@ -139,6 +132,13 @@ nav:
   - Fusion Compute:
     - 'Fusion Compute/Set Maintenance Mode on Hosts.md'
     - 'Fusion Compute/VM Moving Between Hosts.md'
+
+  - LLD Designer:
+    - 'LLD Designer/Introduction.md'
+    - 'LLD Designer/Storage Cabinet Configuration.md'
+    - 'LLD Designer/Rack Placement of Cabinets.md'
+    - 'LLD Designer/Switching & Networking.md'
+    - 'LLD Designer/Management Switching Networking.md'
 
   - Switches:
     - 'Switches/Initialization.md'
