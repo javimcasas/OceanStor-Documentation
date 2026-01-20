@@ -8,6 +8,20 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/index.html"/>
     </url>
     <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/Fusion%20Compute/Set%20Maintenance%20Mode%20on%20Hosts.html</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Fusion%20Compute/Set%20Maintenance%20Mode%20on%20Hosts.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Fusion%20Compute/Set%20Maintenance%20Mode%20on%20Hosts.html"/>
+    </url>
+    <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/Fusion%20Compute/VM%20Moving%20Between%20Hosts.html</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Fusion%20Compute/VM%20Moving%20Between%20Hosts.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Fusion%20Compute/VM%20Moving%20Between%20Hosts.html"/>
+    </url>
+    <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/General/Ticket%20Creation.html</loc>
         <lastmod>2026-01-20</lastmod>
         <changefreq>daily</changefreq>
@@ -279,6 +293,20 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/index.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/index.html"/>
+    </url>
+    <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Fusion%20Compute/Set%20Maintenance%20Mode%20on%20Hosts.html</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Fusion%20Compute/Set%20Maintenance%20Mode%20on%20Hosts.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Fusion%20Compute/Set%20Maintenance%20Mode%20on%20Hosts.html"/>
+    </url>
+    <url>
+        <loc>https://javimcasas.github.io/OceanStor-Documentation/es/Fusion%20Compute/VM%20Moving%20Between%20Hosts.html</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javimcasas.github.io/OceanStor-Documentation/es/Fusion%20Compute/VM%20Moving%20Between%20Hosts.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javimcasas.github.io/OceanStor-Documentation/Fusion%20Compute/VM%20Moving%20Between%20Hosts.html"/>
     </url>
     <url>
         <loc>https://javimcasas.github.io/OceanStor-Documentation/es/General/Ticket%20Creation.html</loc>
