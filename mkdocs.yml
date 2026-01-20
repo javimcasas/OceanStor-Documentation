@@ -136,9 +136,6 @@ nav:
       - 'Troubleshooting/LDAP.md'
       - 'Troubleshooting/Updating Error Ignoring.md'
 
-  - OceanStor Pacific:
-    - 'Switches/SSH User.md'
-
   - Switches:
     - 'Switches/Initialization.md'
     - 'Switches/SSH User.md'
