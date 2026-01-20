@@ -1,26 +1,59 @@
 site_name: "Huawei Storage Documentation"
 site_url: "https://javimcasas.github.io/OceanStor-Documentation/"
+site_description: "Documentación técnica para sistemas OceanStor"
 use_directory_urls: false
 
 theme:
-  name: "material"
+  name: material
   favicon: 'Huawei_Standard_logo.svg'
+  language: en
+  
   features:
+    # Navegación
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.indexes
     - navigation.sections
     - navigation.top
-    #- toc.integrate
+    - navigation.instant
+    - navigation.tracking
+    
+    # Búsqueda
+    - search.highlight
+    - search.share
+    - search.suggest
+    
+    # Contenido
+    - content.code.copy
+    - content.tabs.link
+  
   palette:
-    primary: 'red'
-    accent: '#595959'
-  language: en
+    # Modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    
+    # Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
 
 extra_css:
   - 'css/custom.css'
 
 plugins:
-  - search
+  - search:
+      lang: 
+        - en
+        - es
   - i18n:
       docs_structure: folder
       languages:
@@ -32,74 +65,84 @@ plugins:
           name: Español
           build: true
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+      toc_depth: 3
+
 nav:
-  - Home: 
-    - 'index.md'
-  
-  - Getting Started:
+  - Home: 'index.md'
+
+  - General Information:
     - 'General/Ticket Creation.md'
-   
-  - General Configuration:
-    - Initial Setup:
-      - 'Storage Cabinets Configuration/Machines Installation.md'
-      - 'Storage Cabinets Configuration/Modify Management IPs.md'
-    
-    - Software Management:
-      - 'Storage Cabinets Configuration/Software Download.md'
-    
-    - Storage Features:
-      - 'Storage Cabinets Configuration/vStore Creation.md'
-    
-    - Management Tools:
-      - 'Storage Cabinets Configuration/DME IQ Configuration.md'
-      - 'Storage Cabinets Configuration/Device Manager Demo.md'
-    
-    - Maintenance:
-      - 'Storage Cabinets Configuration/License Update.md'
-      - 'Storage Cabinets Configuration/Alarm Masking.md'
 
-  - NAS Configuration:
-    - 'Storage Cabinets Configuration/Logical Ports Creation.md'
-    - 'Storage Cabinets Configuration/File System Creation & Access.md'
+  - OceanStor Dorado:
+    - General Configuration:
+      - Software Management:
+        - 'Storage Cabinets Configuration/Software Download.md'
+      - Multi Tenant:
+        - 'Storage Cabinets Configuration/vStore Creation.md'
+      - Management Tools:
+        - 'Storage Cabinets Configuration/DME IQ Configuration.md'
+        - 'Storage Cabinets Configuration/Device Manager Demo.md'
+      - Maintenance:
+        - 'Storage Cabinets Configuration/License Update.md'
+        - 'Storage Cabinets Configuration/Alarm Masking.md'
+      - Initial Setup:
+        - 'Storage Cabinets Configuration/Machines Installation.md'
+        - 'Storage Cabinets Configuration/Modify Management IPs.md'
 
-  - High Availability:
-    - General:
-      - 'HyperMetro Configuration/Remote Device Connection.md'
-    - Remote Replication:
-      - 'HyperMetro Configuration/Remote Replication Creation.md'
-    - HyperMetro:
-      - 'HyperMetro Configuration/HyperMetro Devices Upgrade.md'
-      - 'HyperMetro Configuration/Quorum Server Update.md'
+    - NAS Configuration:
+      - 'Storage Cabinets Configuration/Logical Ports Creation.md'
+      - 'Storage Cabinets Configuration/File System Creation & Access.md'
 
-  - LLD Designer:
-    - 'LLD Designer/Introduction.md'
-    - 'LLD Designer/Storage Cabinet Configuration.md'
-    - 'LLD Designer/Rack Placement of Cabinets.md'
-    - 'LLD Designer/Switching & Networking.md'
-    - 'LLD Designer/Management Switching Networking.md'
+    - High Availability:
+      - General:
+        - 'HyperMetro Configuration/Remote Device Connection.md'
+      - Remote Replication:
+        - 'HyperMetro Configuration/Remote Replication Creation.md'
+      - HyperMetro:
+        - 'HyperMetro Configuration/HyperMetro Devices Upgrade.md'
+        - 'HyperMetro Configuration/Quorum Server Update.md'
+
+    - LLD Designer:
+      - 'LLD Designer/Introduction.md'
+      - 'LLD Designer/Storage Cabinet Configuration.md'
+      - 'LLD Designer/Rack Placement of Cabinets.md'
+      - 'LLD Designer/Switching & Networking.md'
+      - 'LLD Designer/Management Switching Networking.md'
   
-  - Maintenance & Monitoring:
-    - Upgrade:
-      - 'Storage Cabinets Configuration/Disk Firmware Upgrade.md'
-      - 'Storage Cabinets Configuration/Main Version Upgrade.md'
-      - 'Storage Cabinets Configuration/Patch Upgrade.md'
+    - Maintenance & Monitoring:
+      - Upgrade:
+        - 'Storage Cabinets Configuration/Disk Firmware Upgrade.md'
+        - 'Storage Cabinets Configuration/Main Version Upgrade.md'
+        - 'Storage Cabinets Configuration/Patch Upgrade.md'
+      - Log Collection:
+        - 'Health Checks/Health Checks.md'
+        - 'Health Checks/Pre Upgrade Evaluation.md'
+        - 'Health Checks/Uploading Health Check Files.md'
+        - 'Storage Cabinets Configuration/Dashboard Creation.md'
+  
+    - Troubleshooting:
+      - 'Troubleshooting/Admin User Password Restoration.md'
+      - 'Troubleshooting/File System.md'
+      - 'Troubleshooting/LDAP.md'
+      - 'Troubleshooting/Updating Error Ignoring.md'
 
-    - Log Collection:
-      - 'Health Checks/Health Checks.md'
-      - 'Health Checks/Pre Upgrade Evaluation.md'
-      - 'Health Checks/Uploading Health Check Files.md'
-      - 'Storage Cabinets Configuration/Dashboard Creation.md'
+  - OceanStor Pacific:
+    - 'Switches/SSH User.md'
 
-  - Switches Configuration:
+  - Switches:
     - 'Switches/Initialization.md'
     - 'Switches/SSH User.md'
     - 'Switches/Management Port Configuration.md'
     - 'Switches/VLAN Assignation.md'
     - 'Switches/M-LAG Configuration.md'
     - 'Switches/Uplink Configuration.md'
-    
-  - Troubleshooting:
-    - 'Troubleshooting/Admin User Password Restoration.md'
-    - 'Troubleshooting/File System.md'
-    - 'Troubleshooting/LDAP.md'
-    - 'Troubleshooting/Updating Error Ignoring.md'
