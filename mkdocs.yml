@@ -109,7 +109,19 @@ nav:
         - 'HyperMetro Configuration/Remote Replication Creation.md'
       - HyperMetro:
         - 'HyperMetro Configuration/HyperMetro Devices Upgrade.md'
-        - 'HyperMetro Configuration/Quorum Server Update.md'
+      - Quorurm Server:
+        - 'Quorum Server/Update.md'
+        - 'Quorum Server/Install.md'
+        - 'Quorum Server/Configuration.md'
+
+    - Data Protection:
+      - Snapshots:
+        - 'Data Protection/File System.md'
+        - 'Data Protection/LUN.md'
+        - 'Data Protection/Protection Group.md'
+      - HyperCDP:
+        - 'Data Protection/File HyperCDP.md'
+        - 'Data Protection/Block HyperCDP.md'
   
     - Maintenance & Monitoring:
       - Upgrade:
