@@ -15,7 +15,7 @@ theme:
     - navigation.indexes
     - navigation.sections
     - navigation.top
-    - navigation.instant
+    # - navigation.instant
     - navigation.tracking
     
     # Búsqueda
@@ -81,10 +81,13 @@ nav:
   - Home: 'index.md'
 
   - General Information:
+    - 'General/index.md'
     - 'General/Ticket Creation.md'
     - 'Storage Cabinets Configuration/Software Download.md'
+    - 'General/Relevant Links.md'
 
   - OceanStor Dorado:
+    - 'OceanStor Dorado/index.md'
     - General Configuration:
       - Multi Tenant:
         - 'Storage Cabinets Configuration/vStore Creation.md'
@@ -133,18 +136,19 @@ nav:
         - 'Health Checks/Pre Upgrade Evaluation.md'
         - 'Health Checks/Uploading Health Check Files.md'
         - 'Storage Cabinets Configuration/Dashboard Creation.md'
-  
       - Troubleshooting:
         - 'Troubleshooting/Admin User Password Restoration.md'
         - 'Troubleshooting/File System.md'
         - 'Troubleshooting/LDAP.md'
         - 'Troubleshooting/Updating Error Ignoring.md'
 
-  - Fusion Compute:
+  - FusionCompute:
+    - 'Fusion Compute/index.md'
     - 'Fusion Compute/Set Maintenance Mode on Hosts.md'
     - 'Fusion Compute/VM Moving Between Hosts.md'
 
-  - LLD Designer:
+  - LLDDesigner:
+    - 'LLD Designer/index.md'
     - 'LLD Designer/Introduction.md'
     - 'LLD Designer/Storage Cabinet Configuration.md'
     - 'LLD Designer/Rack Placement of Cabinets.md'
@@ -152,6 +156,7 @@ nav:
     - 'LLD Designer/Management Switching Networking.md'
 
   - Switches:
+    - 'Switches/index.md'
     - 'Switches/Initialization.md'
     - 'Switches/SSH User.md'
     - 'Switches/Management Port Configuration.md'
