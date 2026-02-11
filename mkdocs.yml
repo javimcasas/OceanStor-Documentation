@@ -116,6 +116,7 @@ nav:
         - 'Quorum Server/Update.md'
         - 'Quorum Server/Install.md'
         - 'Quorum Server/Configuration.md'
+        - 'Quorum Server/Dual Quorum Configuration.md'
 
     - Data Protection:
       - Snapshots:
