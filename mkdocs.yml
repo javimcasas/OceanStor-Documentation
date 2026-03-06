@@ -148,13 +148,15 @@ nav:
     - 'Fusion Compute/Set Maintenance Mode on Hosts.md'
     - 'Fusion Compute/VM Moving Between Hosts.md'
 
-  - LLDDesigner:
+  - LLDesigner:
     - 'LLD Designer/index.md'
     - 'LLD Designer/Introduction.md'
     - 'LLD Designer/Storage Cabinet Configuration.md'
     - 'LLD Designer/Rack Placement of Cabinets.md'
     - 'LLD Designer/Switching & Networking.md'
     - 'LLD Designer/Management Switching Networking.md'
+    - 'LLD Designer/Create Scale-Out Storage Project.md'
+    - 'LLD Designer/Configure Scale-Out Storage Project.md'
 
   - Switches:
     - 'Switches/index.md'
