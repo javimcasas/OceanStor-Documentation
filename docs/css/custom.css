@@ -325,3 +325,92 @@
 [data-md-color-scheme="slate"] .md-typeset a:hover {
     color: #ff8a95;
 }
+
+
+/* ============================================
+   BOTÓN DESCARGA PDF
+   ============================================ */
+
+.pdf-download-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.pdf-download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1.5px solid #e53935;
+    color: #e53935;
+    background: transparent;
+    transition: background 0.2s, color 0.2s;
+}
+
+.pdf-download-btn:hover {
+    background: #e53935;
+    color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .pdf-download-btn {
+    border-color: #ffcdd2;
+    color: #ffcdd2;
+}
+
+[data-md-color-scheme="slate"] .pdf-download-btn:hover {
+    background: #ffcdd2;
+    color: #1a1a1a;
+}
+
+/* ============================================
+   CSS DE IMPRESIÓN (PDF OUTPUT)
+   ============================================ */
+
+@media print {
+    /* Ocultar elementos de navegación */
+    .md-header,
+    .md-tabs,
+    .md-sidebar,
+    .md-footer,
+    .pdf-download-container,
+    .md-top {
+        display: none !important;
+    }
+
+    /* El contenido ocupa todo el ancho */
+    .md-content {
+        max-width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .md-content__inner {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Evitar cortes de página dentro de bloques de código o tablas */
+    pre, table, figure, .admonition {
+        page-break-inside: avoid;
+    }
+
+    /* Los h2/h3 siempre empiezan en nueva sección si hay espacio */
+    h2, h3 {
+        page-break-after: avoid;
+    }
+
+    /* Forzar colores legibles en impresión */
+    body, .md-typeset {
+        color: #000 !important;
+        background: #fff !important;
+    }
+
+    a {
+        color: #000 !important;
+        text-decoration: underline;
+    }
+}
