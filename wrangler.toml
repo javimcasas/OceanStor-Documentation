@@ -1,0 +1,5 @@
+name = "oceanstor-documentation"
+compatibility_date = "2025-06-01"
+
+[assets]
+directory = "./site"
